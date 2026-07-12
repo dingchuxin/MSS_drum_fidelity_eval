@@ -1,0 +1,20 @@
+# A1a: cross-model vs within-model spread (drums stem)
+
+|    | descriptor        |   cross_model_SD |   within_model_SD |   ratio |
+|---:|:------------------|-----------------:|------------------:|--------:|
+|  0 | d_level_db        |            0.404 |             0.725 |   0.558 |
+|  1 | d_env_flux        |            0.122 |             0.321 |   0.379 |
+|  2 | dyn_attack_slope  |            1.026 |             2.72  |   0.377 |
+|  3 | d_variation       |            1.777 |             4.924 |   0.361 |
+|  4 | dyn_variation     |            1.777 |             5.654 |   0.314 |
+|  5 | d_env_skew        |            0.096 |             0.319 |   0.3   |
+|  6 | dyn_burst_rate    |            0.085 |             0.286 |   0.297 |
+|  7 | dyn_env_flux      |            0.122 |             0.465 |   0.262 |
+|  8 | d_crest           |            0.257 |             1.238 |   0.208 |
+|  9 | d_attack_slope    |            1.026 |             5.228 |   0.196 |
+| 10 | dyn_env_skew      |            0.096 |             0.513 |   0.186 |
+| 11 | d_impulsiveness   |            0.845 |             4.606 |   0.184 |
+| 12 | d_burst_rate      |            0.085 |             0.704 |   0.121 |
+| 13 | dyn_level_db      |            0.404 |             3.434 |   0.118 |
+| 14 | dyn_crest         |            0.257 |             3.194 |   0.081 |
+| 15 | dyn_impulsiveness |            0.845 |            17.125 |   0.049 |

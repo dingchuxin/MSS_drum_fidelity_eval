@@ -1,0 +1,27 @@
+# --- core numerics / audio ---
+numpy>=1.24
+scipy>=1.10
+soundfile>=0.12
+librosa>=0.10
+pyyaml>=6.0
+pandas>=2.0
+
+# --- reference metrics (MUSDB18 benchmark half) ---
+museval>=0.4.1          # BSS-Eval v4 SDR/SIR/SAR, MDX-compatible
+musdb>=0.4.2            # MUSDB18 loader with reference stems
+# fast_bss_eval        # optional: faster SI-SDR/SDR; uncomment if desired
+
+# --- analyst-facing fidelity metrics (beyond SDR) ---
+mir_eval>=0.7           # onset F-measure (timing fidelity)
+pyloudnorm>=0.1.1       # ITU-R BS.1770 integrated loudness / LRA (dynamics fidelity)
+# (timbre metrics — MCD / log-spectral distance — use librosa, already core)
+
+# --- plotting / reporting ---
+matplotlib>=3.7
+tabulate>=0.9
+
+# --- model runners (optional, heavy — install per experiment) ---
+# demucs>=4.0          # HT-Demucs (v4)
+# spleeter>=2.4        # requires tensorflow; pin python<=3.10
+# openunmix>=1.3       # Open-Unmix (umxl) — light MUSDB baseline
+# audio-separator>=0.17 # MDX-Net/UVR (ONNX, CPU) — scriptable MVSEP-lineage stand-in

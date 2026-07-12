@@ -1,0 +1,69 @@
+# Model registry — VERIFIED roster (availability checked 2026-07).
+#
+# `runner`:
+#   builtin  -> runs in the main .venv, in-process (src/mss_eval/separate.py).
+#   sidecar  -> runs in a separate venv (dependency conflicts force isolation); the CLI
+#               produces stems that are ingested. See docs/environments.md.
+#
+# Roster spans architecture families AND eras so §4.7's comparisons have real contrast:
+#   spleeter    2019  freq-domain CNN   reference baseline
+#   htdemucs    2022  hybrid (CNN+attn) reference baseline
+#   bs_roformer 2023  transformer       current SOTA (attention)
+#   scnet       2024  CNN (sparse-comp) current SOTA (non-attention)
+# The transformer vs CNN pair (bs_roformer vs scnet) isolates whether ATTENTION drives the
+# A2 input-coherence effect (see docs/chapter_4_7_mapping.md mechanism note).
+
+models:
+  htdemucs:
+    runner: builtin
+    engine: audio_separator        # main .venv; audio-separator wraps Demucs v4
+    model: "htdemucs.yaml"         # verified 4-stem: drums/bass/vocals/other
+    domain: hybrid
+    stems: [drums, bass, vocals, other]
+    version: "4.0"
+    notes: "Hybrid Transformer Demucs. Good transients; can compress dynamics (§4.7)."
+
+  spleeter:
+    runner: sidecar
+    venv: .venv-spleeter           # numpy<2 + TF 2.12; conflicts with audio-separator
+    config: "spleeter:4stems"      # spleeter CLI -p flag
+    domain: spectrogram
+    stems: [vocals, drums, bass, other]
+    version: "2.4.2"
+    notes: "2019 freq-domain baseline; strong leakage in §4.7. Verified import."
+
+  bs_roformer:
+    runner: sidecar
+    venv: .venv-msst               # ZFTurbo MSST inference
+    model_type: bs_roformer
+    config: external/MSST/configs/config_bs_roformer_384_8_2_485100.yaml   # 4-stem; matches model_bs_roformer_ep_17_sdr_9.6568 (MSST v1.0.12)
+    checkpoint: data/weights/bs_roformer_musdb.ckpt                 # download from MSST releases
+    ingest_dir: data/stems_out/bs_roformer
+    domain: transformer
+    stems: [drums, bass, vocals, other]
+    version: "BS-Roformer (2023)"
+    notes: "Current SOTA, attention. MUSDB drums ~11.6 dB. Uses CUDA when available."
+
+  scnet:
+    runner: sidecar
+    venv: .venv-msst
+    model_type: scnet
+    config: external/MSST/configs/config_musdb18_scnet_xl.yaml   # 4-stem; matches model_scnet_ep_54_sdr_9.8051 (MSST v1.0.13)
+    checkpoint: data/weights/scnet_xl_musdb.ckpt                 # download from MSST releases
+    ingest_dir: data/stems_out/scnet
+    domain: cnn
+    stems: [drums, bass, vocals, other]
+    version: "SCNet-XL (2024)"
+    notes: "Current SOTA, non-attention CNN. MUSDB ~9.8 dB avg (drums 11.5 ≈ bs_roformer 11.6) — capability-matched pair to isolate attention."
+
+# --- Parked: proprietary GUI tool, optional hand-export + ingest later ---
+external:
+  spectralayers:
+    runner: external               # hand-exported stems ingested from ingest_dir
+    ingest_dir: data/stems_out/spectralayers
+    version: "11"
+    notes: "Steinberg GUI. Manual export only. Sister-study production tool."
+
+defaults:
+  sample_rate: 44100
+  deterministic: true      # fixed params, no random re-init (thesis protocol)

@@ -1,0 +1,34 @@
+# Dataset registry. The article is benchmark-only (MUSDB18-HQ, real reference stems);
+# the reference-free ecological tier was dropped — support/refute needs ground truth.
+
+benchmark:
+  name: musdb18hq
+  root: data/musdb18hq          # gitignored; download separately
+  subset: test                  # 50 tracks with reference stems
+  # optionally restrict for fast iteration:
+  # sample_n: 8
+  # seed: 0
+  reference_stems: [drums, bass, vocals, other]
+
+# A2 input-length experiment (§4.7 'A test based on input audio duration').
+# Separate a fixed target region R under growing context; measure R's drift.
+# See scripts/run_input_length.py and src/mss_eval/sweep.py.
+input_length_experiment:
+  region_default: [30.0, 35.0]     # measured region R (s); auto-shifted inside short tracks
+
+  # ACTIVE NOW — A2-length: musically-neutral context, no annotation, MUSDB-ready.
+  length_levels:
+    - { name: region_only, length: 5 }     # R alone (minimal context)
+    - { name: ctx_15s,     length: 15 }
+    - { name: ctx_30s,     length: 30 }
+    - { name: full,        length: full }  # whole track
+
+  # DEFERRED — A2-phrase: the thesis's phrase-unit design. Run only as a follow-up
+  # IF A2-length shows an effect worth explaining. Needs phrase boundaries whose source
+  # is still TBD (annotate a MUSDB subset | auto-detect downbeats/hypermeter); the runner
+  # reads them from data/phrases/<track>.txt and skips tracks lacking one.
+  phrase_levels:
+    - { name: half_phrase,  phrases: 0.5 }
+    - { name: one_phrase,   phrases: 1 }
+    - { name: four_phrase,  phrases: 4 }
+    - { name: full,         phrases: full }

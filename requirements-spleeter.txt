@@ -1,0 +1,14 @@
+# Spleeter sidecar environment (Python 3.11, numpy<2, TensorFlow).
+# Spleeter's numpy<2 / tensorflow==2.12 pins conflict with audio-separator's numpy>=2,
+# so Spleeter MUST live in its own venv. Its stems are exported and ingested by the
+# main pipeline via the `external` runner (config/models.yaml).
+#
+# Setup:
+#   py -3.11 -m venv .venv-spleeter
+#   ./.venv-spleeter/Scripts/python.exe -m pip install -r requirements-spleeter.txt
+#
+# Usage (produces stems to ingest):
+#   ./.venv-spleeter/Scripts/python.exe -m spleeter separate -p spleeter:4stems -o <out> <mix.wav>
+
+spleeter==2.4.2        # pulls tensorflow==2.12.1, numpy<2
+soundfile>=0.12
