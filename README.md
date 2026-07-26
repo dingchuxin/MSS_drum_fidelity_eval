@@ -26,8 +26,9 @@ part of perceived timing.
   ~2.3× more than BS-Roformer — a systematic per-model offset, so dynamics measured through
   different separators are not comparable across studies.
 - **Input length reshapes transients, not timing (A2).** Growing the context around a fixed
-  passage drifts its rendered attack (marginally more for the transformer; paired p = 0.044)
-  while onset locations stay put.
+  passage drifts its rendered attack (marginally more for the transformer; paired p = 0.044,
+  though fragile at n = 20 — leave-one-out returns p = 0.023–0.080) while onset locations
+  stay put.
 - **Models fail differently (B1).** BS-Roformer maximizes interference suppression at the cost
   of more artifacts; SCNet-XL is the most artifact-free — an architecture-linked trade-off.
 
@@ -39,6 +40,11 @@ All tables and figures are in `results/`; the full argument is in the paper.
   → `scripts/run_benchmark.py`, then `scripts/synthesize.py`.
 - **Input-length sweep (A2)** — a fixed region R separated under four growing context windows;
   drift of R's descriptors. → `scripts/run_input_length.py`, then `scripts/synthesize_a2.py`.
+
+`scripts/make_figures.py` redraws the paper figures. `scripts/paper_values.py` prints every
+number the paper quotes, at the precision the paper prints, computed from the *unrounded*
+per-track data — the tables in `results/tables/` are rounded to 3 dp for readability, so
+re-rounding a value read off them can shift the last digit. Quote from that script.
 
 ## Two metric families (both reference-based)
 
@@ -66,7 +72,8 @@ no-attention pair (published drums SDRs within 0.1 dB), so A2 isolates architect
 ```
 config/          model + dataset registries (yaml)
 src/mss_eval/     io, separate (runners + stem cache), metrics, analyst, sweep, report
-scripts/          run_benchmark.py, run_input_length.py, synthesize.py, synthesize_a2.py, setup_msst.py
+scripts/          run_benchmark.py, run_input_length.py, synthesize.py, synthesize_a2.py,
+                  make_figures.py, paper_values.py, setup_msst.py
 external/MSST/    vendored ZFTurbo inference for BS-Roformer / SCNet (gitignored)
 results/          generated tables + figures (tracked); audio is NOT
 docs/             chapter_4_7_mapping.md (claims→metrics), environments.md (venvs)

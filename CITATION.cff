@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "MSS Drum Fidelity Evaluation"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: Ding
+    given-names: Chuxin
+    affiliation: "Universitat Autònoma de Barcelona"
+    email: chuxinding@outlook.com
+    orcid: "https://orcid.org/0009-0002-3508-4120"
+repository-code: "https://github.com/dingchuxin/MSS_drum_fidelity_eval"
+abstract: >-
+  A reproducible pipeline for evaluating music source separation by the signal
+  properties rhythm analysis depends on — onset timing, an eight-descriptor
+  dynamic profile, and stem-labeling precision — alongside the field-standard
+  BSS-Eval and SI-SDR metrics, on the MUSDB18-HQ test set.
+keywords:
+  - music source separation
+  - music information retrieval
+  - rhythm
+  - microtiming
+  - evaluation
+  - MUSDB18
+license: MIT
