@@ -131,9 +131,13 @@ audit/, audit2/  validation tests on synthetic signals with known values (detect
 
 ## Versions
 
-- `v2.0.0`: the analyses of the article above.
-- `v1.0.0`: the first version of the pipeline, superseded by `v2.0.0`. `scripts/run_benchmark.py` and `scripts/synthesize.py`, with `results/tables/benchmark_metrics.csv` and `benchmark_raw.csv`, remain from it because version 2 uses them.
+- `v2.0.0` (https://doi.org/10.5281/zenodo.23319301): the analyses of the article above.
+- `v1.0.0` (https://doi.org/10.5281/zenodo.21606964): the first version of the pipeline, superseded by `v2.0.0`. `scripts/run_benchmark.py` and `scripts/synthesize.py`, with `results/tables/benchmark_metrics.csv` and `benchmark_raw.csv`, remain from it because version 2 uses them.
 
 ## Licence and citation
 
-The code and results are released under the MIT licence (`LICENSE`). If you use them, please cite the article above and the archived version of this repository (`CITATION.cff`; the archive DOI will be added here after the release).
+The code and results are released under the MIT licence (`LICENSE`). If you use them, please cite the article above and the archived version of this repository:
+
+> Ding, C. (2026). *MSS Drum Fidelity Evaluation* (Version 2.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23319301
+
+`CITATION.cff` holds the same metadata. The DOI https://doi.org/10.5281/zenodo.21606963 stands for all versions and always resolves to the latest one.

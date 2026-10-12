@@ -10,6 +10,7 @@ authors:
     orcid: "https://orcid.org/0009-0002-3508-4120"
 repository-code: "https://github.com/dingchuxin/MSS_drum_fidelity_eval"
 version: "2.0.0"
+doi: 10.5281/zenodo.23319301
 date-released: "2026-10-12"
 abstract: >-
   Code and per-track results for a study of what separated drum stems can and cannot
