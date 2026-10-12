@@ -1,0 +1,6 @@
+label,share_ref_strokes_matched_pooled,median_track_share_matched,median_d_peak_all,median_d_peak_matched,median_d_accent_all,median_d_accent_matched,median_d_valley_all,median_d_valley_matched,pooled_median_d_peak_unmatched,pooled_median_d_peak_matched
+v1_spleeter,0.82866,0.86583,-1.587,-1.2971,1.8402,1.3183,0.34398,0.48657,-3.2744,-1.333
+v1_htdemucs,0.9287,0.94872,-0.37893,-0.3342,1.0193,0.65183,1.5896,1.6994,-2.0542,-0.33236
+v1_bs_roformer,0.9596,0.97285,-0.2111,-0.18178,0.75358,0.31685,1.0566,1.1671,-1.6196,-0.17093
+v1_scnet,0.94853,0.96566,-0.29658,-0.28526,0.77269,0.45123,0.53243,0.74041,-1.4871,-0.23199
+htdemucs_b1,0.93,0.9494,-0.34763,-0.31845,0.99511,0.64948,1.5716,1.616,-1.9787,-0.2886

@@ -1,0 +1,8 @@
+test,measure,got,expected,abs_err,pass
+1-s cap: dip inside cap,floor_db (stroke 1),-83.0103,-83.0103,2.09276e-07,True
+1-s cap: dip after cap,floor_db (stroke 1),-43.0103,-43.0103,1.227e-09,True
+peak window end: burst ends inside window,peak_db (stroke 1),-3.92545,-3.92545,1.3689e-11,True
+peak window end: burst starts after t+50 ms,peak_db (stroke 1),-13.4679,-13.4679,4.0945e-11,True
+s_k+1 cap (IOI 60 ms): burst after s_k+1,peak_db (stroke 1),-13.4679,-13.4679,4.0945e-11,True
+s_k+1 cap (IOI 60 ms): the burst belongs to the next stroke,peak_db (stroke 2),-3.92545,-3.92545,1.36446e-11,True
+last stroke: dip before the signal end,floor_db (stroke 2),-83.0103,-83.0103,9.73176e-08,True

@@ -1,0 +1,5 @@
+,spleeter,htdemucs,bs_roformer,scnet
+spleeter,1,0.3125,0.5532,0.6313
+htdemucs,0.3125,1,0.66,0.4353
+bs_roformer,0.5532,0.66,1,0.6516
+scnet,0.6313,0.4353,0.6516,1

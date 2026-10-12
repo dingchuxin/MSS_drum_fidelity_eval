@@ -1,0 +1,4 @@
+case,floor_nan_both,valley_nan_both,silent_ref_flag,silent_est_flag,next_pre_nan_both,other_strokes_untouched,summary_n_silent_either,est_peak_db,peak_nan,d_accent_all_with_silent_stroke,d_accent_all_without,d_peak_db_all_median_with,d_peak_db_all_median_without
+reference gap silent (stroke 3),True,True,True,True,True,True,1,,,,,,
+estimate gap silent (stroke 6),True,True,False,True,True,True,1,,,,,,
+estimate silent over a whole stroke (stroke 8),True,,,,,,,-240,False,60.037,-1.22276e-11,-3.09804,-3.09804

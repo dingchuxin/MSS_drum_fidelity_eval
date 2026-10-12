@@ -1,0 +1,241 @@
+name,value,expected,rel_diff,above_1pct,quoted_decimals,equal_at_quoted_precision,note
+D3.1 median_abs_dev_ms htdemucs vs bs_roformer n_first_larger,35,35,0,False,0,True,
+D3.1 median_abs_dev_ms htdemucs vs bs_roformer p_holm24,0.00209517,0.002,0.0475871,True,3,True,expected value is quoted at 1-2 significant digits
+D3.1 median_abs_dev_ms htdemucs vs scnet p_holm24,0.168881,0.17,0.00658401,False,2,True,expected value is quoted at 1-2 significant digits
+D3.1 median_abs_dev_ms bs_roformer vs scnet n_first_larger,19,19,0,False,0,True,
+D3.1 median_abs_dev_ms bs_roformer vs scnet p_holm24,0.0266096,0.027,0.0144591,True,3,True,expected value is quoted at 1-2 significant digits
+D3.1 share_gt_10ms bs_roformer vs scnet n_first_larger,7,7,0,False,0,True,
+D3.2 d_jump_db_all bs_roformer vs scnet median_paired_diff,0.215197,0.22,0.0218318,True,2,True,expected value is quoted at 1-2 significant digits
+D3.2 d_jump_db_all bs_roformer vs scnet n_first_larger,37,37,0,False,0,True,
+D3.2 d_valley_db_all bs_roformer vs scnet median_paired_diff,0.383169,0.38,0.00833947,False,2,True,expected value is quoted at 1-2 significant digits
+D3.2 d_valley_db_all bs_roformer vs scnet n_first_larger,42,42,0,False,0,True,
+D3.2 d_peak_db_all bs_roformer vs scnet median_paired_diff,0.0671213,0.07,0.041125,True,2,True,expected value is quoted at 1-2 significant digits
+D3.2 d_peak_db_all bs_roformer vs scnet n_first_larger,33,33,0,False,0,True,
+D3.2 d_pre_db_all bs_roformer vs scnet median_paired_diff,-0.0934405,-0.09,0.0382278,True,2,True,expected value is quoted at 1-2 significant digits
+D3.2 d_pre_db_all bs_roformer vs scnet n_first_larger,16,16,0,False,0,True,
+D3.2 d_rise_ms_all bs_roformer vs scnet median_paired_diff,-0.0031666,-0.003,0.0555333,True,3,True,expected value is quoted at 1-2 significant digits
+D3.2 d_rise_ms_all bs_roformer vs scnet n_first_larger,19,19,0,False,0,True,
+D3.3 rho d_attack_slope~d_valley_db_all min over models,0.644754,0.645,0.000381548,False,3,True,
+D3.3 rho d_attack_slope~d_valley_db_all max over models,0.772197,0.772,0.000255024,False,3,True,
+D3.3 rho d_attack_slope~d_rise_ms_all min over models,-0.110687,-0.111,0.00282044,False,3,True,
+D3.3 rho d_attack_slope~d_rise_ms_all max over models,0.0712243,0.071,0.00315977,False,3,True,
+D3.4 median_dev_ms bs_roformer vs scnet n_bs_lower,46,46,0,False,0,True,
+D3.4 median_dev_ms bs_roformer vs scnet median_paired_diff_ms,-0.661382,-0.66,0.0020947,False,2,True,expected value is quoted at 2 significant digits
+D3.4 median_dev_ms bs_roformer vs scnet p_uncorrected,4.49418e-13,4.5e-13,0.00129271,False,14,True,expected value is quoted at 2 significant digits
+D3.5 rho si_sdr~f_5ms within spleeter,0.18473,0.18473,5.84871e-07,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~f_5ms within htdemucs,0.312269,0.31227,3.49837e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~f_5ms within bs_roformer,0.475246,0.47525,8.20949e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~f_5ms within scnet,0.332917,0.33292,8.50995e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~f_5ms demeaned,0.300986,0.30099,1.48688e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~share_gt_10ms within spleeter,-0.109628,-0.10963,1.9601e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~share_gt_10ms within htdemucs,-0.0965689,-0.096569,5.66842e-07,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~share_gt_10ms within bs_roformer,-0.228601,-0.2286,3.34698e-06,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~share_gt_10ms within scnet,-0.175225,-0.17523,2.65861e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~share_gt_10ms within-model CI span lo (min over models),-0.479744,-0.49,0.0209309,True,2,False,bootstrap bound; expected quoted at 2 decimals
+D3.5 rho si_sdr~share_gt_10ms within-model CI span hi (max over models),0.201244,0.18,0.11802,True,2,False,bootstrap bound; expected quoted at 2 decimals
+D3.5 rho si_sdr~share_gt_10ms demeaned,-0.09669,-0.09669,1.90291e-07,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~share_gt_10ms demeaned (quoted),-0.09669,-0.1,0.0330998,True,1,True,expected quoted at 2 decimals
+D3.5 rho si_sdr~share_gt_10ms demeaned ci_lo,-0.30681,-0.31,0.0102914,True,2,True,bootstrap bound; expected quoted at 2 decimals
+D3.5 rho si_sdr~share_gt_10ms demeaned ci_hi,0.136345,0.13,0.0488063,True,2,False,bootstrap bound; expected quoted at 2 decimals
+D3.5 rho si_sdr~median_abs_dev_ms within spleeter,-0.166194,-0.16619,2.69438e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~median_abs_dev_ms within htdemucs,-0.340216,-0.34022,1.1503e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~median_abs_dev_ms within bs_roformer,-0.381417,-0.38142,9.00156e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~median_abs_dev_ms within scnet,-0.344538,-0.34454,6.34142e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~median_abs_dev_ms demeaned,-0.280408,-0.28041,7.09604e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_level_db_sd within spleeter,-0.824058,-0.82406,2.88444e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_level_db_sd within htdemucs,-0.863337,-0.86334,3.08693e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_level_db_sd within bs_roformer,-0.69114,-0.69114,6.60044e-07,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_level_db_sd within scnet,-0.769124,-0.76912,4.74498e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_level_db_sd demeaned,-0.761839,-0.76184,1.25226e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_variation_sd within spleeter,-0.0860984,-0.086098,5.10321e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_variation_sd within htdemucs,-0.181465,-0.18146,2.52719e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_variation_sd within bs_roformer,-0.344538,-0.34454,6.34142e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_variation_sd within scnet,-0.466122,-0.46612,5.25397e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_variation_sd demeaned,-0.249861,-0.24986,4.98892e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_crest_sd within spleeter,-0.0933013,-0.093301,3.43542e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_crest_sd within htdemucs,-0.216711,-0.21671,3.15755e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_crest_sd within bs_roformer,-0.105306,-0.10531,3.68203e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_crest_sd within scnet,-0.236783,-0.23678,1.14583e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_crest_sd demeaned,-0.165225,-0.16522,2.8027e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_impulsiveness_sd within spleeter,-0.630636,-0.63064,5.9392e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_impulsiveness_sd within htdemucs,-0.582809,-0.58281,1.50366e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_impulsiveness_sd within bs_roformer,-0.518752,-0.51875,2.89272e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_impulsiveness_sd within scnet,-0.511933,-0.51193,5.41697e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_impulsiveness_sd demeaned,-0.528801,-0.5288,1.36161e-06,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_env_skew_sd within spleeter,-0.122977,-0.12298,2.28421e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_env_skew_sd within htdemucs,-0.417047,-0.41705,7.62804e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_env_skew_sd within bs_roformer,-0.136134,-0.13613,3.27171e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_env_skew_sd within scnet,-0.361825,-0.36182,1.30725e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_env_skew_sd demeaned,-0.267014,-0.26701,1.56374e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_env_flux_sd within spleeter,0.0621849,0.062185,2.02702e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_env_flux_sd within htdemucs,-0.144202,-0.1442,1.16551e-05,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_env_flux_sd within bs_roformer,-0.156206,-0.15621,2.25172e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_env_flux_sd within scnet,-0.212197,-0.2122,1.4709e-05,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_env_flux_sd demeaned,-0.108991,-0.10899,1.12376e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_attack_slope_sd within spleeter,0.250996,0.251,1.43484e-05,False,3,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_attack_slope_sd within htdemucs,-0.389868,-0.38987,5.2654e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_attack_slope_sd within bs_roformer,-0.287395,-0.28739,1.72518e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_attack_slope_sd within scnet,-0.179352,-0.17935,9.70558e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_attack_slope_sd demeaned,-0.127296,-0.1273,2.9989e-05,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_peak_db_sd within spleeter,-0.694694,-0.69469,5.5817e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_peak_db_sd within htdemucs,-0.485906,-0.48591,7.48586e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_peak_db_sd within bs_roformer,-0.393325,-0.39333,1.18726e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_peak_db_sd within scnet,-0.440576,-0.44058,8.55579e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_peak_db_sd demeaned,-0.517274,-0.51727,8.56779e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_floor_db_sd within spleeter,-0.337431,-0.33743,2.88175e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_floor_db_sd within htdemucs,-0.220552,-0.22055,1.00698e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_floor_db_sd within bs_roformer,-0.294886,-0.29489,1.37191e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_floor_db_sd within scnet,-0.347131,-0.34713,2.45539e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_floor_db_sd demeaned,-0.294738,-0.29474,7.23198e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_valley_db_sd within spleeter,-0.067563,-0.067563,3.73134e-07,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_valley_db_sd within htdemucs,-0.21431,-0.21431,1.28837e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_valley_db_sd within bs_roformer,-0.297095,-0.29709,1.62844e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_valley_db_sd within scnet,-0.326579,-0.32658,4.19054e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_valley_db_sd demeaned,-0.223963,-0.22396,1.38376e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_rise_ms_sd within spleeter,-0.230738,-0.23074,9.39192e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_rise_ms_sd within htdemucs,-0.256573,-0.25657,1.08623e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_rise_ms_sd within bs_roformer,-0.17561,-0.17561,1.03521e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_rise_ms_sd within scnet,-0.101153,-0.10115,2.70951e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_rise_ms_sd demeaned,-0.235709,-0.23571,5.1032e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_accent_sd within spleeter,-0.301705,-0.3017,1.55183e-05,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_accent_sd within htdemucs,-0.173685,-0.17369,2.60568e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_accent_sd within bs_roformer,-0.32898,-0.32898,1.24069e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_accent_sd within scnet,-0.19539,-0.19539,7.98723e-07,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho si_sdr~abs_accent_sd demeaned,-0.255434,-0.25543,1.5213e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~f_5ms within spleeter,0.0716927,0.071693,4.50433e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~f_5ms within htdemucs,0.235438,0.23544,7.7503e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~f_5ms within bs_roformer,0.3794,0.3794,6.32831e-07,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~f_5ms within scnet,0.225354,0.22535,1.83788e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~f_5ms demeaned,0.204409,0.20441,6.79901e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~share_gt_10ms within spleeter,-0.00638655,-0.0063866,7.10521e-06,False,7,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~share_gt_10ms within htdemucs,-0.0521501,-0.05215,2.14118e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~share_gt_10ms within bs_roformer,-0.156041,-0.15604,8.41885e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~share_gt_10ms within scnet,-0.0446954,-0.044695,9.80269e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~share_gt_10ms demeaned,-0.0412904,-0.04129,9.45433e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~median_abs_dev_ms within spleeter,-0.0402881,-0.040288,2.86056e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~median_abs_dev_ms within htdemucs,-0.264346,-0.26435,1.61214e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~median_abs_dev_ms within bs_roformer,-0.366819,-0.36682,3.46903e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~median_abs_dev_ms within scnet,-0.221032,-0.22103,1.09169e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~median_abs_dev_ms demeaned,-0.207352,-0.20735,8.12053e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_level_db_sd within spleeter,-0.773541,-0.77354,1.83128e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_level_db_sd within htdemucs,-0.819352,-0.81935,2.12448e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_level_db_sd within bs_roformer,-0.577911,-0.57791,2.01496e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_level_db_sd within scnet,-0.688259,-0.68826,1.01165e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_level_db_sd demeaned,-0.690421,-0.69042,1.10153e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_variation_sd within spleeter,-0.0317407,-0.031741,9.56874e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_variation_sd within htdemucs,-0.0718848,-0.071885,3.4235e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_variation_sd within bs_roformer,-0.260984,-0.26098,1.68356e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_variation_sd within scnet,-0.331188,-0.33119,4.60343e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_variation_sd demeaned,-0.171705,-0.1717,2.79128e-05,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_crest_sd within spleeter,-0.00993998,-0.00994,2.41545e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_crest_sd within htdemucs,-0.171092,-0.17109,1.42438e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_crest_sd within bs_roformer,0.0320288,0.032029,5.88452e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_crest_sd within scnet,-0.112701,-0.1127,9.5868e-06,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_crest_sd demeaned,-0.0709188,-0.070919,3.20127e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_impulsiveness_sd within spleeter,-0.516735,-0.51673,9.08381e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_impulsiveness_sd within htdemucs,-0.492053,-0.49205,5.73342e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_impulsiveness_sd within bs_roformer,-0.372197,-0.3722,8.38594e-06,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_impulsiveness_sd within scnet,-0.411957,-0.41196,7.80971e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_impulsiveness_sd demeaned,-0.423807,-0.42381,6.85407e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_env_skew_sd within spleeter,-0.0792797,-0.07928,3.63415e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_env_skew_sd within htdemucs,-0.303914,-0.30391,1.17318e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_env_skew_sd within bs_roformer,0.00494598,0.004946,4.36891e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_env_skew_sd within scnet,-0.244754,-0.24475,1.5941e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_env_skew_sd demeaned,-0.157087,-0.15709,1.95609e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_env_flux_sd within spleeter,0.0284754,0.028475,1.37017e-05,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_env_flux_sd within htdemucs,-0.169364,-0.16936,2.21156e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_env_flux_sd within bs_roformer,0.0105162,0.010516,1.96351e-05,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_env_flux_sd within scnet,-0.219016,-0.21902,2.0061e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_env_flux_sd demeaned,-0.0889057,-0.088906,3.11966e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_attack_slope_sd within spleeter,0.215462,0.21546,1.01405e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_attack_slope_sd within htdemucs,-0.447299,-0.4473,2.41545e-06,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_attack_slope_sd within bs_roformer,-0.203842,-0.20384,7.53834e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_attack_slope_sd within scnet,-0.229964,-0.22996,1.73317e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_attack_slope_sd demeaned,-0.14776,-0.14776,2.07098e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_peak_db_sd within spleeter,-0.715246,-0.71525,5.45482e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_peak_db_sd within htdemucs,-0.512413,-0.51241,5.78675e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_peak_db_sd within bs_roformer,-0.475918,-0.47592,3.43052e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_peak_db_sd within scnet,-0.452869,-0.45287,1.88209e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_peak_db_sd demeaned,-0.544964,-0.54496,6.6502e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_floor_db_sd within spleeter,-0.385162,-0.38516,5.36096e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_floor_db_sd within htdemucs,-0.231405,-0.2314,1.9714e-05,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_floor_db_sd within bs_roformer,-0.316399,-0.3164,4.55302e-06,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_floor_db_sd within scnet,-0.402353,-0.40235,7.30999e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_floor_db_sd demeaned,-0.304037,-0.30404,1.11797e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_valley_db_sd within spleeter,-0.0743818,-0.074382,3.32471e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_valley_db_sd within htdemucs,-0.201537,-0.20154,1.67974e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_valley_db_sd within bs_roformer,-0.244082,-0.24408,6.68901e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_valley_db_sd within scnet,-0.298151,-0.29815,4.22775e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_valley_db_sd demeaned,-0.203947,-0.20395,1.66773e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_rise_ms_sd within spleeter,-0.271939,-0.27194,2.56548e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_rise_ms_sd within htdemucs,-0.273668,-0.27367,7.17899e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_rise_ms_sd within bs_roformer,-0.247603,-0.2476,1.25821e-05,False,4,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_rise_ms_sd within scnet,-0.0920269,-0.092027,1.08807e-06,False,6,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_rise_ms_sd demeaned,-0.248786,-0.24879,1.46527e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_accent_sd within spleeter,-0.370468,-0.37047,4.89304e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_accent_sd within htdemucs,-0.217575,-0.21758,2.28421e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_accent_sd within bs_roformer,-0.343193,-0.34319,9.54955e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_accent_sd within scnet,-0.298055,-0.29806,1.603e-05,False,5,True,stored value (5 significant digits) must be reproduced
+D3.5 rho sdr~abs_accent_sd demeaned,-0.305748,-0.30575,6.07129e-06,False,5,True,stored value (5 significant digits) must be reproduced
+D3.6 median d_accent_matched/ref_accent_matched % spleeter,20.2533,20.3,0.00229872,False,1,True,expected quoted at 1 decimal
+D3.6 median d_valley_db_all/ref_valley_db_all % spleeter,2.43836,2.4,0.0159843,True,1,True,expected quoted at 1 decimal
+D3.6 median d_accent_matched/ref_accent_matched % htdemucs,9.337,9.3,0.00397897,False,1,True,expected quoted at 1 decimal
+D3.6 median d_valley_db_all/ref_valley_db_all % htdemucs,6.66789,6.7,0.00479252,False,1,True,expected quoted at 1 decimal
+D3.6 median d_accent_matched/ref_accent_matched % bs_roformer,4.82428,4.8,0.0050576,False,1,True,expected quoted at 1 decimal
+D3.6 median d_valley_db_all/ref_valley_db_all % bs_roformer,5.35425,5.4,0.00847293,False,1,True,expected quoted at 1 decimal
+D3.6 median d_accent_matched/ref_accent_matched % scnet,6.57921,6.6,0.00314954,False,1,True,expected quoted at 1 decimal
+D3.6 median d_valley_db_all/ref_valley_db_all % scnet,2.45116,2.5,0.0195346,True,1,True,expected quoted at 1 decimal
+D3.8 b1 vs v1 max over shape measures (SD units; at d_crest),0.0331727,0.033,0.00523252,False,3,True,expected quoted at 2 significant digits; expected measure d_crest
+E2a stroke-peak unit (dB),4.6055,4.606,0.000108554,False,3,True,
+E2a extra peak loss of missed strokes dB v1_bs_roformer,1.4604,1.46,0.000273973,False,3,True,
+E2a extra peak loss of missed strokes SD units v1_bs_roformer,0.317099,0.32,0.00906525,False,2,True,
+E2a extra peak loss of missed strokes dB v1_scnet,1.5759,1.576,6.34518e-05,False,3,True,
+E2a extra peak loss of missed strokes SD units v1_scnet,0.342178,0.34,0.00640538,False,2,True,
+E2a extra peak loss of missed strokes dB v1_spleeter,1.808,1.808,0,False,3,True,
+E2a extra peak loss of missed strokes SD units v1_spleeter,0.392574,0.39,0.00660025,False,2,True,
+E2a extra peak loss of missed strokes dB v1_htdemucs,2.4838,2.484,8.05153e-05,False,3,True,
+E2a extra peak loss of missed strokes SD units v1_htdemucs,0.539312,0.54,0.00127464,False,2,True,
+E2a extra peak loss of missed strokes dB htdemucs_b1,2.4957,2.496,0.000120192,False,3,True,
+E2a extra peak loss of missed strokes SD units htdemucs_b1,0.541896,0.54,0.0035103,False,2,True,
+E2b median per-passage drift ms F1 spleeter (n=50),0.385425,0.385,0.0011039,False,3,True,
+E2b median per-passage drift ms F1 htdemucs (n=50),0.25055,0.251,0.00179283,False,3,True,
+E2b median per-passage drift ms F1 bs_roformer (n=50),0.18983,0.19,0.000894737,False,3,True,
+E2b median per-passage drift ms F1 scnet (n=50),0.15931,0.159,0.00194969,False,3,True,
+E2b median per-passage drift ms swap scnet (n=50),0.310585,0.311,0.00133441,False,3,True,"swap: SCNet-XL at 50 % overlap, BS-Roformer at 75 %"
+E2b median per-passage drift ms swap bs_roformer (n=50),0.184645,0.185,0.00191892,False,3,True,"swap: SCNet-XL at 50 % overlap, BS-Roformer at 75 %"
+E2c D1 strokes used (pooled) % v1_spleeter,54.2494,54.2,0.000911518,False,1,True,
+E2c D1 strokes used (pooled) % v1_htdemucs,79.6551,79.7,0.000563927,False,1,True,
+E2c D1 strokes used (pooled) % v1_bs_roformer,89.2545,89.3,0.000509402,False,1,True,
+E2c D1 strokes used (pooled) % v1_scnet,86.5993,86.6,7.59952e-06,False,1,True,
+E2c D1 strokes used (pooled) % floor_leak_20dB,92.6397,92.6,0.000428306,False,1,True,
+E2c D1 strokes used (pooled) % floor_white_20dB,79.8933,79.9,8.33619e-05,False,1,True,
+"E2d D1 true-stem SD of d_k ms, median over tracks, ioi60_250__ref_all_sd_ms",19.7325,19.73,0.000124176,False,2,True,
+"E2d D1 true-stem SD of d_k ms, median over tracks, all__ref_all_sd_ms",104.787,104.79,2.38572e-05,False,2,True,
+E2e Spleeter rho change_ioi_iqr_ms~missed share,0.268956,0.27,0.00386821,False,2,True,
+E2e Spleeter rho change_ioi_iqr_ms~extra share,0.236591,0.24,0.0142057,True,2,True,
+E2e Spleeter rho change_ioi_share_lt60~missed share,-0.0356783,-0.04,0.108043,True,2,True,
+E2e Spleeter rho change_ioi_share_lt60~extra share,0.689892,0.69,0.000156584,False,2,True,
+E2f share near miss or peak >= delta % v1_spleeter,51.4678,51.5,0.000626069,False,1,True,
+E2f near misses median |offset| ms v1_spleeter,3.87023,3.87,5.81395e-05,False,2,True,
+E2f weak peaks median margin v1_spleeter,0.0166664,0.0167,0.00200898,False,4,True,
+E2f weak peaks share margin <= 0 % v1_spleeter,20.738,20.7,0.00183509,False,1,True,
+E2f weak peaks median |offset| ms v1_spleeter,6.96003,6.96,5.02874e-06,False,2,True,
+"E2f median n_local_max, all missed strokes v1_spleeter",4,4,0,False,0,True,
+E2f share near miss or peak >= delta % v1_htdemucs,44.8395,44.8,0.00088279,False,1,True,
+E2f near misses median |offset| ms v1_htdemucs,3.71148,3.71,0.000398922,False,2,True,
+E2f weak peaks median margin v1_htdemucs,0.0144759,0.0145,0.00166207,False,4,True,
+E2f weak peaks share margin <= 0 % v1_htdemucs,18.188,18.2,0.000661272,False,1,True,
+E2f weak peaks median |offset| ms v1_htdemucs,12.1111,12.11,9.0834e-05,False,2,True,
+"E2f median n_local_max, all missed strokes v1_htdemucs",4,4,0,False,0,True,
+E2f share near miss or peak >= delta % v1_bs_roformer,41.7347,41.7,0.000831987,False,1,True,
+E2f near misses median |offset| ms v1_bs_roformer,2.27722,2.28,0.0012193,False,2,True,
+E2f weak peaks median margin v1_bs_roformer,0.00647835,0.0065,0.00333077,False,4,True,
+E2f weak peaks share margin <= 0 % v1_bs_roformer,21.5311,21.5,0.00144653,False,1,True,
+E2f weak peaks median |offset| ms v1_bs_roformer,13.2731,13.27,0.000229842,False,2,True,
+"E2f median n_local_max, all missed strokes v1_bs_roformer",4,4,0,False,0,True,
+E2f share near miss or peak >= delta % v1_scnet,42.3308,42.3,0.00072806,False,1,True,
+E2f near misses median |offset| ms v1_scnet,3.45721,3.46,0.000804913,False,2,True,
+E2f weak peaks median margin v1_scnet,0.0149137,0.0149,0.000916107,False,4,True,
+E2f weak peaks share margin <= 0 % v1_scnet,18.1818,18.2,0.000999001,False,1,True,
+E2f weak peaks median |offset| ms v1_scnet,9.62831,9.63,0.000175493,False,2,True,
+"E2f median n_local_max, all missed strokes v1_scnet",4,4,0,False,0,True,

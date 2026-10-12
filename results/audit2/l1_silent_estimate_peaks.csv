@@ -1,0 +1,14 @@
+label,track,i_ref,t_ref_s,ref_peak_db,est_peak_db,matched
+v1_bs_roformer,The Mountaineering Club - Mallory,947,237.12107904073062,-56.730050854481114,-240.0,False
+v1_bs_roformer_bl,The Mountaineering Club - Mallory,940,237.12107903980075,-56.730229719651604,-240.0,False
+v1_spleeter,AM Contra - Heart Peripheral,902,160.20183089154648,-27.573052998077916,-240.0,False
+v1_spleeter,AM Contra - Heart Peripheral,913,161.41538572406552,-29.203948189701233,-240.0,False
+v1_spleeter,The Mountaineering Club - Mallory,949,237.4186343630317,-43.929655594895955,-240.0,False
+v1_spleeter,The Mountaineering Club - Mallory,955,238.419464641677,-47.78204833490594,-240.0,False
+v1_spleeter,The Mountaineering Club - Mallory,956,238.6209939888113,-50.76705946105058,-240.0,False
+v1_spleeter_bl,AM Contra - Heart Peripheral,873,160.20183089188168,-27.573053092079377,-240.0,False
+v1_spleeter_bl,AM Contra - Heart Peripheral,884,161.41538572346002,-29.20394092996375,-240.0,False
+v1_spleeter_bl,The Mountaineering Club - Mallory,942,237.41863436324797,-43.92965463151003,-240.0,False
+v1_spleeter_bl,The Mountaineering Club - Mallory,943,237.52319646225496,-60.88464994122325,-240.0,False
+v1_spleeter_bl,The Mountaineering Club - Mallory,949,238.41946464048763,-47.78203940868528,-240.0,False
+v1_spleeter_bl,The Mountaineering Club - Mallory,950,238.62099398853016,-50.76704819279535,-240.0,False

@@ -1,0 +1,14 @@
+signal,descriptor,known,measured,err
+sine_a0.5,level_db,-9.0309,-9.0309,3.4744e-07
+sine_a0.5,crest,3.0103,3.0103,-2.2759e-06
+sine_a0.5,impulsiveness,-1.5,-1.5,-3.4014e-06
+square_a0.25,level_db,-12.041,-12.041,6.9487e-07
+square_a0.25,crest,0,0,0
+square_a0.25,impulsiveness,-2,-2,-9.0704e-06
+gauss_rms0.1,level_db,-20,-20.014,-0.014068
+gauss_rms0.1,impulsiveness,0,0.022311,0.022311
+laplace_rms0.1,level_db,-20,-20.001,-0.001309
+laplace_rms0.1,impulsiveness,3,2.9719,-0.028081
+steps_12dB,variation,12,11.971,-0.028947
+steps_12dB,level_db,-22.745,-22.765,-0.020833
+steps_12dB,env_flux,,0.39614,

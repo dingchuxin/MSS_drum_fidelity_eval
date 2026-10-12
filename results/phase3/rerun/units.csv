@@ -1,0 +1,15 @@
+measure,sd,max_loo_sd_change,most_influential_track,sd_without_that_track,mad_unit,use_mad_too
+level_db,3.2323,0.074011,PR - Happy Daze,2.9931,3.3041,False
+variation,5.8239,0.16922,The Doppler Shift - Atrophy,4.8384,5.4755,False
+crest,3.2159,0.041436,The Long Wait - Dark Horses,3.0826,3.4392,False
+impulsiveness,14.614,0.1657,Lyndsey Ollard - Catching Up,12.193,8.1459,False
+env_skew,0.58263,0.070065,AM Contra - Heart Peripheral,0.54181,0.61659,False
+env_flux,0.53218,0.16128,Little Chicago's Finest - My Own,0.44635,0.40763,False
+attack_slope,3.3309,0.063482,Georgia Wonder - Siren,3.1195,2.805,False
+peak_db,4.6055,0.060659,Lyndsey Ollard - Catching Up,4.3261,4.7027,False
+floor_db,8.5399,0.049329,Enda Reilly - Cur An Long Ag Seol,8.1186,8.4542,False
+valley_db,8.2402,0.087947,Punkdisco - Oral Hygiene,7.5155,8.2827,False
+rise_ms,2.2507,0.051138,Louis Cressy Band - Good Time,2.1356,2.3968,False
+accent,2.4062,0.063281,Little Chicago's Finest - My Own,2.2539,2.4459,False
+pre_db,8.7415,0.033496,PR - Happy Daze,8.4487,9.1997,False
+jump_db,6.8593,0.05011,The Long Wait - Dark Horses,6.5155,7.7242,False

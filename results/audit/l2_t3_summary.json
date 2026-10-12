@@ -1,0 +1,178 @@
+{
+ "A_known": [
+  {
+   "signal": "sine_a0.5",
+   "descriptor": "level_db",
+   "known": -9.0309,
+   "measured": -9.0309,
+   "err": 0.0
+  },
+  {
+   "signal": "sine_a0.5",
+   "descriptor": "crest",
+   "known": 3.0103,
+   "measured": 3.0103,
+   "err": -0.0
+  },
+  {
+   "signal": "sine_a0.5",
+   "descriptor": "impulsiveness",
+   "known": -1.5,
+   "measured": -1.5,
+   "err": -0.0
+  },
+  {
+   "signal": "square_a0.25",
+   "descriptor": "level_db",
+   "known": -12.0412,
+   "measured": -12.0412,
+   "err": 0.0
+  },
+  {
+   "signal": "square_a0.25",
+   "descriptor": "crest",
+   "known": 0.0,
+   "measured": 0.0,
+   "err": 0.0
+  },
+  {
+   "signal": "square_a0.25",
+   "descriptor": "impulsiveness",
+   "known": -2.0,
+   "measured": -2.0,
+   "err": -0.0
+  },
+  {
+   "signal": "gauss_rms0.1",
+   "descriptor": "level_db",
+   "known": -20.0,
+   "measured": -20.0141,
+   "err": -0.0141
+  },
+  {
+   "signal": "gauss_rms0.1",
+   "descriptor": "impulsiveness",
+   "known": 0.0,
+   "measured": 0.0223,
+   "err": 0.0223
+  },
+  {
+   "signal": "laplace_rms0.1",
+   "descriptor": "level_db",
+   "known": -20.0,
+   "measured": -20.0013,
+   "err": -0.0013
+  },
+  {
+   "signal": "laplace_rms0.1",
+   "descriptor": "impulsiveness",
+   "known": 3.0,
+   "measured": 2.9719,
+   "err": -0.0281
+  },
+  {
+   "signal": "steps_12dB",
+   "descriptor": "variation",
+   "known": 12.0,
+   "measured": 11.9711,
+   "err": -0.0289
+  },
+  {
+   "signal": "steps_12dB",
+   "descriptor": "level_db",
+   "known": -22.7446,
+   "measured": -22.7654,
+   "err": -0.0208
+  },
+  {
+   "signal": "steps_12dB",
+   "descriptor": "env_flux",
+   "known": NaN,
+   "measured": 0.3961,
+   "err": NaN
+  }
+ ],
+ "B_attack_vs_floor": {
+  "attack_slope": {
+   "median_change_attack_0p5_to_5ms": -1.396679808662256,
+   "median_change_attack_0p5_to_20ms": -10.17650428073707,
+   "median_change_floor_-30_to_-60dB": 17.95269068607934,
+   "median_change_floor_-40_to_-50dB": 5.52710651413533,
+   "median_change_floor_-60dB_to_digital_silence": 6.358250365557451
+  },
+  "env_flux": {
+   "median_change_attack_0p5_to_5ms": -0.05934449303583933,
+   "median_change_attack_0p5_to_20ms": 0.022660746576868895,
+   "median_change_floor_-30_to_-60dB": 1.0596589009656694,
+   "median_change_floor_-40_to_-50dB": 0.42644005968542853,
+   "median_change_floor_-60dB_to_digital_silence": 0.015497962157936973
+  },
+  "variation": {
+   "median_change_attack_0p5_to_5ms": 0.04437365166410068,
+   "median_change_attack_0p5_to_20ms": -1.2767566106772037,
+   "median_change_floor_-30_to_-60dB": 15.1655980975547,
+   "median_change_floor_-40_to_-50dB": 5.029800193976133,
+   "median_change_floor_-60dB_to_digital_silence": -1.2729513314789926
+  },
+  "env_skew": {
+   "median_change_attack_0p5_to_5ms": -0.06811519714055689,
+   "median_change_attack_0p5_to_20ms": -0.25906368928069473,
+   "median_change_floor_-30_to_-60dB": -0.856906055923844,
+   "median_change_floor_-40_to_-50dB": -0.3637686232120202,
+   "median_change_floor_-60dB_to_digital_silence": -0.04549870582532628
+  },
+  "crest": {
+   "median_change_attack_0p5_to_5ms": 0.08710495434626431,
+   "median_change_attack_0p5_to_20ms": 0.020556768811825776,
+   "median_change_floor_-30_to_-60dB": 0.01339106771202836,
+   "median_change_floor_-40_to_-50dB": -0.002129973046301359,
+   "median_change_floor_-60dB_to_digital_silence": -0.0007680568235741703
+  }
+ },
+ "C_gain_max_abs_delta_excl_level": {
+  "variation": 6.517483957396511,
+  "crest": 1.6146820051687882e-05,
+  "impulsiveness": 7.105427357601002e-15,
+  "env_skew": 1.1002568948030478,
+  "env_flux": 1.0696261197645276,
+  "attack_slope": 4.190598514783616
+ },
+ "D_silence_noise_median_d": {
+  "d_level_db": {
+   "-90": 0.0,
+   "-70": 0.0001,
+   "-50": 0.0067
+  },
+  "d_variation": {
+   "-90": 0.0006,
+   "-70": 0.3168,
+   "-50": 1.534
+  },
+  "d_crest": {
+   "-90": 0.0001,
+   "-70": 0.0015,
+   "-50": 0.0154
+  },
+  "d_impulsiveness": {
+   "-90": -0.0,
+   "-70": -0.0003,
+   "-50": -0.0293
+  },
+  "d_env_skew": {
+   "-90": 0.0001,
+   "-70": -0.0245,
+   "-50": 0.6139
+  },
+  "d_env_flux": {
+   "-90": -0.0002,
+   "-70": -0.0308,
+   "-50": -0.3707
+  },
+  "d_attack_slope": {
+   "-90": -0.4273,
+   "-70": -0.495,
+   "-50": -1.1156
+  }
+ },
+ "D_n_tracks_with_ge1pct_digital_silence": 46
+}

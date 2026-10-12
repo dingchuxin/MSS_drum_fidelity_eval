@@ -1,0 +1,6 @@
+measure,max_abs_err_db,n,pass
+peak_db,1.240394453816407e-10,12,True
+floor_db,2.7069205543739372e-08,12,True
+valley_db,2.704865664782119e-08,12,True
+pre_db,2.7069205543739372e-08,12,True
+jump_db,2.7028235649595445e-08,12,True

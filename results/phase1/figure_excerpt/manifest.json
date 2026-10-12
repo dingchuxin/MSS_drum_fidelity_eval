@@ -1,0 +1,19 @@
+{
+  "track": "James Elder & Mark M Thompson - The English Actor",
+  "t0_s": 33.0,
+  "t1_s": 36.0,
+  "track_delta_abs_d_attack_bs_minus_scnet": 0.1951,
+  "track_delta_percentile": 48.0,
+  "median_delta_all_tracks": 0.2174,
+  "excerpt_delta_abs_d_attack_bs_minus_scnet": 0.1923,
+  "excerpt_attack_slope_db_per_hop": {
+    "reference": 6.123,
+    "spleeter": 5.827,
+    "htdemucs": 6.985,
+    "bs_roformer": 6.573,
+    "scnet": 6.38
+  },
+  "n_reference_onsets": 8,
+  "onset_detector": "refined (hop 64, parabolic peak), run on the excerpt",
+  "envelope": "analyst._lin_env: 20 ms RMS, 10 ms hop, mono mean"
+}

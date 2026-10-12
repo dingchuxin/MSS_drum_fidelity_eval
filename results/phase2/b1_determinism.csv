@@ -1,0 +1,9 @@
+track,stem,max_abs_diff,rms_diff,diff_rel_db,bit_identical
+AM Contra - Heart Peripheral,drums,0,0,-inf,True
+AM Contra - Heart Peripheral,bass,0,0,-inf,True
+AM Contra - Heart Peripheral,other,0,0,-inf,True
+AM Contra - Heart Peripheral,vocals,0,0,-inf,True
+James Elder & Mark M Thompson - The English Actor,drums,0,0,-inf,True
+James Elder & Mark M Thompson - The English Actor,bass,0,0,-inf,True
+James Elder & Mark M Thompson - The English Actor,other,0,0,-inf,True
+James Elder & Mark M Thompson - The English Actor,vocals,0,0,-inf,True

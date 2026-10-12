@@ -1,0 +1,5 @@
+label,version,median_d_accent_all_db,mean_d_accent_all_db,mean_sd_units,median_sd_units,p_wilcoxon_two_sided,rank_biserial,n_tracks_changed
+v1_spleeter,stored,1.84017,2.41605,1.00409,0.764762,5.86198e-14,0.985882,2
+v1_spleeter,silent strokes excluded,1.84017,2.2768,0.946223,0.764761,5.86198e-14,0.985882,2
+v1_bs_roformer,stored,0.753583,0.97432,0.40492,0.313184,4.31486e-10,0.893333,1
+v1_bs_roformer,silent strokes excluded,0.753583,0.939299,0.390366,0.313184,4.31486e-10,0.893333,1

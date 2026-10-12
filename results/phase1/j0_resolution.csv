@@ -1,0 +1,3 @@
+detector,hop_samples,frame_period_ms,shift_n_pairs,shift_median_abs_err_ms,shift_p95_abs_err_ms,shift_p99_abs_err_ms,floor_white_40dB_median_abs_ms,floor_white_40dB_p95_abs_ms,floor_white_30dB_median_abs_ms,floor_white_30dB_p95_abs_ms,floor_white_20dB_median_abs_ms,floor_white_20dB_p95_abs_ms,floor_leak_30dB_median_abs_ms,floor_leak_30dB_p95_abs_ms,floor_leak_20dB_median_abs_ms,floor_leak_20dB_p95_abs_ms
+refined,64,1.451,294799,0.009145,0.1264,1.024,0.1438,0.8857,0.8459,3.535,2.21,7.945,0.2102,1.498,0.587,3.442
+v1,512,11.61,284197,1.61,24.83,40.63,0,23.22,0,34.83,11.61,34.83,0,23.22,0,34.83

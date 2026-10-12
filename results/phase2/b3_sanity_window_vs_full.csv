@@ -1,0 +1,201 @@
+model,track,snr_window_vs_fulltrack_db,xcorr_peak_lag_samples
+spleeter,AM Contra - Heart Peripheral,22.944,0
+htdemucs,AM Contra - Heart Peripheral,29.548,0
+bs_roformer,AM Contra - Heart Peripheral,34.29,0
+scnet,AM Contra - Heart Peripheral,58.514,0
+spleeter,Al James - Schoolboy Facination,16.489,0
+htdemucs,Al James - Schoolboy Facination,20.149,0
+bs_roformer,Al James - Schoolboy Facination,24.577,0
+scnet,Al James - Schoolboy Facination,26.337,0
+spleeter,Angels In Amplifiers - I'm Alright,15.918,0
+htdemucs,Angels In Amplifiers - I'm Alright,21.786,0
+bs_roformer,Angels In Amplifiers - I'm Alright,29.231,0
+scnet,Angels In Amplifiers - I'm Alright,25.344,0
+spleeter,Arise - Run Run Run,9.6192,0
+htdemucs,Arise - Run Run Run,13.474,0
+bs_roformer,Arise - Run Run Run,34.083,0
+scnet,Arise - Run Run Run,24.436,0
+spleeter,BKS - Bulldozer,21.958,0
+htdemucs,BKS - Bulldozer,24.494,0
+bs_roformer,BKS - Bulldozer,35.655,0
+scnet,BKS - Bulldozer,32.422,0
+spleeter,BKS - Too Much,14.102,0
+htdemucs,BKS - Too Much,21.75,0
+bs_roformer,BKS - Too Much,29.266,0
+scnet,BKS - Too Much,60.212,0
+spleeter,Ben Carrigan - We'll Talk About It All Tonight,18.24,0
+htdemucs,Ben Carrigan - We'll Talk About It All Tonight,16.083,0
+bs_roformer,Ben Carrigan - We'll Talk About It All Tonight,30.271,0
+scnet,Ben Carrigan - We'll Talk About It All Tonight,30.891,0
+spleeter,Bobby Nobody - Stitch Up,11.207,0
+htdemucs,Bobby Nobody - Stitch Up,22.681,0
+bs_roformer,Bobby Nobody - Stitch Up,27.652,0
+scnet,Bobby Nobody - Stitch Up,27.141,0
+spleeter,Buitraker - Revo X,20.083,0
+htdemucs,Buitraker - Revo X,27.399,0
+bs_roformer,Buitraker - Revo X,74.436,0
+scnet,Buitraker - Revo X,63.989,0
+spleeter,Carlos Gonzalez - A Place For Us,15.384,0
+htdemucs,Carlos Gonzalez - A Place For Us,17.698,0
+bs_roformer,Carlos Gonzalez - A Place For Us,28.165,0
+scnet,Carlos Gonzalez - A Place For Us,60.898,0
+spleeter,Cristina Vane - So Easy,25.282,0
+htdemucs,Cristina Vane - So Easy,29.508,0
+bs_roformer,Cristina Vane - So Easy,44.736,0
+scnet,Cristina Vane - So Easy,36.503,0
+spleeter,Detsky Sad - Walkie Talkie,13.804,0
+htdemucs,Detsky Sad - Walkie Talkie,21.351,0
+bs_roformer,Detsky Sad - Walkie Talkie,24.003,0
+scnet,Detsky Sad - Walkie Talkie,23.353,0
+spleeter,Enda Reilly - Cur An Long Ag Seol,10.151,0
+htdemucs,Enda Reilly - Cur An Long Ag Seol,27.218,0
+bs_roformer,Enda Reilly - Cur An Long Ag Seol,27.954,0
+scnet,Enda Reilly - Cur An Long Ag Seol,32.43,0
+spleeter,Forkupines - Semantics,13.607,0
+htdemucs,Forkupines - Semantics,25.203,0
+bs_roformer,Forkupines - Semantics,35.453,0
+scnet,Forkupines - Semantics,63.994,0
+spleeter,Georgia Wonder - Siren,22.743,0
+htdemucs,Georgia Wonder - Siren,25.937,0
+bs_roformer,Georgia Wonder - Siren,32.961,0
+scnet,Georgia Wonder - Siren,29.921,0
+spleeter,Girls Under Glass - We Feel Alright,16.122,0
+htdemucs,Girls Under Glass - We Feel Alright,19.83,0
+bs_roformer,Girls Under Glass - We Feel Alright,29.709,0
+scnet,Girls Under Glass - We Feel Alright,26.48,0
+spleeter,Hollow Ground - Ill Fate,9.6192,0
+htdemucs,Hollow Ground - Ill Fate,16.386,0
+bs_roformer,Hollow Ground - Ill Fate,27.257,0
+scnet,Hollow Ground - Ill Fate,25.733,0
+spleeter,James Elder & Mark M Thompson - The English Actor,18.147,0
+htdemucs,James Elder & Mark M Thompson - The English Actor,24.47,0
+bs_roformer,James Elder & Mark M Thompson - The English Actor,25.694,0
+scnet,James Elder & Mark M Thompson - The English Actor,26.875,0
+spleeter,Juliet's Rescue - Heartbeats,21.905,0
+htdemucs,Juliet's Rescue - Heartbeats,33.159,0
+bs_roformer,Juliet's Rescue - Heartbeats,44.596,0
+scnet,Juliet's Rescue - Heartbeats,38.292,0
+spleeter,Little Chicago's Finest - My Own,9.5757,0
+htdemucs,Little Chicago's Finest - My Own,13.838,0
+bs_roformer,Little Chicago's Finest - My Own,25.804,0
+scnet,Little Chicago's Finest - My Own,24.29,0
+spleeter,Louis Cressy Band - Good Time,17.318,0
+htdemucs,Louis Cressy Band - Good Time,24.196,0
+bs_roformer,Louis Cressy Band - Good Time,30.106,0
+scnet,Louis Cressy Band - Good Time,60.217,0
+spleeter,Lyndsey Ollard - Catching Up,21.377,0
+htdemucs,Lyndsey Ollard - Catching Up,22.61,0
+bs_roformer,Lyndsey Ollard - Catching Up,23.618,0
+scnet,Lyndsey Ollard - Catching Up,57.401,0
+spleeter,M.E.R.C. Music - Knockout,9.6447,0
+htdemucs,M.E.R.C. Music - Knockout,23.314,0
+bs_roformer,M.E.R.C. Music - Knockout,69.938,0
+scnet,M.E.R.C. Music - Knockout,61.214,0
+spleeter,Moosmusic - Big Dummy Shake,20.519,0
+htdemucs,Moosmusic - Big Dummy Shake,26.729,0
+bs_roformer,Moosmusic - Big Dummy Shake,41.586,0
+scnet,Moosmusic - Big Dummy Shake,33.957,0
+spleeter,Motor Tapes - Shore,15.731,0
+htdemucs,Motor Tapes - Shore,20.705,0
+bs_roformer,Motor Tapes - Shore,30.345,0
+scnet,Motor Tapes - Shore,31.814,0
+spleeter,Mu - Too Bright,21.206,0
+htdemucs,Mu - Too Bright,31.304,0
+bs_roformer,Mu - Too Bright,35.161,0
+scnet,Mu - Too Bright,31.413,0
+spleeter,Nerve 9 - Pray For The Rain,23.555,0
+htdemucs,Nerve 9 - Pray For The Rain,28.314,0
+bs_roformer,Nerve 9 - Pray For The Rain,31.477,0
+scnet,Nerve 9 - Pray For The Rain,31.988,0
+spleeter,PR - Happy Daze,14.734,0
+htdemucs,PR - Happy Daze,29.237,0
+bs_roformer,PR - Happy Daze,49.709,0
+scnet,PR - Happy Daze,39.026,0
+spleeter,PR - Oh No,22.871,0
+htdemucs,PR - Oh No,24.466,0
+bs_roformer,PR - Oh No,24.728,0
+scnet,PR - Oh No,27.941,0
+spleeter,Punkdisco - Oral Hygiene,16.771,0
+htdemucs,Punkdisco - Oral Hygiene,13.921,0
+bs_roformer,Punkdisco - Oral Hygiene,20.161,0
+scnet,Punkdisco - Oral Hygiene,26.443,0
+spleeter,Raft Monk - Tiring,15.265,0
+htdemucs,Raft Monk - Tiring,20.116,0
+bs_roformer,Raft Monk - Tiring,29.89,0
+scnet,Raft Monk - Tiring,28.113,0
+spleeter,Sambasevam Shanmugam - Kaathaadi,16.078,0
+htdemucs,Sambasevam Shanmugam - Kaathaadi,21.889,0
+bs_roformer,Sambasevam Shanmugam - Kaathaadi,27.098,0
+scnet,Sambasevam Shanmugam - Kaathaadi,22.824,0
+spleeter,Secretariat - Borderline,11.502,0
+htdemucs,Secretariat - Borderline,16.523,0
+bs_roformer,Secretariat - Borderline,24.166,0
+scnet,Secretariat - Borderline,25.295,0
+spleeter,Secretariat - Over The Top,17.796,0
+htdemucs,Secretariat - Over The Top,22.906,0
+bs_roformer,Secretariat - Over The Top,27.114,0
+scnet,Secretariat - Over The Top,59.205,0
+spleeter,Side Effects Project - Sing With Me,22.635,0
+htdemucs,Side Effects Project - Sing With Me,27.307,0
+bs_roformer,Side Effects Project - Sing With Me,33.4,0
+scnet,Side Effects Project - Sing With Me,32.508,0
+spleeter,Signe Jakobsen - What Have You Done To Me,15.291,0
+htdemucs,Signe Jakobsen - What Have You Done To Me,19.769,0
+bs_roformer,Signe Jakobsen - What Have You Done To Me,36.225,0
+scnet,Signe Jakobsen - What Have You Done To Me,29.374,0
+spleeter,Skelpolu - Resurrection,15.567,0
+htdemucs,Skelpolu - Resurrection,25.253,0
+bs_roformer,Skelpolu - Resurrection,38.803,0
+scnet,Skelpolu - Resurrection,33.29,0
+spleeter,Speak Softly - Broken Man,14.381,0
+htdemucs,Speak Softly - Broken Man,20.335,0
+bs_roformer,Speak Softly - Broken Man,35.815,0
+scnet,Speak Softly - Broken Man,29.777,0
+spleeter,Speak Softly - Like Horses,16.347,0
+htdemucs,Speak Softly - Like Horses,17.565,0
+bs_roformer,Speak Softly - Like Horses,31.91,0
+scnet,Speak Softly - Like Horses,29.816,0
+spleeter,The Doppler Shift - Atrophy,18.998,0
+htdemucs,The Doppler Shift - Atrophy,18.869,0
+bs_roformer,The Doppler Shift - Atrophy,24.996,0
+scnet,The Doppler Shift - Atrophy,31.789,0
+spleeter,The Easton Ellises (Baumi) - SDRNR,19.668,0
+htdemucs,The Easton Ellises (Baumi) - SDRNR,30.135,0
+bs_roformer,The Easton Ellises (Baumi) - SDRNR,32.273,0
+scnet,The Easton Ellises (Baumi) - SDRNR,34.461,0
+spleeter,The Easton Ellises - Falcon 69,20.295,0
+htdemucs,The Easton Ellises - Falcon 69,22.986,0
+bs_roformer,The Easton Ellises - Falcon 69,29.634,0
+scnet,The Easton Ellises - Falcon 69,30.634,0
+spleeter,The Long Wait - Dark Horses,13.945,0
+htdemucs,The Long Wait - Dark Horses,19.247,0
+bs_roformer,The Long Wait - Dark Horses,26.996,0
+scnet,The Long Wait - Dark Horses,26.414,0
+spleeter,The Mountaineering Club - Mallory,15.796,0
+htdemucs,The Mountaineering Club - Mallory,22.011,0
+bs_roformer,The Mountaineering Club - Mallory,26.638,0
+scnet,The Mountaineering Club - Mallory,30.656,0
+spleeter,The Sunshine Garcia Band - For I Am The Moon,5.0532,0
+htdemucs,The Sunshine Garcia Band - For I Am The Moon,20.083,0
+bs_roformer,The Sunshine Garcia Band - For I Am The Moon,30.598,0
+scnet,The Sunshine Garcia Band - For I Am The Moon,28.843,0
+spleeter,Timboz - Pony,5.5079,0
+htdemucs,Timboz - Pony,23.103,0
+bs_roformer,Timboz - Pony,28.498,0
+scnet,Timboz - Pony,26.324,0
+spleeter,Tom McKenzie - Directions,23.595,0
+htdemucs,Tom McKenzie - Directions,29.67,0
+bs_roformer,Tom McKenzie - Directions,32.328,0
+scnet,Tom McKenzie - Directions,62.515,0
+spleeter,Triviul feat. The Fiend - Widow,12.669,0
+htdemucs,Triviul feat. The Fiend - Widow,19.739,0
+bs_roformer,Triviul feat. The Fiend - Widow,32.04,0
+scnet,Triviul feat. The Fiend - Widow,27.774,0
+spleeter,We Fell From The Sky - Not You,17.952,0
+htdemucs,We Fell From The Sky - Not You,23.223,0
+bs_roformer,We Fell From The Sky - Not You,30.879,0
+scnet,We Fell From The Sky - Not You,30.344,0
+spleeter,Zeno - Signs,20.468,0
+htdemucs,Zeno - Signs,23.631,0
+bs_roformer,Zeno - Signs,35.175,0
+scnet,Zeno - Signs,28.371,0

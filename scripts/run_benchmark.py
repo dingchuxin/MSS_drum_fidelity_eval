@@ -2,15 +2,14 @@
 BOTH the developer-style reference metrics (SDR/SIR/SAR + SI-SDR) AND the
 analyst-facing fidelity metrics (onset timing, loudness/dynamics, timbre).
 
-The analyst metrics are the point: they are real reference-based data that either
-supports or refutes §4.7's claims about transient handling and dynamic reshaping —
-using quantities a plain SDR number hides. See docs/chapter_4_7_mapping.md for the
-falsifiable hypotheses these columns test.
+The analyst metrics are reference-based measures of what separation does to transients
+and dynamics, quantities a plain SDR number hides.
 
 Usage:
-    python scripts/run_benchmark.py --models htdemucs spleeter umxl --sample-n 8
+    python scripts/run_benchmark.py --models spleeter htdemucs bs_roformer scnet
 
-Requires MUSDB18-HQ under data/musdb18hq (gitignored) and the metric deps.
+Requires MUSDB18-HQ under data/musdb18hq (gitignored) and the metric deps. Stems are cached in
+data/stems_out/<model>/<track>/; output: results/tables/benchmark_metrics.csv.
 """
 from __future__ import annotations
 
@@ -76,24 +75,15 @@ def main():
         # crash-resilient checkpoint: write the cumulative table after each model,
         # so a failure late in the run (e.g. Spleeter's slow CPU pass) keeps prior results
         if rows:
-            report.write_table(metrics.summarize(rows), "benchmark_metrics",
-                               "Metrics on MUSDB18 (developer + analyst)")
+            report.write_table(metrics.summarize(rows), "benchmark_metrics")
             print(f"  [checkpoint] {model_name} complete — {len(rows)} rows so far", flush=True)
 
     if not rows:
         print("No results — check that MUSDB18 is present under data/.")
         return
     summary = metrics.summarize(rows)
-    report.write_table(summary, "benchmark_metrics", "Metrics on MUSDB18 (developer + analyst)")
-    report.bar_by_model(_df(rows), "onset_f_measure", "benchmark_onset_f", "Onset F-measure")
-    report.bar_by_model(_df(rows), "dyn_variation", "benchmark_dyn_variation", "Dynamic variation (dB)")
-    report.bar_by_model(_df(rows), "labeling_precision", "benchmark_labeling", "Labeling precision")
-    print(f"Done: {len(rows)} rows across {len(args.models)} models. See results/.")
-
-
-def _df(rows):
-    import pandas as pd
-    return pd.DataFrame(rows)
+    report.write_table(summary, "benchmark_metrics")
+    print(f"Done: {len(rows)} rows across {len(args.models)} models. See results/tables/.")
 
 
 def _safe_name(s: str) -> str:

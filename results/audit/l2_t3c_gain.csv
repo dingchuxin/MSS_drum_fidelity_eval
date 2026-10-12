@@ -1,0 +1,16 @@
+signal,gain_db,delta_level_db,delta_variation,delta_crest,delta_impulsiveness,delta_env_skew,delta_env_flux,delta_attack_slope
+train_silence,-20,-19.999,4.3347,-9.5199e-06,0,0.38194,-1.0696,-4.1906
+train_silence,-6,-6,-0.00082764,-1.0528e-06,0,-0.0021408,-0.023617,-0.21026
+train_silence,6,6,0.0028066,5.2763e-07,0,-0.001681,0.0047237,0.055751
+train_floor-60,-20,-19.999,-2.9186,-9.5196e-06,3.5527e-15,0.30361,-0.27505,-3.7949
+train_floor-60,-6,-6,-0.12364,-1.0527e-06,0,0.033286,-0.019559,-0.1798
+train_floor-60,6,6,0.031639,5.2761e-07,3.5527e-15,-0.009922,0.0057666,0.046385
+ref:AM Contra - Heart Peripheral,-20,-19.999,6.5175,-8.7144e-06,8.8818e-16,1.1003,-0.27908,-0.10566
+ref:AM Contra - Heart Peripheral,-6,-6,0.27523,-9.6368e-07,0,-0.087868,0.0079748,-0.035391
+ref:AM Contra - Heart Peripheral,6,6,-0.01087,4.8298e-07,0,0.0057544,0.010729,0.040322
+ref:Al James - Schoolboy Facination,-20,-19.998,0.15346,-1.6147e-05,0,0.02711,-0.055362,-0.019668
+ref:Al James - Schoolboy Facination,-6,-5.9999,0.19478,-1.7856e-06,-5.3291e-15,-0.63868,-0.028556,-0.00034543
+ref:Al James - Schoolboy Facination,6,6,-0.0019124,8.9492e-07,-5.3291e-15,0.013349,0.00062089,8.743e-05
+ref:Angels In Amplifiers - I'm Alright,-20,-19.998,0.16894,-1.4556e-05,5.3291e-15,0.096085,-0.064256,-0.072538
+ref:Angels In Amplifiers - I'm Alright,-6,-5.9999,0.028739,-1.6096e-06,7.1054e-15,-0.06501,-0.0065202,-0.00046372
+ref:Angels In Amplifiers - I'm Alright,6,6,-0.0037656,8.0672e-07,-1.7764e-15,0.0006152,0.00093539,0.00011732

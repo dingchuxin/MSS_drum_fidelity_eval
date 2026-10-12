@@ -83,7 +83,7 @@ def summarize(rows: list[dict]) -> "object":
     """Collapse per-track metric rows into a per-model/per-stem table (pandas).
 
     Aggregates every numeric metric column (developer + analyst) with median/mean/std;
-    `.std` across tracks is itself informative for §4.7 claim A1 (dynamics variability).
+    `.std` across tracks shows how much a metric varies between tracks.
     """
     import pandas as pd
     df = pd.DataFrame(rows)

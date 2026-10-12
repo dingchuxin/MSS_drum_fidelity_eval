@@ -1,0 +1,223 @@
+{
+ "1a_known_levels": {
+  "peak_db": {
+   "max_abs_err_db": 1.240394453816407e-10,
+   "pass": true
+  },
+  "floor_db": {
+   "max_abs_err_db": 2.7069205543739372e-08,
+   "pass": true
+  },
+  "valley_db": {
+   "max_abs_err_db": 2.704865664782119e-08,
+   "pass": true
+  },
+  "pre_db": {
+   "max_abs_err_db": 2.7069205543739372e-08,
+   "pass": true
+  },
+  "jump_db": {
+   "max_abs_err_db": 2.7028235649595445e-08,
+   "pass": true
+  }
+ },
+ "1b_gain_all_pass": true,
+ "1b_gain": [
+  {
+   "test": "uniform gain x0.5",
+   "measure": "peak_db",
+   "max_abs_dev_from_expected": 1.2283418726610762e-10,
+   "pass": true
+  },
+  {
+   "test": "uniform gain x0.5",
+   "measure": "floor_db",
+   "max_abs_dev_from_expected": 2.4567397893804355e-08,
+   "pass": true
+  },
+  {
+   "test": "uniform gain x0.5",
+   "measure": "pre_db",
+   "max_abs_dev_from_expected": 2.4567397893804355e-08,
+   "pass": true
+  },
+  {
+   "test": "uniform gain x0.5",
+   "measure": "valley_db",
+   "max_abs_dev_from_expected": 2.4444567259251926e-08,
+   "pass": true
+  },
+  {
+   "test": "uniform gain x0.5",
+   "measure": "jump_db",
+   "max_abs_dev_from_expected": 2.454009973007487e-08,
+   "pass": true
+  },
+  {
+   "test": "uniform gain x0.5",
+   "measure": "rise_ms",
+   "max_abs_dev_from_expected": 0.0,
+   "pass": true
+  },
+  {
+   "test": "uniform gain x0.5",
+   "measure": "accent (summary d_accent_all)",
+   "max_abs_dev_from_expected": 2.8979485477975686e-11,
+   "pass": true
+  },
+  {
+   "test": "per-stroke gain",
+   "measure": "peak_db",
+   "max_abs_dev_from_expected": 6.126210649881614e-11,
+   "pass": true
+  },
+  {
+   "test": "per-stroke gain",
+   "measure": "accent (summary d_accent_all)",
+   "max_abs_dev_from_expected": 7.617906305767974e-12,
+   "pass": true
+  }
+ ],
+ "1c_rise_max_abs_err_vs_own_algorithm_ms": 0.0,
+ "1c_rise_median_err_vs_true_by_attack_sine5000": {
+  "0.5": 2.256,
+  "1.0": 2.1,
+  "2.0": 1.679,
+  "3.0": 1.244,
+  "5.0": 0.811,
+  "8.0": 0.398,
+  "10.0": 0.19,
+  "15.0": -0.064,
+  "20.0": -0.785
+ },
+ "1c_rise_median_err_vs_resolution_limited_by_attack_sine5000": {
+  "0.5": 0.008,
+  "1.0": 0.014,
+  "2.0": 0.016,
+  "3.0": -0.002,
+  "5.0": 0.02,
+  "8.0": 0.015,
+  "10.0": -0.014,
+  "15.0": 0.007,
+  "20.0": -0.012
+ },
+ "1c_rise_median_err_vs_true_by_attack_sine1000": {
+  "0.5": 2.522,
+  "1.0": 1.885,
+  "2.0": 1.65,
+  "3.0": 1.245,
+  "5.0": 0.757,
+  "8.0": 0.315,
+  "10.0": 0.145,
+  "15.0": -0.006,
+  "20.0": -0.8
+ },
+ "1d_silence": [
+  {
+   "case": "reference gap silent (stroke 3)",
+   "floor_nan_both": true,
+   "valley_nan_both": true,
+   "silent_ref_flag": true,
+   "silent_est_flag": true,
+   "next_pre_nan_both": true,
+   "other_strokes_untouched": true,
+   "summary_n_silent_either": 1.0,
+   "est_peak_db": NaN,
+   "peak_nan": NaN,
+   "d_accent_all_with_silent_stroke": NaN,
+   "d_accent_all_without": NaN,
+   "d_peak_db_all_median_with": NaN,
+   "d_peak_db_all_median_without": NaN
+  },
+  {
+   "case": "estimate gap silent (stroke 6)",
+   "floor_nan_both": true,
+   "valley_nan_both": true,
+   "silent_ref_flag": false,
+   "silent_est_flag": true,
+   "next_pre_nan_both": true,
+   "other_strokes_untouched": true,
+   "summary_n_silent_either": 1.0,
+   "est_peak_db": NaN,
+   "peak_nan": NaN,
+   "d_accent_all_with_silent_stroke": NaN,
+   "d_accent_all_without": NaN,
+   "d_peak_db_all_median_with": NaN,
+   "d_peak_db_all_median_without": NaN
+  },
+  {
+   "case": "estimate silent over a whole stroke (stroke 8)",
+   "floor_nan_both": true,
+   "valley_nan_both": NaN,
+   "silent_ref_flag": NaN,
+   "silent_est_flag": NaN,
+   "next_pre_nan_both": NaN,
+   "other_strokes_untouched": NaN,
+   "summary_n_silent_either": NaN,
+   "est_peak_db": -240.0,
+   "peak_nan": false,
+   "d_accent_all_with_silent_stroke": 60.03700850344504,
+   "d_accent_all_without": -1.2227552304011624e-11,
+   "d_peak_db_all_median_with": -3.098039199700837,
+   "d_peak_db_all_median_without": -3.098039199698616
+  }
+ ],
+ "1e_windows": [
+  {
+   "test": "1-s cap: dip inside cap",
+   "measure": "floor_db (stroke 1)",
+   "got": -83.01029974736403,
+   "expected": -83.01029995663981,
+   "abs_err": 2.092757824811997e-07,
+   "pass": true
+  },
+  {
+   "test": "1-s cap: dip after cap",
+   "measure": "floor_db (stroke 1)",
+   "got": -43.01029995541281,
+   "expected": -43.01029995663981,
+   "abs_err": 1.227000723247329e-09,
+   "pass": true
+  },
+  {
+   "test": "peak window end: burst ends inside window",
+   "measure": "peak_db (stroke 1)",
+   "got": -3.9254497678396256,
+   "expected": -3.9254497678533147,
+   "abs_err": 1.368904989362818e-11,
+   "pass": true
+  },
+  {
+   "test": "peak window end: burst starts after t+50 ms",
+   "measure": "peak_db (stroke 1)",
+   "got": -13.467874862205619,
+   "expected": -13.467874862246564,
+   "abs_err": 4.094502514817577e-11,
+   "pass": true
+  },
+  {
+   "test": "s_k+1 cap (IOI 60 ms): burst after s_k+1",
+   "measure": "peak_db (stroke 1)",
+   "got": -13.467874862205619,
+   "expected": -13.467874862246564,
+   "abs_err": 4.094502514817577e-11,
+   "pass": true
+  },
+  {
+   "test": "s_k+1 cap (IOI 60 ms): the burst belongs to the next stroke",
+   "measure": "peak_db (stroke 2)",
+   "got": -3.92544976783967,
+   "expected": -3.9254497678533147,
+   "abs_err": 1.3644640972643174e-11,
+   "pass": true
+  },
+  {
+   "test": "last stroke: dip before the signal end",
+   "measure": "floor_db (stroke 2)",
+   "got": -83.01029985932223,
+   "expected": -83.01029995663981,
+   "abs_err": 9.731758154885028e-08,
+   "pass": true
+  }
+ ]
+}

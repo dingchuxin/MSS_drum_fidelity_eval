@@ -9,11 +9,15 @@ authors:
     email: chuxinding@outlook.com
     orcid: "https://orcid.org/0009-0002-3508-4120"
 repository-code: "https://github.com/dingchuxin/MSS_drum_fidelity_eval"
+version: "2.0.0"
+date-released: "2026-10-12"
 abstract: >-
-  A reproducible pipeline for evaluating music source separation by the signal
-  properties rhythm analysis depends on — onset timing, an eight-descriptor
-  dynamic profile, and stem-labeling precision — alongside the field-standard
-  BSS-Eval and SI-SDR metrics, on the MUSDB18-HQ test set.
+  Code and per-track results for a study of what separated drum stems can and cannot
+  be trusted for in microrhythm analysis. Four open separators (Spleeter, HT-Demucs,
+  BS-RoFormer and SCNet-XL) separate the 50 tracks of the MUSDB18-HQ test set, and
+  every measurement (onset timing, stroke levels, envelope shape, developer metrics) is
+  made on the estimated and on the true drum stem with the same code and settings; the
+  difference, estimate minus reference, is reported for each track.
 keywords:
   - music source separation
   - music information retrieval
@@ -21,4 +25,5 @@ keywords:
   - microtiming
   - evaluation
   - MUSDB18
+  - onset detection
 license: MIT

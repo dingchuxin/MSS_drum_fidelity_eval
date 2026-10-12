@@ -1,0 +1,8 @@
+key,scnet_xl_ihf,scnet_masked_xl_ihf
+augmentations.bass.seven_band_parametric_eq,0.25,0.1
+augmentations.bass.tanh_distortion,0.2,0.1
+augmentations.drums.pitch_shift,0.33,0.1
+augmentations.drums.seven_band_parametric_eq,0.25,0.1
+augmentations.drums.tanh_distortion,0.33,0.1
+augmentations.vocals.seven_band_parametric_eq,0.25,0.1
+training.batch_size,3.0,2.0

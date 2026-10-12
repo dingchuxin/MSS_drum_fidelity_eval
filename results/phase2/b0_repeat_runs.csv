@@ -1,0 +1,109 @@
+model,track,stem,comparison,max_abs_diff,rms_diff,diff_rel_db,bit_identical
+bs_roformer,AM Contra - Heart Peripheral,drums,run1_vs_run2,0,0,-inf,True
+bs_roformer,AM Contra - Heart Peripheral,drums,run1_vs_v1_int16,3.05173e-05,1.77684e-05,-72.5502,False
+bs_roformer,AM Contra - Heart Peripheral,drums,run1_vs_run1_quantised_int16,3.05173e-05,1.77684e-05,-72.5502,False
+bs_roformer,AM Contra - Heart Peripheral,bass,run1_vs_run2,0,0,-inf,True
+bs_roformer,AM Contra - Heart Peripheral,bass,run1_vs_v1_int16,3.05173e-05,1.83206e-05,-71.5648,False
+bs_roformer,AM Contra - Heart Peripheral,bass,run1_vs_run1_quantised_int16,3.05173e-05,1.83206e-05,-71.5648,False
+bs_roformer,AM Contra - Heart Peripheral,other,run1_vs_run2,0,0,-inf,True
+bs_roformer,AM Contra - Heart Peripheral,other,run1_vs_v1_int16,3.05173e-05,1.78275e-05,-61.2913,False
+bs_roformer,AM Contra - Heart Peripheral,other,run1_vs_run1_quantised_int16,3.05173e-05,1.78275e-05,-61.2913,False
+bs_roformer,AM Contra - Heart Peripheral,vocals,run1_vs_run2,0,0,-inf,True
+bs_roformer,AM Contra - Heart Peripheral,vocals,run1_vs_v1_int16,3.05173e-05,1.82122e-05,-70.02,False
+bs_roformer,AM Contra - Heart Peripheral,vocals,run1_vs_run1_quantised_int16,3.05173e-05,1.82122e-05,-70.02,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,drums,run1_vs_run2,0,0,-inf,True
+bs_roformer,James Elder & Mark M Thompson - The English Actor,drums,run1_vs_v1_int16,3.05173e-05,1.74987e-05,-68.7385,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,drums,run1_vs_run1_quantised_int16,3.05173e-05,1.74987e-05,-68.7385,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,bass,run1_vs_run2,0,0,-inf,True
+bs_roformer,James Elder & Mark M Thompson - The English Actor,bass,run1_vs_v1_int16,3.05173e-05,1.77676e-05,-65.0705,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,bass,run1_vs_run1_quantised_int16,3.05173e-05,1.77676e-05,-65.0705,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,other,run1_vs_run2,0,0,-inf,True
+bs_roformer,James Elder & Mark M Thompson - The English Actor,other,run1_vs_v1_int16,3.05173e-05,1.74832e-05,-72.003,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,other,run1_vs_run1_quantised_int16,3.05173e-05,1.74832e-05,-72.003,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,vocals,run1_vs_run2,0,0,-inf,True
+bs_roformer,James Elder & Mark M Thompson - The English Actor,vocals,run1_vs_v1_int16,3.05173e-05,1.81074e-05,-69.9999,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,vocals,run1_vs_run1_quantised_int16,3.05173e-05,1.81074e-05,-69.9999,False
+bs_roformer,Side Effects Project - Sing With Me,drums,run1_vs_run2,0,0,-inf,True
+bs_roformer,Side Effects Project - Sing With Me,drums,run1_vs_v1_int16,3.05173e-05,1.7525e-05,-72.5743,False
+bs_roformer,Side Effects Project - Sing With Me,drums,run1_vs_run1_quantised_int16,3.05173e-05,1.7525e-05,-72.5743,False
+bs_roformer,Side Effects Project - Sing With Me,bass,run1_vs_run2,0,0,-inf,True
+bs_roformer,Side Effects Project - Sing With Me,bass,run1_vs_v1_int16,3.05173e-05,1.80642e-05,-64.7358,False
+bs_roformer,Side Effects Project - Sing With Me,bass,run1_vs_run1_quantised_int16,3.05173e-05,1.80642e-05,-64.7358,False
+bs_roformer,Side Effects Project - Sing With Me,other,run1_vs_run2,0,0,-inf,True
+bs_roformer,Side Effects Project - Sing With Me,other,run1_vs_v1_int16,3.05173e-05,1.75168e-05,-59.47,False
+bs_roformer,Side Effects Project - Sing With Me,other,run1_vs_run1_quantised_int16,3.05173e-05,1.75168e-05,-59.47,False
+bs_roformer,Side Effects Project - Sing With Me,vocals,run1_vs_run2,0,0,-inf,True
+bs_roformer,Side Effects Project - Sing With Me,vocals,run1_vs_v1_int16,3.05173e-05,1.75671e-05,-71.6757,False
+bs_roformer,Side Effects Project - Sing With Me,vocals,run1_vs_run1_quantised_int16,3.05173e-05,1.75671e-05,-71.6757,False
+scnet,AM Contra - Heart Peripheral,drums,run1_vs_run2,0,0,-inf,True
+scnet,AM Contra - Heart Peripheral,drums,run1_vs_v1_int16,0.00059244,7.56992e-05,-59.8531,False
+scnet,AM Contra - Heart Peripheral,drums,run1_vs_run1_quantised_int16,3.05173e-05,1.70716e-05,-72.7895,False
+scnet,AM Contra - Heart Peripheral,bass,run1_vs_run2,0,0,-inf,True
+scnet,AM Contra - Heart Peripheral,bass,run1_vs_v1_int16,0.000389963,3.76842e-05,-65.1974,False
+scnet,AM Contra - Heart Peripheral,bass,run1_vs_run1_quantised_int16,3.05173e-05,1.70571e-05,-72.0824,False
+scnet,AM Contra - Heart Peripheral,other,run1_vs_run2,0,0,-inf,True
+scnet,AM Contra - Heart Peripheral,other,run1_vs_v1_int16,0.000367366,3.26593e-05,-56.5441,False
+scnet,AM Contra - Heart Peripheral,other,run1_vs_run1_quantised_int16,3.05173e-05,1.7464e-05,-61.9813,False
+scnet,AM Contra - Heart Peripheral,vocals,run1_vs_run2,0,0,-inf,True
+scnet,AM Contra - Heart Peripheral,vocals,run1_vs_v1_int16,0.000522614,4.10854e-05,-62.8995,False
+scnet,AM Contra - Heart Peripheral,vocals,run1_vs_run1_quantised_int16,3.05173e-05,1.71897e-05,-70.4679,False
+scnet,James Elder & Mark M Thompson - The English Actor,drums,run1_vs_run2,0,0,-inf,True
+scnet,James Elder & Mark M Thompson - The English Actor,drums,run1_vs_v1_int16,0.000564784,4.91417e-05,-59.8185,False
+scnet,James Elder & Mark M Thompson - The English Actor,drums,run1_vs_run1_quantised_int16,3.05173e-05,1.73349e-05,-68.8691,False
+scnet,James Elder & Mark M Thompson - The English Actor,bass,run1_vs_run2,0,0,-inf,True
+scnet,James Elder & Mark M Thompson - The English Actor,bass,run1_vs_v1_int16,0.000297993,2.53173e-05,-61.8302,False
+scnet,James Elder & Mark M Thompson - The English Actor,bass,run1_vs_run1_quantised_int16,3.05173e-05,1.74113e-05,-65.082,False
+scnet,James Elder & Mark M Thompson - The English Actor,other,run1_vs_run2,0,0,-inf,True
+scnet,James Elder & Mark M Thompson - The English Actor,other,run1_vs_v1_int16,0.000480235,4.93923e-05,-62.8443,False
+scnet,James Elder & Mark M Thompson - The English Actor,other,run1_vs_run1_quantised_int16,3.05173e-05,1.70567e-05,-72.0796,False
+scnet,James Elder & Mark M Thompson - The English Actor,vocals,run1_vs_run2,0,0,-inf,True
+scnet,James Elder & Mark M Thompson - The English Actor,vocals,run1_vs_v1_int16,0.000653386,4.49472e-05,-62.0419,False
+scnet,James Elder & Mark M Thompson - The English Actor,vocals,run1_vs_run1_quantised_int16,3.05173e-05,1.73354e-05,-70.3173,False
+scnet,Side Effects Project - Sing With Me,drums,run1_vs_run2,0,0,-inf,True
+scnet,Side Effects Project - Sing With Me,drums,run1_vs_v1_int16,0.000646025,5.95722e-05,-61.9887,False
+scnet,Side Effects Project - Sing With Me,drums,run1_vs_run1_quantised_int16,3.05173e-05,1.72499e-05,-72.7538,False
+scnet,Side Effects Project - Sing With Me,bass,run1_vs_run2,0,0,-inf,True
+scnet,Side Effects Project - Sing With Me,bass,run1_vs_v1_int16,0.000229701,2.5431e-05,-61.9026,False
+scnet,Side Effects Project - Sing With Me,bass,run1_vs_run1_quantised_int16,3.05173e-05,1.73864e-05,-65.2057,False
+scnet,Side Effects Project - Sing With Me,other,run1_vs_run2,0,0,-inf,True
+scnet,Side Effects Project - Sing With Me,other,run1_vs_v1_int16,0.000291682,2.78101e-05,-55.8701,False
+scnet,Side Effects Project - Sing With Me,other,run1_vs_run1_quantised_int16,3.05173e-05,1.74897e-05,-59.8985,False
+scnet,Side Effects Project - Sing With Me,vocals,run1_vs_run2,0,0,-inf,True
+scnet,Side Effects Project - Sing With Me,vocals,run1_vs_v1_int16,0.00061813,6.2449e-05,-60.618,False
+scnet,Side Effects Project - Sing With Me,vocals,run1_vs_run1_quantised_int16,3.05173e-05,1.71512e-05,-71.8426,False
+spleeter,AM Contra - Heart Peripheral,drums,run1_vs_run2,0,0,-inf,True
+spleeter,AM Contra - Heart Peripheral,drums,run1_vs_v1_int16,1.52588e-05,8.44987e-06,-78.8967,False
+spleeter,AM Contra - Heart Peripheral,drums,run1_vs_run1_quantised_int16,3.05173e-05,1.78933e-05,-72.3799,False
+spleeter,AM Contra - Heart Peripheral,bass,run1_vs_run2,0,0,-inf,True
+spleeter,AM Contra - Heart Peripheral,bass,run1_vs_v1_int16,1.52588e-05,7.96561e-06,-76.6836,False
+spleeter,AM Contra - Heart Peripheral,bass,run1_vs_run1_quantised_int16,3.05173e-05,1.83366e-05,-69.4416,False
+spleeter,AM Contra - Heart Peripheral,other,run1_vs_run2,0,0,-inf,True
+spleeter,AM Contra - Heart Peripheral,other,run1_vs_v1_int16,1.52588e-05,8.80891e-06,-69.2247,False
+spleeter,AM Contra - Heart Peripheral,other,run1_vs_run1_quantised_int16,3.05173e-05,1.76144e-05,-63.2058,False
+spleeter,AM Contra - Heart Peripheral,vocals,run1_vs_run2,0,0,-inf,True
+spleeter,AM Contra - Heart Peripheral,vocals,run1_vs_v1_int16,1.52588e-05,8.59126e-06,-76.5131,False
+spleeter,AM Contra - Heart Peripheral,vocals,run1_vs_run1_quantised_int16,3.05173e-05,1.79219e-05,-70.1266,False
+spleeter,James Elder & Mark M Thompson - The English Actor,drums,run1_vs_run2,0,0,-inf,True
+spleeter,James Elder & Mark M Thompson - The English Actor,drums,run1_vs_v1_int16,1.52588e-05,8.69543e-06,-74.4072,False
+spleeter,James Elder & Mark M Thompson - The English Actor,drums,run1_vs_run1_quantised_int16,3.05173e-05,1.75334e-05,-68.3157,False
+spleeter,James Elder & Mark M Thompson - The English Actor,bass,run1_vs_run2,0,0,-inf,True
+spleeter,James Elder & Mark M Thompson - The English Actor,bass,run1_vs_v1_int16,1.52588e-05,6.88723e-06,-72.6696,False
+spleeter,James Elder & Mark M Thompson - The English Actor,bass,run1_vs_run1_quantised_int16,3.05173e-05,1.89286e-05,-63.8881,False
+spleeter,James Elder & Mark M Thompson - The English Actor,other,run1_vs_run2,0,0,-inf,True
+spleeter,James Elder & Mark M Thompson - The English Actor,other,run1_vs_v1_int16,1.52588e-05,8.73751e-06,-77.5335,False
+spleeter,James Elder & Mark M Thompson - The English Actor,other,run1_vs_run1_quantised_int16,3.05173e-05,1.74843e-05,-71.5083,False
+spleeter,James Elder & Mark M Thompson - The English Actor,vocals,run1_vs_run2,0,0,-inf,True
+spleeter,James Elder & Mark M Thompson - The English Actor,vocals,run1_vs_v1_int16,1.52588e-05,7.29091e-06,-77.7933,False
+spleeter,James Elder & Mark M Thompson - The English Actor,vocals,run1_vs_run1_quantised_int16,3.05173e-05,1.84171e-05,-69.7445,False
+spleeter,Side Effects Project - Sing With Me,drums,run1_vs_run2,0,0,-inf,True
+spleeter,Side Effects Project - Sing With Me,drums,run1_vs_v1_int16,1.52588e-05,8.73319e-06,-78.4201,False
+spleeter,Side Effects Project - Sing With Me,drums,run1_vs_run1_quantised_int16,3.05173e-05,1.74887e-05,-72.3884,False
+spleeter,Side Effects Project - Sing With Me,bass,run1_vs_run2,0,0,-inf,True
+spleeter,Side Effects Project - Sing With Me,bass,run1_vs_v1_int16,1.52588e-05,7.54876e-06,-71.9458,False
+spleeter,Side Effects Project - Sing With Me,bass,run1_vs_run1_quantised_int16,3.05173e-05,1.84029e-05,-64.2056,False
+spleeter,Side Effects Project - Sing With Me,other,run1_vs_run2,0,0,-inf,True
+spleeter,Side Effects Project - Sing With Me,other,run1_vs_v1_int16,1.52588e-05,8.72197e-06,-64.4137,False
+spleeter,Side Effects Project - Sing With Me,other,run1_vs_run1_quantised_int16,3.05173e-05,1.74986e-05,-58.366,False
+spleeter,Side Effects Project - Sing With Me,vocals,run1_vs_run2,0,0,-inf,True
+spleeter,Side Effects Project - Sing With Me,vocals,run1_vs_v1_int16,1.52588e-05,8.61351e-06,-77.6628,False
+spleeter,Side Effects Project - Sing With Me,vocals,run1_vs_run1_quantised_int16,3.05173e-05,1.75815e-05,-71.4653,False

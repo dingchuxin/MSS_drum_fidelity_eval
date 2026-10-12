@@ -1,0 +1,12 @@
+{
+ "python": "3.12.10",
+ "numpy": "2.4.6",
+ "scipy": "1.18.0",
+ "pandas": "3.0.3",
+ "librosa": "0.11.0",
+ "numba": "0.66.0",
+ "soundfile": "0.14.0",
+ "matplotlib": "3.11.0",
+ "mir_eval": "0.8.2",
+ "repo_commit_at_run": "edbf3073bb5a91f7d10cfaf1984d5caa48f244f3"
+}

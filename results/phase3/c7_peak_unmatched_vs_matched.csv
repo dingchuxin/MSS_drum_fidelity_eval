@@ -1,0 +1,6 @@
+label,n_tracks_ge5_unmatched,total_unmatched,median_d_peak_unmatched_db,median_d_peak_matched_db,median_paired_diff_db,n_tracks_unmatched_lower,p,rank_biserial,pooled_median_d_peak_unmatched,pooled_median_d_peak_matched,p_holm
+v1_spleeter,49,8312,-3.8028,-1.2872,-1.808,44,2.0385e-11,-0.93959,-3.2744,-1.333,1.0193e-10
+v1_htdemucs,46,3459,-2.9852,-0.3342,-2.4838,42,5.557e-09,-0.87789,-2.0542,-0.33236,2.2228e-08
+v1_bs_roformer,41,1960,-1.7355,-0.20249,-1.4604,38,5.83e-08,-0.86992,-1.6196,-0.17093,5.83e-08
+v1_scnet,45,2497,-1.9073,-0.30307,-1.5759,39,5.7695e-09,-0.88406,-1.4871,-0.23199,2.2228e-08
+htdemucs_b1,46,3396,-2.9442,-0.32609,-2.4957,42,1.0376e-08,-0.86679,-1.9787,-0.2886,2.2228e-08

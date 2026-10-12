@@ -1,0 +1,10 @@
+test,measure,expected_shift,max_abs_dev_from_expected,summary_d_all,pass
+uniform gain x0.5,peak_db,-6.0205999,1.2283419e-10,-6.0205999,True
+uniform gain x0.5,floor_db,-6.0205999,2.4567398e-08,-6.0205999,True
+uniform gain x0.5,pre_db,-6.0205999,2.4567398e-08,-6.0205999,True
+uniform gain x0.5,valley_db,0,2.4444567e-08,-2.2260771e-09,True
+uniform gain x0.5,jump_db,0,2.45401e-08,-2.2037554e-09,True
+uniform gain x0.5,rise_ms,0,0,0,True
+uniform gain x0.5,accent (summary d_accent_all),0,2.8979485e-11,-2.8979485e-11,True
+per-stroke gain,peak_db,0,6.1262106e-11,-8.8817842e-16,True
+per-stroke gain,accent (summary d_accent_all),0.89325753,7.6179063e-12,0.89325753,True

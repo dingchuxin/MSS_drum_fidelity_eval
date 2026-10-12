@@ -1,0 +1,39 @@
+excerpt,track,t0_s,model,t_ref_s,full_dev_ms,full_status,t_extra_s
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,33.1150,0.2751,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,33.5953,-1.6387,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,34.0733,0.5368,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,34.3174,-11.2101,displaced,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,34.5612,-16.4511,displaced,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,35.0341,0.3515,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,35.5159,-1.3740,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,35.9938,1.0323,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,,,extra,33.8257
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,,,extra,34.6960
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_spleeter,,,extra,35.7459
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_htdemucs,33.1150,-0.2231,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_htdemucs,33.5953,-0.7867,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_htdemucs,34.0733,-0.4209,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_htdemucs,34.3174,21.1649,displaced,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_htdemucs,34.5612,-2.2608,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_htdemucs,35.0341,-0.4951,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_htdemucs,35.5159,-1.7200,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_htdemucs,35.9938,0.8069,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_bs_roformer,33.1150,-1.1093,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_bs_roformer,33.5953,-1.3274,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_bs_roformer,34.0733,-0.7443,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_bs_roformer,34.3174,-1.4335,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_bs_roformer,34.5612,-1.2561,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_bs_roformer,35.0341,-0.9890,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_bs_roformer,35.5159,-1.3664,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_bs_roformer,35.9938,-0.4114,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_bs_roformer,,,extra,34.8202
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_scnet,33.1150,-0.4071,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_scnet,33.5953,-0.4752,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_scnet,34.0733,0.0528,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_scnet,34.3174,22.2528,displaced,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_scnet,34.5612,-2.5146,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_scnet,35.0341,-0.3545,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_scnet,35.5159,-0.3008,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_scnet,35.9938,-0.1623,within 10 ms,
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_scnet,,,extra,33.8223
+current,James Elder & Mark M Thompson - The English Actor,33.0000,v1_scnet,,,extra,35.7400

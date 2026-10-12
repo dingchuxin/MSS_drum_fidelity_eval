@@ -1,0 +1,396 @@
+variant,signal,measure,p2,variant_value,rel_change,flag_rel_gt_20pct,flag_sign,flag_rank,flag_significance,flagged
+rise,v1_spleeter,median_abs_dev_ms,2.2606,3.8969,0.72383,True,False,False,,True
+rise,v1_htdemucs,median_abs_dev_ms,1.1783,1.9131,0.62367,True,False,True,,True
+rise,v1_bs_roformer,median_abs_dev_ms,1.0062,1.669,0.65866,True,False,True,,True
+rise,v1_scnet,median_abs_dev_ms,1.1659,1.4528,0.24612,True,False,True,,True
+rise,htdemucs_b1,median_abs_dev_ms,1.208,1.9064,0.5782,True,False,True,,True
+rise,floor_white_40dB,median_abs_dev_ms,0.12052,0.12533,0.039932,False,False,False,,False
+rise,floor_white_30dB,median_abs_dev_ms,0.72131,0.8979,0.24482,True,False,False,,True
+rise,floor_white_20dB,median_abs_dev_ms,2.0929,2.3431,0.11957,False,False,False,,False
+rise,floor_leak_30dB,median_abs_dev_ms,0.22052,0.26984,0.22366,True,False,False,,True
+rise,floor_leak_20dB,median_abs_dev_ms,0.65652,0.72261,0.10067,False,False,False,,False
+rise,v1_spleeter,median_dev_ms,0.99802,0.38494,-0.61429,True,False,False,,True
+rise,v1_htdemucs,median_dev_ms,0.16648,-1.1271,-7.7701,True,True,False,,True
+rise,v1_bs_roformer,median_dev_ms,-0.49407,-1.311,-1.6534,True,False,False,,True
+rise,v1_scnet,median_dev_ms,0.098632,-0.76723,-8.7787,True,True,True,,True
+rise,htdemucs_b1,median_dev_ms,0.16973,-1.1272,-7.6414,True,True,True,,True
+rise,floor_white_40dB,median_dev_ms,0.064644,0.061335,-0.051197,False,False,False,,False
+rise,floor_white_30dB,median_dev_ms,0.69113,0.84965,0.22936,True,False,False,,True
+rise,floor_white_20dB,median_dev_ms,2.0856,2.1738,0.042299,False,False,False,,False
+rise,floor_leak_30dB,median_dev_ms,0.16869,0.16084,-0.046527,False,False,False,,False
+rise,floor_leak_20dB,median_dev_ms,0.55662,0.46108,-0.17165,False,False,False,,False
+rise,v1_spleeter,share_gt_5ms,0.20509,0.42079,1.0517,True,False,False,,True
+rise,v1_htdemucs,share_gt_5ms,0.080819,0.13746,0.7009,True,False,False,,True
+rise,v1_bs_roformer,share_gt_5ms,0.045571,0.081756,0.79404,True,False,False,,True
+rise,v1_scnet,share_gt_5ms,0.070623,0.087251,0.23544,True,False,False,,True
+rise,htdemucs_b1,share_gt_5ms,0.074116,0.13497,0.82107,True,False,False,,True
+rise,floor_white_40dB,share_gt_5ms,0.0010448,0,-1,True,False,False,,True
+rise,floor_white_30dB,share_gt_5ms,0.0076073,0.0046759,-0.38533,True,False,False,,True
+rise,floor_white_20dB,share_gt_5ms,0.10547,0.0853,-0.19122,False,False,False,,False
+rise,floor_leak_30dB,share_gt_5ms,0.0028631,0.0017311,-0.39539,True,False,False,,True
+rise,floor_leak_20dB,share_gt_5ms,0.014765,0.015142,0.025485,False,False,False,,False
+rise,v1_spleeter,share_gt_8ms,0.14699,0.24516,0.66787,True,False,False,,True
+rise,v1_htdemucs,share_gt_8ms,0.04138,0.053487,0.29259,True,False,True,,True
+rise,v1_bs_roformer,share_gt_8ms,0.022728,0.017444,-0.23249,True,False,False,,True
+rise,v1_scnet,share_gt_8ms,0.02772,0.037234,0.34318,True,False,False,,True
+rise,htdemucs_b1,share_gt_8ms,0.043556,0.052233,0.1992,False,False,True,,True
+rise,floor_white_40dB,share_gt_8ms,0.00090002,0,-1,True,False,False,,True
+rise,floor_white_30dB,share_gt_8ms,0.0049682,0.0017228,-0.65324,True,False,False,,True
+rise,floor_white_20dB,share_gt_8ms,0.031722,0.0088343,-0.72151,True,False,False,,True
+rise,floor_leak_30dB,share_gt_8ms,0.0014689,0,-1,True,False,False,,True
+rise,floor_leak_20dB,share_gt_8ms,0.007189,0.0041974,-0.41614,True,False,False,,True
+rise,v1_spleeter,share_gt_10ms,0.1352,0.18519,0.36971,True,False,False,,True
+rise,v1_htdemucs,share_gt_10ms,0.029268,0.039598,0.35291,True,False,True,,True
+rise,v1_bs_roformer,share_gt_10ms,0.018206,0.010987,-0.39655,True,False,False,,True
+rise,v1_scnet,share_gt_10ms,0.02404,0.020475,-0.14828,False,False,False,,False
+rise,htdemucs_b1,share_gt_10ms,0.033039,0.037138,0.12404,False,False,True,,True
+rise,floor_white_40dB,share_gt_10ms,0.00080325,0,-1,True,False,False,,True
+rise,floor_white_30dB,share_gt_10ms,0.0029876,0.0014605,-0.51114,True,False,False,,True
+rise,floor_white_20dB,share_gt_10ms,0.011725,0.0050148,-0.5723,True,False,False,,True
+rise,floor_leak_30dB,share_gt_10ms,0.00090768,0,-1,True,False,False,,True
+rise,floor_leak_20dB,share_gt_10ms,0.0035649,0.0020145,-0.43489,True,False,False,,True
+rise,v1_spleeter,share_gt_14ms,0.084684,0.1198,0.41465,True,False,False,,True
+rise,v1_htdemucs,share_gt_14ms,0.017692,0.012993,-0.2656,True,False,True,,True
+rise,v1_bs_roformer,share_gt_14ms,0.0071995,0.0057366,-0.20319,True,False,False,,True
+rise,v1_scnet,share_gt_14ms,0.013207,0.0084434,-0.36069,True,False,False,,True
+rise,htdemucs_b1,share_gt_14ms,0.017249,0.014861,-0.13842,False,False,True,,True
+rise,floor_white_40dB,share_gt_14ms,0,0,,False,False,False,,False
+rise,floor_white_30dB,share_gt_14ms,0.0028056,0.0010713,-0.61815,True,False,False,,True
+rise,floor_white_20dB,share_gt_14ms,0.0071123,0.0022823,-0.67911,True,False,False,,True
+rise,floor_leak_30dB,share_gt_14ms,0.00041017,0,-1,True,False,False,,True
+rise,floor_leak_20dB,share_gt_14ms,0.0025127,0.0010303,-0.58996,True,False,False,,True
+rise,v1_spleeter,share_gt_20ms,0.054576,0.070209,0.28645,True,False,False,,True
+rise,v1_htdemucs,share_gt_20ms,0.0069717,0.0047208,-0.32286,True,False,False,,True
+rise,v1_bs_roformer,share_gt_20ms,0.0032311,0.002096,-0.3513,True,False,False,,True
+rise,v1_scnet,share_gt_20ms,0.005645,0.0038496,-0.31804,True,False,False,,True
+rise,htdemucs_b1,share_gt_20ms,0.0072491,0.0049717,-0.31416,True,False,False,,True
+rise,floor_white_40dB,share_gt_20ms,0,0,,False,False,False,,False
+rise,floor_white_30dB,share_gt_20ms,0.0011306,0.00095404,-0.15616,False,False,False,,False
+rise,floor_white_20dB,share_gt_20ms,0.0027672,0.0018634,-0.32663,True,False,False,,True
+rise,floor_leak_30dB,share_gt_20ms,0,0,,False,False,False,,False
+rise,floor_leak_20dB,share_gt_20ms,0.0011766,0.00049554,-0.57884,True,False,False,,True
+rise,v1_spleeter,share_ref_unmatched,0.13417,0.13624,0.015466,False,False,False,,False
+rise,v1_htdemucs,share_ref_unmatched,0.051278,0.049628,-0.032181,False,False,False,,False
+rise,v1_bs_roformer,share_ref_unmatched,0.027149,0.027454,0.011234,False,False,False,,False
+rise,v1_scnet,share_ref_unmatched,0.03434,0.03434,0,False,False,False,,False
+rise,htdemucs_b1,share_ref_unmatched,0.050601,0.049303,-0.025645,False,False,False,,False
+rise,floor_white_40dB,share_ref_unmatched,0.0027088,0.0027088,0,False,False,False,,False
+rise,floor_white_30dB,share_ref_unmatched,0.012406,0.012223,-0.014677,False,False,False,,False
+rise,floor_white_20dB,share_ref_unmatched,0.040696,0.040696,0,False,False,False,,False
+rise,floor_leak_30dB,share_ref_unmatched,0.0040147,0.0054156,0.34894,True,False,False,,True
+rise,floor_leak_20dB,share_ref_unmatched,0.015867,0.015859,-0.0004761,False,False,False,,False
+rise,v1_spleeter,share_est_unmatched,0.12384,0.17177,0.38702,True,False,False,,True
+rise,v1_htdemucs,share_est_unmatched,0.039419,0.039419,0,False,False,False,,False
+rise,v1_bs_roformer,share_est_unmatched,0.043355,0.043355,0,False,False,False,,False
+rise,v1_scnet,share_est_unmatched,0.038541,0.038511,-0.00078741,False,False,False,,False
+rise,htdemucs_b1,share_est_unmatched,0.038928,0.038928,0,False,False,False,,False
+rise,floor_white_40dB,share_est_unmatched,0.0040391,0.0040391,0,False,False,False,,False
+rise,floor_white_30dB,share_est_unmatched,0.019127,0.019535,0.021314,False,False,False,,False
+rise,floor_white_20dB,share_est_unmatched,0.027211,0.028427,0.044684,False,False,False,,False
+rise,floor_leak_30dB,share_est_unmatched,0.011789,0.012146,0.030311,False,False,False,,False
+rise,floor_leak_20dB,share_est_unmatched,0.039254,0.037879,-0.035046,False,False,False,,False
+rise,v1_spleeter,f_5ms,0.65445,0.49348,-0.24596,True,False,False,,True
+rise,v1_htdemucs,f_5ms,0.86145,0.7976,-0.074112,False,False,False,,False
+rise,v1_bs_roformer,f_5ms,0.89089,0.86693,-0.026897,False,False,False,,False
+rise,v1_scnet,f_5ms,0.89003,0.83755,-0.058962,False,False,False,,False
+rise,htdemucs_b1,f_5ms,0.86272,0.80098,-0.071566,False,False,False,,False
+rise,floor_white_40dB,f_5ms,0.99389,0.99381,-7.4725e-05,False,False,False,,False
+rise,floor_white_30dB,f_5ms,0.96387,0.96863,0.0049438,False,False,False,,False
+rise,floor_white_20dB,f_5ms,0.8331,0.86619,0.03971,False,False,False,,False
+rise,floor_leak_30dB,f_5ms,0.98299,0.98524,0.0022886,False,False,False,,False
+rise,floor_leak_20dB,f_5ms,0.94144,0.94337,0.0020453,False,False,False,,False
+rise,v1_spleeter,f_10ms,0.72048,0.65575,-0.089851,False,False,False,,False
+rise,v1_htdemucs,f_10ms,0.89604,0.88969,-0.007087,False,False,True,,True
+rise,v1_bs_roformer,f_10ms,0.92153,0.92957,0.0087218,False,False,False,,False
+rise,v1_scnet,f_10ms,0.91486,0.90944,-0.0059173,False,False,False,,False
+rise,htdemucs_b1,f_10ms,0.89724,0.88687,-0.011564,False,False,True,,True
+rise,floor_white_40dB,f_10ms,0.99413,0.99469,0.00056176,False,False,False,,False
+rise,floor_white_30dB,f_10ms,0.97051,0.97552,0.0051655,False,False,False,,False
+rise,floor_white_20dB,f_10ms,0.92708,0.93731,0.011036,False,False,False,,False
+rise,floor_leak_30dB,f_10ms,0.98444,0.98755,0.0031574,False,False,False,,False
+rise,floor_leak_20dB,f_10ms,0.95329,0.95516,0.0019586,False,False,False,,False
+rise,v1_spleeter,f_20ms,0.76661,0.73203,-0.045108,False,False,False,,False
+rise,v1_htdemucs,f_20ms,0.92094,0.9217,0.00082633,False,False,True,,True
+rise,v1_bs_roformer,f_20ms,0.94502,0.94502,0,False,False,False,,False
+rise,v1_scnet,f_20ms,0.93415,0.93282,-0.0014233,False,False,False,,False
+rise,htdemucs_b1,f_20ms,0.92104,0.92136,0.00033879,False,False,True,,True
+rise,floor_white_40dB,f_20ms,0.99567,0.99609,0.00042086,False,False,False,,False
+rise,floor_white_30dB,f_20ms,0.97629,0.97698,0.00070675,False,False,False,,False
+rise,floor_white_20dB,f_20ms,0.94362,0.94362,0,False,False,False,,False
+rise,floor_leak_30dB,f_20ms,0.98739,0.98848,0.0010999,False,False,False,,False
+rise,floor_leak_20dB,f_20ms,0.96158,0.96387,0.0023832,False,False,False,,False
+rise,v1_spleeter,f_50ms,0.83198,0.81288,-0.022955,False,False,False,,False
+rise,v1_htdemucs,f_50ms,0.93246,0.9317,-0.00081865,False,False,False,,False
+rise,v1_bs_roformer,f_50ms,0.95076,0.95024,-0.0005426,False,False,False,,False
+rise,v1_scnet,f_50ms,0.94002,0.93956,-0.00049197,False,False,False,,False
+rise,htdemucs_b1,f_50ms,0.93304,0.93228,-0.00081877,False,False,False,,False
+rise,floor_white_40dB,f_50ms,0.99678,0.99655,-0.00022852,False,False,False,,False
+rise,floor_white_30dB,f_50ms,0.97925,0.97862,-0.0006518,False,False,False,,False
+rise,floor_white_20dB,f_50ms,0.95754,0.9571,-0.00045152,False,False,False,,False
+rise,floor_leak_30dB,f_50ms,0.98882,0.98882,0,False,False,False,,False
+rise,floor_leak_20dB,f_50ms,0.9685,0.9685,0,False,False,False,,False
+rise,v1_spleeter,logit FE OR env_strength,0.65215,0.67841,0.040267,False,False,False,False,False
+rise,v1_htdemucs,logit FE OR env_strength,0.45542,0.49698,0.091266,False,False,False,False,False
+rise,v1_bs_roformer,logit FE OR env_strength,0.38484,0.40776,0.059542,False,False,False,False,False
+rise,v1_scnet,logit FE OR env_strength,0.40941,0.43116,0.05313,False,False,False,False,False
+rise,htdemucs_b1,logit FE OR env_strength,0.44634,0.49094,0.099912,False,False,False,False,False
+rise,v1_spleeter,logit FE OR sim_any,1.4707,1.5746,0.070618,False,False,False,False,False
+rise,v1_htdemucs,logit FE OR sim_any,1.4268,1.6449,0.15283,False,False,False,False,False
+rise,v1_bs_roformer,logit FE OR sim_any,1.6567,1.701,0.026757,False,False,False,False,False
+rise,v1_scnet,logit FE OR sim_any,1.5852,2.0844,0.31489,True,False,False,False,True
+rise,htdemucs_b1,logit FE OR sim_any,1.4392,1.6928,0.1762,False,False,False,False,False
+rise,v1_spleeter,logit FE OR log10_ioi_min_ms,1.2262,1.1736,-0.042947,False,False,False,False,False
+rise,v1_htdemucs,logit FE OR log10_ioi_min_ms,1.2674,1.21,-0.045283,False,False,False,False,False
+rise,v1_bs_roformer,logit FE OR log10_ioi_min_ms,1.3875,1.4172,0.021393,False,False,False,False,False
+rise,v1_scnet,logit FE OR log10_ioi_min_ms,1.3023,1.2405,-0.04745,False,False,False,False,False
+rise,htdemucs_b1,logit FE OR log10_ioi_min_ms,1.2809,1.2286,-0.04082,False,False,False,False,False
+energy,v1_spleeter,median_abs_dev_ms,2.2606,0.57245,-0.74677,True,False,False,,True
+energy,v1_htdemucs,median_abs_dev_ms,1.1783,0.25962,-0.77966,True,False,True,,True
+energy,v1_bs_roformer,median_abs_dev_ms,1.0062,0.17265,-0.82842,True,False,False,,True
+energy,v1_scnet,median_abs_dev_ms,1.1659,0.17505,-0.84986,True,False,False,,True
+energy,htdemucs_b1,median_abs_dev_ms,1.208,0.25176,-0.79158,True,False,True,,True
+energy,floor_white_40dB,median_abs_dev_ms,0.12052,0.0010018,-0.99169,True,False,False,,True
+energy,floor_white_30dB,median_abs_dev_ms,0.72131,0.0031475,-0.99564,True,False,False,,True
+energy,floor_white_20dB,median_abs_dev_ms,2.0929,0.010176,-0.99514,True,False,False,,True
+energy,floor_leak_30dB,median_abs_dev_ms,0.22052,0.0098446,-0.95536,True,False,False,,True
+energy,floor_leak_20dB,median_abs_dev_ms,0.65652,0.033508,-0.94896,True,False,False,,True
+energy,v1_spleeter,median_dev_ms,0.99802,0.022436,-0.97752,True,False,True,,True
+energy,v1_htdemucs,median_dev_ms,0.16648,0.030519,-0.81668,True,False,True,,True
+energy,v1_bs_roformer,median_dev_ms,-0.49407,0.021748,1.044,True,True,True,,True
+energy,v1_scnet,median_dev_ms,0.098632,0.017223,-0.82538,True,False,True,,True
+energy,htdemucs_b1,median_dev_ms,0.16973,0.032707,-0.8073,True,False,True,,True
+energy,floor_white_40dB,median_dev_ms,0.064644,1.2258e-05,-0.99981,True,False,False,,True
+energy,floor_white_30dB,median_dev_ms,0.69113,5.4763e-05,-0.99992,True,False,False,,True
+energy,floor_white_20dB,median_dev_ms,2.0856,0.00028883,-0.99986,True,False,False,,True
+energy,floor_leak_30dB,median_dev_ms,0.16869,0,-1,True,False,False,,True
+energy,floor_leak_20dB,median_dev_ms,0.55662,0.00028259,-0.99949,True,False,False,,True
+energy,v1_spleeter,share_gt_5ms,0.20509,0.30072,0.46629,True,False,False,,True
+energy,v1_htdemucs,share_gt_5ms,0.080819,0.17499,1.1652,True,False,False,,True
+energy,v1_bs_roformer,share_gt_5ms,0.045571,0.14051,2.0833,True,False,False,,True
+energy,v1_scnet,share_gt_5ms,0.070623,0.14583,1.0649,True,False,False,,True
+energy,htdemucs_b1,share_gt_5ms,0.074116,0.1673,1.2573,True,False,False,,True
+energy,floor_white_40dB,share_gt_5ms,0.0010448,0.0036147,2.4596,True,False,False,,True
+energy,floor_white_30dB,share_gt_5ms,0.0076073,0.012803,0.68301,True,False,False,,True
+energy,floor_white_20dB,share_gt_5ms,0.10547,0.025134,-0.76168,True,False,False,,True
+energy,floor_leak_30dB,share_gt_5ms,0.0028631,0.02335,7.1555,True,False,False,,True
+energy,floor_leak_20dB,share_gt_5ms,0.014765,0.066642,3.5134,True,False,False,,True
+energy,v1_spleeter,share_gt_8ms,0.14699,0.23173,0.57647,True,False,False,,True
+energy,v1_htdemucs,share_gt_8ms,0.04138,0.14058,2.3974,True,False,True,,True
+energy,v1_bs_roformer,share_gt_8ms,0.022728,0.11194,3.9251,True,False,False,,True
+energy,v1_scnet,share_gt_8ms,0.02772,0.12026,3.3384,True,False,False,,True
+energy,htdemucs_b1,share_gt_8ms,0.043556,0.13583,2.1184,True,False,True,,True
+energy,floor_white_40dB,share_gt_8ms,0.00090002,0.0027101,2.0111,True,False,False,,True
+energy,floor_white_30dB,share_gt_8ms,0.0049682,0.010967,1.2074,True,False,False,,True
+energy,floor_white_20dB,share_gt_8ms,0.031722,0.02018,-0.36384,True,False,False,,True
+energy,floor_leak_30dB,share_gt_8ms,0.0014689,0.02049,12.949,True,False,False,,True
+energy,floor_leak_20dB,share_gt_8ms,0.007189,0.054303,6.5536,True,False,False,,True
+energy,v1_spleeter,share_gt_10ms,0.1352,0.21021,0.5548,True,False,False,,True
+energy,v1_htdemucs,share_gt_10ms,0.029268,0.12002,3.1008,True,False,True,,True
+energy,v1_bs_roformer,share_gt_10ms,0.018206,0.092778,4.0959,True,False,False,,True
+energy,v1_scnet,share_gt_10ms,0.02404,0.10172,3.2312,True,False,False,,True
+energy,htdemucs_b1,share_gt_10ms,0.033039,0.11635,2.5215,True,False,True,,True
+energy,floor_white_40dB,share_gt_10ms,0.00080325,0.0016461,1.0493,True,False,False,,True
+energy,floor_white_30dB,share_gt_10ms,0.0029876,0.0067005,1.2428,True,False,False,,True
+energy,floor_white_20dB,share_gt_10ms,0.011725,0.015797,0.34726,True,False,False,,True
+energy,floor_leak_30dB,share_gt_10ms,0.00090768,0.016004,16.632,True,False,False,,True
+energy,floor_leak_20dB,share_gt_10ms,0.0035649,0.039121,9.9741,True,False,False,,True
+energy,v1_spleeter,share_gt_14ms,0.084684,0.16254,0.91932,True,False,False,,True
+energy,v1_htdemucs,share_gt_14ms,0.017692,0.093392,4.2787,True,False,True,,True
+energy,v1_bs_roformer,share_gt_14ms,0.0071995,0.071943,8.9927,True,False,False,,True
+energy,v1_scnet,share_gt_14ms,0.013207,0.078695,4.9586,True,False,False,,True
+energy,htdemucs_b1,share_gt_14ms,0.017249,0.093686,4.4313,True,False,True,,True
+energy,floor_white_40dB,share_gt_14ms,0,0.0013943,,False,False,False,,False
+energy,floor_white_30dB,share_gt_14ms,0.0028056,0.00478,0.70377,True,False,False,,True
+energy,floor_white_20dB,share_gt_14ms,0.0071123,0.013343,0.87606,True,False,False,,True
+energy,floor_leak_30dB,share_gt_14ms,0.00041017,0.010265,24.027,True,False,False,,True
+energy,floor_leak_20dB,share_gt_14ms,0.0025127,0.032671,12.002,True,False,False,,True
+energy,v1_spleeter,share_gt_20ms,0.054576,0.11153,1.0435,True,False,False,,True
+energy,v1_htdemucs,share_gt_20ms,0.0069717,0.067067,8.6199,True,False,True,,True
+energy,v1_bs_roformer,share_gt_20ms,0.0032311,0.039298,11.162,True,False,False,,True
+energy,v1_scnet,share_gt_20ms,0.005645,0.04934,7.7405,True,False,False,,True
+energy,htdemucs_b1,share_gt_20ms,0.0072491,0.060413,7.3339,True,False,True,,True
+energy,floor_white_40dB,share_gt_20ms,0,0.0011143,,False,False,False,,False
+energy,floor_white_30dB,share_gt_20ms,0.0011306,0.0033651,1.9764,True,False,False,,True
+energy,floor_white_20dB,share_gt_20ms,0.0027672,0.0091759,2.3159,True,False,False,,True
+energy,floor_leak_30dB,share_gt_20ms,0,0.0054596,,False,False,False,,False
+energy,floor_leak_20dB,share_gt_20ms,0.0011766,0.021414,17.2,True,False,False,,True
+energy,v1_spleeter,share_ref_unmatched,0.13417,0.13695,0.020729,False,False,False,,False
+energy,v1_htdemucs,share_ref_unmatched,0.051278,0.053107,0.035657,False,False,False,,False
+energy,v1_bs_roformer,share_ref_unmatched,0.027149,0.028594,0.053236,False,False,False,,False
+energy,v1_scnet,share_ref_unmatched,0.03434,0.034796,0.013279,False,False,False,,False
+energy,htdemucs_b1,share_ref_unmatched,0.050601,0.052496,0.037453,False,False,False,,False
+energy,floor_white_40dB,share_ref_unmatched,0.0027088,0.0031671,0.16918,False,False,False,,False
+energy,floor_white_30dB,share_ref_unmatched,0.012406,0.011945,-0.037135,False,False,False,,False
+energy,floor_white_20dB,share_ref_unmatched,0.040696,0.042825,0.052303,False,False,False,,False
+energy,floor_leak_30dB,share_ref_unmatched,0.0040147,0.0051455,0.28166,True,False,False,,True
+energy,floor_leak_20dB,share_ref_unmatched,0.015867,0.016816,0.059825,False,False,False,,False
+energy,v1_spleeter,share_est_unmatched,0.12384,0.071652,-0.42142,True,False,False,,True
+energy,v1_htdemucs,share_est_unmatched,0.039419,0.039734,0.0079891,False,False,True,,True
+energy,v1_bs_roformer,share_est_unmatched,0.043355,0.043992,0.014711,False,False,True,,True
+energy,v1_scnet,share_est_unmatched,0.038541,0.042233,0.095802,False,False,True,,True
+energy,htdemucs_b1,share_est_unmatched,0.038928,0.044093,0.13269,False,False,True,,True
+energy,floor_white_40dB,share_est_unmatched,0.0040391,0.0031893,-0.2104,True,False,False,,True
+energy,floor_white_30dB,share_est_unmatched,0.019127,0.019669,0.028316,False,False,False,,False
+energy,floor_white_20dB,share_est_unmatched,0.027211,0.027256,0.0016482,False,False,False,,False
+energy,floor_leak_30dB,share_est_unmatched,0.011789,0.011468,-0.027201,False,False,False,,False
+energy,floor_leak_20dB,share_est_unmatched,0.039254,0.038427,-0.021079,False,False,False,,False
+energy,v1_spleeter,f_5ms,0.65445,0.60238,-0.079559,False,False,False,,False
+energy,v1_htdemucs,f_5ms,0.86145,0.77267,-0.10305,False,False,False,,False
+energy,v1_bs_roformer,f_5ms,0.89089,0.80937,-0.091508,False,False,False,,False
+energy,v1_scnet,f_5ms,0.89003,0.80207,-0.098828,False,False,False,,False
+energy,htdemucs_b1,f_5ms,0.86272,0.77863,-0.097473,False,False,False,,False
+energy,floor_white_40dB,f_5ms,0.99389,0.98921,-0.0047059,False,False,False,,False
+energy,floor_white_30dB,f_5ms,0.96387,0.96909,0.0054209,False,False,False,,False
+energy,floor_white_20dB,f_5ms,0.8331,0.92803,0.11395,False,False,False,,False
+energy,floor_leak_30dB,f_5ms,0.98299,0.96242,-0.020929,False,False,False,,False
+energy,floor_leak_20dB,f_5ms,0.94144,0.90399,-0.039785,False,False,False,,False
+energy,v1_spleeter,f_10ms,0.72048,0.68245,-0.052785,False,False,False,,False
+energy,v1_htdemucs,f_10ms,0.89604,0.81001,-0.096014,False,False,False,,False
+energy,v1_bs_roformer,f_10ms,0.92153,0.85326,-0.074084,False,False,False,,False
+energy,v1_scnet,f_10ms,0.91486,0.84755,-0.073569,False,False,False,,False
+energy,htdemucs_b1,f_10ms,0.89724,0.81292,-0.093981,False,False,False,,False
+energy,floor_white_40dB,f_10ms,0.99413,0.99282,-0.0013188,False,False,False,,False
+energy,floor_white_30dB,f_10ms,0.97051,0.9699,-0.0006316,False,False,False,,False
+energy,floor_white_20dB,f_10ms,0.92708,0.9375,0.01123,False,False,False,,False
+energy,floor_leak_30dB,f_10ms,0.98444,0.97009,-0.014576,False,False,False,,False
+energy,floor_leak_20dB,f_10ms,0.95329,0.92255,-0.032243,False,False,False,,False
+energy,v1_spleeter,f_20ms,0.76661,0.77247,0.0076428,False,False,False,,False
+energy,v1_htdemucs,f_20ms,0.92094,0.8709,-0.054337,False,False,False,,False
+energy,v1_bs_roformer,f_20ms,0.94502,0.90736,-0.039851,False,False,False,,False
+energy,v1_scnet,f_20ms,0.93415,0.8988,-0.037832,False,False,False,,False
+energy,htdemucs_b1,f_20ms,0.92104,0.87415,-0.050911,False,False,False,,False
+energy,floor_white_40dB,f_20ms,0.99567,0.99375,-0.001928,False,False,False,,False
+energy,floor_white_30dB,f_20ms,0.97629,0.97419,-0.0021488,False,False,False,,False
+energy,floor_white_20dB,f_20ms,0.94362,0.94234,-0.0013532,False,False,False,,False
+energy,floor_leak_30dB,f_20ms,0.98739,0.98032,-0.0071577,False,False,False,,False
+energy,floor_leak_20dB,f_20ms,0.96158,0.94874,-0.013346,False,False,False,,False
+energy,v1_spleeter,f_50ms,0.83198,0.86832,0.043683,False,False,False,,False
+energy,v1_htdemucs,f_50ms,0.93246,0.93736,0.0052487,False,False,False,,False
+energy,v1_bs_roformer,f_50ms,0.95076,0.94938,-0.0014493,False,False,False,,False
+energy,v1_scnet,f_50ms,0.94002,0.94191,0.0020112,False,False,False,,False
+energy,htdemucs_b1,f_50ms,0.93304,0.93872,0.0060917,False,False,False,,False
+energy,floor_white_40dB,f_50ms,0.99678,0.99648,-0.00029702,False,False,False,,False
+energy,floor_white_30dB,f_50ms,0.97925,0.97971,0.00046401,False,False,False,,False
+energy,floor_white_20dB,f_50ms,0.95754,0.95852,0.0010322,False,False,False,,False
+energy,floor_leak_30dB,f_50ms,0.98882,0.9883,-0.00052508,False,False,False,,False
+energy,floor_leak_20dB,f_50ms,0.9685,0.96894,0.00046343,False,False,False,,False
+energy,v1_spleeter,logit FE OR env_strength,0.65215,0.94864,0.45464,True,False,False,True,True
+energy,v1_htdemucs,logit FE OR env_strength,0.45542,0.99761,1.1905,True,False,False,True,True
+energy,v1_bs_roformer,logit FE OR env_strength,0.38484,0.9836,1.5558,True,False,False,True,True
+energy,v1_scnet,logit FE OR env_strength,0.40941,0.99138,1.4215,True,False,False,True,True
+energy,htdemucs_b1,logit FE OR env_strength,0.44634,0.99243,1.2235,True,False,False,True,True
+energy,v1_spleeter,logit FE OR sim_any,1.4707,1.1731,-0.20237,True,False,False,False,True
+energy,v1_htdemucs,logit FE OR sim_any,1.4268,1.3145,-0.078693,False,False,False,False,False
+energy,v1_bs_roformer,logit FE OR sim_any,1.6567,1.3729,-0.17132,False,False,False,False,False
+energy,v1_scnet,logit FE OR sim_any,1.5852,1.4801,-0.06627,False,False,False,False,False
+energy,htdemucs_b1,logit FE OR sim_any,1.4392,1.319,-0.083537,False,False,False,False,False
+energy,v1_spleeter,logit FE OR log10_ioi_min_ms,1.2262,0.96323,-0.21448,True,True,False,True,True
+energy,v1_htdemucs,logit FE OR log10_ioi_min_ms,1.2674,0.9967,-0.21361,True,True,False,True,True
+energy,v1_bs_roformer,logit FE OR log10_ioi_min_ms,1.3875,1.026,-0.26053,True,False,False,True,True
+energy,v1_scnet,logit FE OR log10_ioi_min_ms,1.3023,0.99105,-0.23899,True,True,False,True,True
+energy,htdemucs_b1,logit FE OR log10_ioi_min_ms,1.2809,1.0006,-0.21885,True,False,False,True,True
+hungarian,v1_spleeter,median_abs_dev_ms,2.2606,2.2644,0.0016703,False,False,False,,False
+hungarian,v1_htdemucs,median_abs_dev_ms,1.1783,1.1783,0,False,False,False,,False
+hungarian,v1_bs_roformer,median_abs_dev_ms,1.0062,1.0062,0,False,False,False,,False
+hungarian,v1_scnet,median_abs_dev_ms,1.1659,1.1659,0,False,False,False,,False
+hungarian,htdemucs_b1,median_abs_dev_ms,1.208,1.208,0,False,False,False,,False
+hungarian,floor_white_40dB,median_abs_dev_ms,0.12052,0.12052,0,False,False,False,,False
+hungarian,floor_white_30dB,median_abs_dev_ms,0.72131,0.72131,0,False,False,False,,False
+hungarian,floor_white_20dB,median_abs_dev_ms,2.0929,2.0929,0,False,False,False,,False
+hungarian,floor_leak_30dB,median_abs_dev_ms,0.22052,0.22052,0,False,False,False,,False
+hungarian,floor_leak_20dB,median_abs_dev_ms,0.65652,0.65652,0,False,False,False,,False
+hungarian,v1_spleeter,median_dev_ms,0.99802,0.99863,0.00061995,False,False,False,,False
+hungarian,v1_htdemucs,median_dev_ms,0.16648,0.16648,0,False,False,False,,False
+hungarian,v1_bs_roformer,median_dev_ms,-0.49407,-0.49407,0,False,False,False,,False
+hungarian,v1_scnet,median_dev_ms,0.098632,0.098632,0,False,False,False,,False
+hungarian,htdemucs_b1,median_dev_ms,0.16973,0.16973,0,False,False,False,,False
+hungarian,floor_white_40dB,median_dev_ms,0.064644,0.064644,0,False,False,False,,False
+hungarian,floor_white_30dB,median_dev_ms,0.69113,0.69113,0,False,False,False,,False
+hungarian,floor_white_20dB,median_dev_ms,2.0856,2.0856,0,False,False,False,,False
+hungarian,floor_leak_30dB,median_dev_ms,0.16869,0.16869,0,False,False,False,,False
+hungarian,floor_leak_20dB,median_dev_ms,0.55662,0.55662,0,False,False,False,,False
+hungarian,v1_spleeter,share_gt_5ms,0.20509,0.20509,0,False,False,False,,False
+hungarian,v1_htdemucs,share_gt_5ms,0.080819,0.080964,0.0017971,False,False,False,,False
+hungarian,v1_bs_roformer,share_gt_5ms,0.045571,0.045571,0,False,False,False,,False
+hungarian,v1_scnet,share_gt_5ms,0.070623,0.070623,0,False,False,False,,False
+hungarian,htdemucs_b1,share_gt_5ms,0.074116,0.074116,0,False,False,False,,False
+hungarian,floor_white_40dB,share_gt_5ms,0.0010448,0.0010448,0,False,False,False,,False
+hungarian,floor_white_30dB,share_gt_5ms,0.0076073,0.0076073,0,False,False,False,,False
+hungarian,floor_white_20dB,share_gt_5ms,0.10547,0.10547,0,False,False,False,,False
+hungarian,floor_leak_30dB,share_gt_5ms,0.0028631,0.0028631,0,False,False,False,,False
+hungarian,floor_leak_20dB,share_gt_5ms,0.014765,0.014765,0,False,False,False,,False
+hungarian,v1_spleeter,share_gt_8ms,0.14699,0.14699,0,False,False,False,,False
+hungarian,v1_htdemucs,share_gt_8ms,0.04138,0.04138,0,False,False,False,,False
+hungarian,v1_bs_roformer,share_gt_8ms,0.022728,0.022728,0,False,False,False,,False
+hungarian,v1_scnet,share_gt_8ms,0.02772,0.02772,0,False,False,False,,False
+hungarian,htdemucs_b1,share_gt_8ms,0.043556,0.043556,0,False,False,False,,False
+hungarian,floor_white_40dB,share_gt_8ms,0.00090002,0.00090002,0,False,False,False,,False
+hungarian,floor_white_30dB,share_gt_8ms,0.0049682,0.0049682,0,False,False,False,,False
+hungarian,floor_white_20dB,share_gt_8ms,0.031722,0.031722,0,False,False,False,,False
+hungarian,floor_leak_30dB,share_gt_8ms,0.0014689,0.0014689,0,False,False,False,,False
+hungarian,floor_leak_20dB,share_gt_8ms,0.007189,0.007189,0,False,False,False,,False
+hungarian,v1_spleeter,share_gt_10ms,0.1352,0.1352,0,False,False,False,,False
+hungarian,v1_htdemucs,share_gt_10ms,0.029268,0.029268,0,False,False,False,,False
+hungarian,v1_bs_roformer,share_gt_10ms,0.018206,0.018206,0,False,False,False,,False
+hungarian,v1_scnet,share_gt_10ms,0.02404,0.02404,0,False,False,False,,False
+hungarian,htdemucs_b1,share_gt_10ms,0.033039,0.033039,0,False,False,False,,False
+hungarian,floor_white_40dB,share_gt_10ms,0.00080325,0.00080325,0,False,False,False,,False
+hungarian,floor_white_30dB,share_gt_10ms,0.0029876,0.0029876,0,False,False,False,,False
+hungarian,floor_white_20dB,share_gt_10ms,0.011725,0.011725,0,False,False,False,,False
+hungarian,floor_leak_30dB,share_gt_10ms,0.00090768,0.00090768,0,False,False,False,,False
+hungarian,floor_leak_20dB,share_gt_10ms,0.0035649,0.0035649,0,False,False,False,,False
+hungarian,v1_spleeter,share_gt_14ms,0.084684,0.084684,0,False,False,False,,False
+hungarian,v1_htdemucs,share_gt_14ms,0.017692,0.017692,0,False,False,False,,False
+hungarian,v1_bs_roformer,share_gt_14ms,0.0071995,0.0071995,0,False,False,False,,False
+hungarian,v1_scnet,share_gt_14ms,0.013207,0.013207,0,False,False,False,,False
+hungarian,htdemucs_b1,share_gt_14ms,0.017249,0.017249,0,False,False,False,,False
+hungarian,floor_white_40dB,share_gt_14ms,0,0,,False,False,False,,False
+hungarian,floor_white_30dB,share_gt_14ms,0.0028056,0.0028056,0,False,False,False,,False
+hungarian,floor_white_20dB,share_gt_14ms,0.0071123,0.0071123,0,False,False,False,,False
+hungarian,floor_leak_30dB,share_gt_14ms,0.00041017,0.00041017,0,False,False,False,,False
+hungarian,floor_leak_20dB,share_gt_14ms,0.0025127,0.0025127,0,False,False,False,,False
+hungarian,v1_spleeter,share_gt_20ms,0.054576,0.054576,0,False,False,False,,False
+hungarian,v1_htdemucs,share_gt_20ms,0.0069717,0.0069717,0,False,False,False,,False
+hungarian,v1_bs_roformer,share_gt_20ms,0.0032311,0.0032311,0,False,False,False,,False
+hungarian,v1_scnet,share_gt_20ms,0.005645,0.005645,0,False,False,False,,False
+hungarian,htdemucs_b1,share_gt_20ms,0.0072491,0.0072491,0,False,False,False,,False
+hungarian,floor_white_40dB,share_gt_20ms,0,0,,False,False,False,,False
+hungarian,floor_white_30dB,share_gt_20ms,0.0011306,0.0011306,0,False,False,False,,False
+hungarian,floor_white_20dB,share_gt_20ms,0.0027672,0.0027672,0,False,False,False,,False
+hungarian,floor_leak_30dB,share_gt_20ms,0,0,,False,False,False,,False
+hungarian,floor_leak_20dB,share_gt_20ms,0.0011766,0.0011766,0,False,False,False,,False
+hungarian,v1_spleeter,share_ref_unmatched,0.13417,0.13417,0,False,False,False,,False
+hungarian,v1_htdemucs,share_ref_unmatched,0.051278,0.051278,0,False,False,False,,False
+hungarian,v1_bs_roformer,share_ref_unmatched,0.027149,0.027149,0,False,False,False,,False
+hungarian,v1_scnet,share_ref_unmatched,0.03434,0.03434,0,False,False,False,,False
+hungarian,htdemucs_b1,share_ref_unmatched,0.050601,0.050601,0,False,False,False,,False
+hungarian,floor_white_40dB,share_ref_unmatched,0.0027088,0.0027088,0,False,False,False,,False
+hungarian,floor_white_30dB,share_ref_unmatched,0.012406,0.012406,0,False,False,False,,False
+hungarian,floor_white_20dB,share_ref_unmatched,0.040696,0.040696,0,False,False,False,,False
+hungarian,floor_leak_30dB,share_ref_unmatched,0.0040147,0.0040147,0,False,False,False,,False
+hungarian,floor_leak_20dB,share_ref_unmatched,0.015867,0.015867,0,False,False,False,,False
+hungarian,v1_spleeter,share_est_unmatched,0.12384,0.12358,-0.0021406,False,False,False,,False
+hungarian,v1_htdemucs,share_est_unmatched,0.039419,0.039419,0,False,False,False,,False
+hungarian,v1_bs_roformer,share_est_unmatched,0.043355,0.043355,0,False,False,False,,False
+hungarian,v1_scnet,share_est_unmatched,0.038541,0.038541,0,False,False,False,,False
+hungarian,htdemucs_b1,share_est_unmatched,0.038928,0.038928,0,False,False,False,,False
+hungarian,floor_white_40dB,share_est_unmatched,0.0040391,0.0040391,0,False,False,False,,False
+hungarian,floor_white_30dB,share_est_unmatched,0.019127,0.019037,-0.0047122,False,False,False,,False
+hungarian,floor_white_20dB,share_est_unmatched,0.027211,0.027211,0,False,False,False,,False
+hungarian,floor_leak_30dB,share_est_unmatched,0.011789,0.011789,0,False,False,False,,False
+hungarian,floor_leak_20dB,share_est_unmatched,0.039254,0.039254,0,False,False,False,,False
+hungarian,v1_spleeter,logit FE OR env_strength,0.65215,0.65201,-0.00021423,False,False,False,False,False
+hungarian,v1_htdemucs,logit FE OR env_strength,0.45542,0.45499,-0.00094876,False,False,False,False,False
+hungarian,v1_bs_roformer,logit FE OR env_strength,0.38484,0.38603,0.0030936,False,False,False,False,False
+hungarian,v1_scnet,logit FE OR env_strength,0.40941,0.41009,0.0016665,False,False,False,False,False
+hungarian,htdemucs_b1,logit FE OR env_strength,0.44634,0.44609,-0.00056054,False,False,False,False,False
+hungarian,v1_spleeter,logit FE OR sim_any,1.4707,1.47,-0.0004927,False,False,False,False,False
+hungarian,v1_htdemucs,logit FE OR sim_any,1.4268,1.4298,0.0021113,False,False,False,False,False
+hungarian,v1_bs_roformer,logit FE OR sim_any,1.6567,1.6477,-0.0053978,False,False,False,False,False
+hungarian,v1_scnet,logit FE OR sim_any,1.5852,1.5913,0.0038498,False,False,False,False,False
+hungarian,htdemucs_b1,logit FE OR sim_any,1.4392,1.4421,0.0020239,False,False,False,False,False
+hungarian,v1_spleeter,logit FE OR log10_ioi_min_ms,1.2262,1.2209,-0.0043424,False,False,False,False,False
+hungarian,v1_htdemucs,logit FE OR log10_ioi_min_ms,1.2674,1.2562,-0.0088318,False,False,False,False,False
+hungarian,v1_bs_roformer,logit FE OR log10_ioi_min_ms,1.3875,1.3813,-0.0044623,False,False,False,False,False
+hungarian,v1_scnet,logit FE OR log10_ioi_min_ms,1.3023,1.2967,-0.0043201,False,False,False,False,False
+hungarian,htdemucs_b1,logit FE OR log10_ioi_min_ms,1.2809,1.2755,-0.0042073,False,False,False,False,False

@@ -1,12 +1,12 @@
-"""MSS Drum Fidelity Evaluation: quantitative re-working of thesis section 4.7.
+"""MSS Drum Fidelity Evaluation: measurements of separated drum stems against the true stems.
 
-Benchmark-only (MUSDB18-HQ, real reference stems), because the article's claims are
-support/refute and that needs ground truth. Two metric families, both reference-based:
+Benchmark-only (MUSDB18-HQ, real reference stems): every measure needs ground truth.
+Two metric families, both reference-based:
   metrics  -> developer-style separation metrics (SDR/SIR/SAR/ISR, SI-SDR)
   analyst  -> what a musicologist reads (timing, dynamic profile, labeling precision)
 
-Experiments: run_benchmark (claim A1, dynamics vary across models) and
-run_input_length (claim A2, input length alters the separation of a fixed region).
+The default separations and the version 1 benchmark tables come from scripts/run_benchmark.py;
+the version 2 analyses are in scripts/phase1 ... scripts/phase4.
 """
 
 __version__ = "0.0.1"

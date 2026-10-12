@@ -1,0 +1,13 @@
+model,model_type,config,params_from_config,params_in_checkpoint,load_missing,load_unexpected
+BS-Roformer (existing),bs_roformer,config_bs_roformer_384_8_2_485100.yaml,131704164,131704612,0,0
+SCNet-XL (existing),scnet,config_musdb18_scnet_xl.yaml,54006896,54006896,0,0
+BS Conformer (Medium),bs_conformer,config_musdb18_bs_conformer_infer.yaml,74417092,,,
+SCNet Large,scnet,config_musdb18_scnet_large.yaml,42181232,,,
+SCNet Large (starrytong),scnet,config_musdb18_scnet_large_starrytong.yaml,42181232,,,
+SCNet Tran Small,scnet_tran,config_musdb18_scnet_tran.yaml,10380032,,,
+SCNet Small,scnet,config_musdb18_scnet.yaml,10578768,,,
+SCNet Masked XL IHF,scnet_masked,config_musdb18_scnet_xl_ihf.yaml,53485316,,,
+SCNet XL IHF,scnet,config_musdb18_scnet_xl_more_wide_v5.yaml,53466800,,,
+HT-Demucs (existing),htdemucs (demucs 4.0.1),955717e8-8726e21a.th,41984456,41984456,0,0
+Demucs3 mmi,hdemucs (demucs 4.0.1),config_musdb18_demucs3_mmi.yaml,83637832,,,
+Spleeter 4stems (existing),spleeter unet (TF checkpoint),pretrained_models/4stems,39307036,39307036,,

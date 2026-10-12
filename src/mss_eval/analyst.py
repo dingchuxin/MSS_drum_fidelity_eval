@@ -6,15 +6,13 @@ separation does to each, computing the property on the estimate and, where a fid
 comparison is wanted, on the ground-truth stem too.
 
 Reference-based: MUSDB18 supplies real reference stems, so these are real data, not
-proxies. They exist to support/refute §4.7 with quantities SDR hides.
+proxies. They measure quantities that SDR hides.
 
 Three dimensions:
-  timing    -> onset_fmeasure       (§4.7 transient/attack claims)
-  dynamics  -> dynamic_profile      (§4.7 claim A1: the dynamic profile varies a lot;
-                                      envelope shape/slope + intensity distribution)
-  labeling  -> labeling_precision   (§4.7 claim A2 labeling + row 9: with ground truth,
-                                      how well does each model route energy to the right
-                                      stem label)
+  timing    -> onset_fmeasure       (transients and attacks)
+  dynamics  -> dynamic_profile      (envelope shape/slope + intensity distribution)
+  labeling  -> labeling_precision   (with ground truth: how well each model routes energy
+                                      to the right stem label)
 """
 from __future__ import annotations
 
@@ -78,29 +76,29 @@ def integrated_loudness(x: np.ndarray, sr: int) -> float:
 
 
 def dynamic_profile(x: np.ndarray, sr: int) -> dict[str, float]:
-    """A stem's dynamic profile — envelope shape/slope AND intensity distribution.
+    """A stem's dynamic profile (LEGACY definition, Phase 1-2; unchanged so results reproduce).
 
-    The point of §4.7 claim A1 is that this profile is *model-dependent*: run the same
-    source through different separators and these descriptors move a lot. Compute them
-    per model estimate and look at the cross-model spread.
+    The envelope is a rectangular RMS over 20 ms, hop 10 ms, frames starting at i*441 (not
+    centred), floored by sqrt(ms + 1e-8) (digital silence reads -80 dB) and taken in dB. It
+    is an RMS level envelope, not loudness. "Active" frames are those within
+    60 dB of the signal's OWN loudest frame (all frames if <= 4 qualify).
 
-    Descriptors:
-      level_db      mean intensity level, 10·log10 mean-square (dB)
-      variation     dynamic variation — IQR of short-term loudness over ACTIVE frames
-                    (dB); the "how much does level swing while sounding" figure (analogous
-                    in spirit to, but independent of, the drummer-study measure)
-      crest         peak-to-RMS (dB)
-      impulsiveness raw-waveform excess kurtosis — transient/spiky vs. sustained; the
-                    standard impulsiveness measure, well-defined on the signal itself
-      env_skew      asymmetry of the loudness distribution (attack- vs. sustain-heavy)
-      env_flux      mean |Δ loudness| per hop (dB) over active frames — envelope motion;
-                    smoothing/compression by a model reduces it
-      attack_slope  90th-pct positive loudness rise per hop (dB) — attack sharpness
-      burst_rate    prominent envelope peaks per second (transient density)
+    Descriptors (names used in the article in brackets):
+      level_db      10 log10 of the mean square of the mono waveform (dB)
+      variation     IQR of env dB over the signal's own active frames (dB)
+      crest         [crest factor, whole-track sample peak] 20 log10(max|x| / RMS) (dB)
+      impulsiveness [waveform kurtosis] excess kurtosis of the mono waveform samples: a
+                    level-distribution / sparseness statistic, not transient shape
+      env_skew      skewness of env dB over the own active frames
+      env_flux      mean |delta env dB| over frame pairs whose FIRST frame is active
+      attack_slope  [onset level jump] 90th percentile of the positive delta env dB over ALL
+                    frame pairs: it is NOT gated, and it tracks the depth of the gap
+                    before strokes much more than attack time
+      burst_rate    prominent envelope peaks per second (dropped from Phase 2 on)
 
-    All spread/motion descriptors use an active-frame gate (within 60 dB of peak) so a
-    sparse, bursty stem's silence floor doesn't swamp — or, if gated as outliers, erase —
-    the very dynamics being measured.
+    Because each signal is gated against its own peak, an estimate's low-level output where
+    the reference is silent counts as "sounding" in the estimate only. The v3 functions
+    below apply the reference's gate to both signals.
     """
     from scipy import signal, stats
 
@@ -137,7 +135,8 @@ def dynamic_profile(x: np.ndarray, sr: int) -> dict[str, float]:
 
 
 def dynamics_fidelity(estimate: np.ndarray, reference: np.ndarray, sr: int) -> dict[str, float]:
-    """Per-descriptor deviation of the estimate's dynamic profile from the true stem.
+    """LEGACY: per-descriptor deviation of the estimate's dynamic profile from the true stem
+    (each signal gated against its own peak; attack_slope ungated). See `dynamics_v3`.
 
     Deltas are estimate − reference (keys `d_<descriptor>`). Feeds A1b (per-model bias):
     if the deltas differ *by model* with no common offset, dynamics can't be corrected
@@ -165,8 +164,7 @@ def labeling_precision(estimates: dict[str, np.ndarray],
     Perfect separation (ŝ = true_ŝ) gives precision 1.0 by construction — unlike a
     similarity score, it is NOT confounded by how alike the sources inherently are.
     ~1 means the "drums" stem really is drums; lower means energy leaked from / was
-    labelled as another source. Tests §4.7's labelling-policy claim (row 9) and the
-    A2 labeling facet. Returns ({stem: precision}, routing[est_stem][true_stem]).
+    labelled as another source. Returns ({stem: precision}, routing[est_stem][true_stem]).
     """
     labels = [s for s in estimates if s in references]
     ref = {s: _mono(references[s]) for s in labels}
@@ -201,3 +199,71 @@ def analyst_row(estimate: np.ndarray, reference: np.ndarray, sr: int) -> dict[st
     row.update({f"dyn_{k}": v for k, v in dynamic_profile(estimate, sr).items()})
     row.update(dynamics_fidelity(estimate, reference, sr))
     return row
+
+
+# --- v3 envelope descriptors (Phase 3) --------------------------------------
+
+V3_DESCS = ["level_db", "variation", "crest", "impulsiveness", "env_skew", "env_flux",
+            "attack_slope"]
+
+
+def _env_db(x: np.ndarray, sr: int) -> np.ndarray:
+    return 20.0 * np.log10(_lin_env(x, sr) + _EPS)
+
+
+def _gated(env_db: np.ndarray, gate: np.ndarray) -> dict[str, float]:
+    """Envelope descriptors of env_db over the frames in `gate` (frame pairs: first frame in
+    the gate)."""
+    from scipy import stats
+    n = min(len(env_db), len(gate))
+    e, g = env_db[:n], gate[:n]
+    if g.sum() <= 4:
+        g = np.ones(n, bool)
+    a = e[g]
+    q1, q3 = np.percentile(a, [25, 75])
+    d = np.diff(e)
+    dg = d[g[:-1]]
+    pos = dg[dg > 0]
+    return {"variation": float(q3 - q1),
+            "env_skew": float(stats.skew(a, bias=False)),
+            "env_flux": float(np.mean(np.abs(dg))) if len(dg) else float("nan"),
+            "attack_slope": float(np.percentile(pos, 90)) if len(pos) else 0.0}
+
+
+def _wave_stats(x: np.ndarray) -> dict[str, float]:
+    from scipy import stats
+    xm = _mono(x)
+    return {"level_db": float(10.0 * np.log10(np.mean(xm ** 2) + _EPS)),
+            "crest": crest_factor(x),
+            "impulsiveness": float(stats.kurtosis(xm, fisher=True, bias=False))}
+
+
+def dynamic_profile_v3(x: np.ndarray, sr: int) -> dict[str, float]:
+    """v3 raw descriptors of one signal, gated against its OWN peak (attack_slope now gated:
+    positive deltas over frame pairs whose first frame is active)."""
+    e = _env_db(x, sr)
+    if len(e) < 4:
+        return {k: float("nan") for k in V3_DESCS}
+    return {**_wave_stats(x), **_gated(e, e > e.max() - 60.0)}
+
+
+def dynamics_v3(estimate: np.ndarray, reference: np.ndarray, sr: int) -> dict[str, float]:
+    """v3 fidelity: ONE gate for both signals.
+
+    The active frames are those within 60 dB of the REFERENCE's loudest envelope frame; both
+    signals' variation, env_skew, env_flux and attack_slope are computed over those frames
+    (frame pairs whose first frame is active). level_db, crest and impulsiveness are
+    whole-waveform statistics and do not use a gate. Returns ref_<k>, est_<k> and
+    d_<k> = est - ref for k in V3_DESCS.
+    """
+    er, ee = _env_db(reference, sr), _env_db(estimate, sr)
+    n = min(len(er), len(ee))
+    er, ee = er[:n], ee[:n]
+    gate = er > er.max() - 60.0
+    r = {**_wave_stats(reference), **_gated(er, gate)}
+    e = {**_wave_stats(estimate), **_gated(ee, gate)}
+    out = {f"ref_{k}": r[k] for k in V3_DESCS}
+    out.update({f"est_{k}": e[k] for k in V3_DESCS})
+    out.update({f"d_{k}": e[k] - r[k] for k in V3_DESCS})
+    out["ref_active_share"] = float(gate.mean())
+    return out

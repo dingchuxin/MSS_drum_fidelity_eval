@@ -1,0 +1,11 @@
+label,stroke_set,median_d_accent_db,n_positive,n,p,rank_biserial,p_holm
+v1_spleeter,all,1.8402,48,50,5.862e-14,0.98588,5.862e-13
+v1_htdemucs,all,1.0193,46,50,6.5357e-10,0.88706,4.575e-09
+v1_bs_roformer,all,0.75358,46,50,4.3149e-10,0.89333,3.4519e-09
+v1_scnet,all,0.77269,47,50,8.0082e-10,0.88392,4.8049e-09
+htdemucs_b1,all,0.99511,46,50,9.7851e-10,0.88078,4.8926e-09
+v1_spleeter,matched,1.3183,46,50,8.8427e-12,0.94353,7.9584e-11
+v1_htdemucs,matched,0.65183,47,50,1.9326e-09,0.8698,6.3846e-09
+v1_bs_roformer,matched,0.31685,46,50,2.5633e-09,0.8651,6.3846e-09
+v1_scnet,matched,0.45123,45,50,2.6378e-08,0.82275,2.6378e-08
+htdemucs_b1,matched,0.64948,47,50,1.5962e-09,0.87294,6.3846e-09

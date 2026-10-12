@@ -1,0 +1,6 @@
+label,strokes_silent_either,tracks_with_silent_strokes,ref_silent_est_not,est_silent_ref_not,tracks_ref_silent_est_not,total_reference_strokes
+v1_spleeter,1194,24,1143,31,13,48513
+v1_htdemucs,1163,15,1163,0,15,48513
+v1_bs_roformer,1168,16,1153,5,14,48513
+v1_scnet,1163,15,1163,0,15,48513
+htdemucs_b1,1163,15,1163,0,15,48513

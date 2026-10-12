@@ -1,0 +1,21 @@
+comparison,measure,median_a,median_b,median_paired_diff,n,p,rank_biserial,p_holm_20
+BS-Roformer: overlap 2 (native) vs 4,timing median SD (ms),0.18983,0.18465,0.017215,50,2.5157e-06,0.71922,3.2704e-05
+BS-Roformer: overlap 2 (native) vs 4,shape SD units attack_slope,0.04525,0.030708,0.0038611,50,0.0034275,0.46824,0.030848
+BS-Roformer: overlap 2 (native) vs 4,shape SD units env_flux,0.02396,0.019918,0.0060268,50,6.2207e-08,0.80549,9.9531e-07
+BS-Roformer: overlap 2 (native) vs 4,shape SD units variation,0.022471,0.017525,0.0050664,50,8.4031e-08,0.79922,1.2605e-06
+SCNet-XL: overlap 4 (native) vs 2,timing median SD (ms),0.15931,0.31058,-0.14603,50,1.7764e-15,-1,3.5527e-14
+SCNet-XL: overlap 4 (native) vs 2,shape SD units attack_slope,0.033842,0.043516,-0.0099821,50,4.5656e-07,-0.76157,6.3919e-06
+SCNet-XL: overlap 4 (native) vs 2,shape SD units env_flux,0.01795,0.032738,-0.013807,50,7.6383e-14,-0.98431,1.3749e-12
+SCNet-XL: overlap 4 (native) vs 2,shape SD units variation,0.017728,0.031278,-0.012122,50,3.3751e-14,-0.98902,6.4126e-13
+at overlap 4: BS-Roformer vs SCNet-XL,timing median SD (ms),0.18465,0.15931,0.018876,50,0.011591,0.4102,0.082093
+at overlap 4: BS-Roformer vs SCNet-XL,shape SD units attack_slope,0.030708,0.033842,0.0073084,50,0.013305,0.39922,0.082093
+at overlap 4: BS-Roformer vs SCNet-XL,shape SD units env_flux,0.019918,0.01795,0.00072047,50,0.63217,0.079216,1
+at overlap 4: BS-Roformer vs SCNet-XL,shape SD units variation,0.017525,0.017728,-0.0013195,50,0.19428,-0.21255,0.77711
+at overlap 2: BS-Roformer vs SCNet-XL,timing median SD (ms),0.18983,0.31058,-0.09298,50,1.7687e-11,-0.93569,3.0068e-10
+at overlap 2: BS-Roformer vs SCNet-XL,shape SD units attack_slope,0.04525,0.043516,0.0001762,50,0.68768,0.066667,1
+at overlap 2: BS-Roformer vs SCNet-XL,shape SD units env_flux,0.02396,0.032738,-0.0047241,50,0.069302,-0.29569,0.34651
+at overlap 2: BS-Roformer vs SCNet-XL,shape SD units variation,0.022471,0.031278,-0.0045053,50,0.010262,-0.41333,0.082093
+native: BS-Roformer (2) vs SCNet-XL (4),timing median SD (ms),0.18983,0.15931,0.032813,50,9.3727e-06,0.68314,0.00011247
+native: BS-Roformer (2) vs SCNet-XL (4),shape SD units attack_slope,0.04525,0.033842,0.01253,50,8.6305e-05,0.61412,0.00094935
+native: BS-Roformer (2) vs SCNet-XL (4),shape SD units env_flux,0.02396,0.01795,0.0060211,50,0.00084757,0.52941,0.0084757
+native: BS-Roformer (2) vs SCNet-XL (4),shape SD units variation,0.022471,0.017728,0.0028859,50,0.20103,0.20941,0.77711

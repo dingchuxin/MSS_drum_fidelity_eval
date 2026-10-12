@@ -5,13 +5,16 @@
 #   sidecar  -> runs in a separate venv (dependency conflicts force isolation); the CLI
 #               produces stems that are ingested. See docs/environments.md.
 #
-# Roster spans architecture families AND eras so §4.7's comparisons have real contrast:
-#   spleeter    2019  freq-domain CNN   reference baseline
-#   htdemucs    2022  hybrid (CNN+attn) reference baseline
-#   bs_roformer 2023  transformer       current SOTA (attention)
-#   scnet       2024  CNN (sparse-comp) current SOTA (non-attention)
-# The transformer vs CNN pair (bs_roformer vs scnet) isolates whether ATTENTION drives the
-# A2 input-coherence effect (see docs/chapter_4_7_mapping.md mechanism note).
+# The roster spans architecture families and eras:
+#   spleeter    2019  freq-domain CNN (U-Net, soft masks)        reference baseline
+#   htdemucs    2022  hybrid (CNN + cross-domain transformer)   reference baseline
+#   bs_roformer 2023  band-split transformer (masking)          current SOTA (attention)
+#   scnet       2024  sparse-compression CNN encoder/decoder with a dual-path BiLSTM
+#                     separation network (direct output)        current SOTA (no attention)
+# BS-Roformer and SCNet-XL share training data (MUSDB18HQ only) and have similar published
+# drums SDR, but differ in much more than attention (recurrence vs attention, masking vs
+# direct output, STFT, parameter count, chunk overlap), so the pair does NOT isolate an
+# architectural factor.
 
 models:
   htdemucs:
@@ -21,7 +24,8 @@ models:
     domain: hybrid
     stems: [drums, bass, vocals, other]
     version: "4.0"
-    notes: "Hybrid Transformer Demucs. Good transients; can compress dynamics (§4.7)."
+    notes: "Hybrid Transformer Demucs. audio-separator 0.44.2 defaults: shifts=2 with UNSEEDED random offsets (output not reproducible run to run), overlap 0.25, whole-input mean/std normalisation, and a 0.9 output peak cap applied per stem when writing (fired on 7 cached v1 stems). Phase 2 re-runs (B1) seed the shifts and bypass the peak cap."
+    deterministic: false           # unseeded random shifts at the audio-separator defaults
 
   spleeter:
     runner: sidecar
@@ -30,7 +34,7 @@ models:
     domain: spectrogram
     stems: [vocals, drums, bass, other]
     version: "2.4.2"
-    notes: "2019 freq-domain baseline; strong leakage in §4.7. Verified import."
+    notes: "2019 freq-domain baseline. Verified import."
 
   bs_roformer:
     runner: sidecar
@@ -51,19 +55,13 @@ models:
     config: external/MSST/configs/config_musdb18_scnet_xl.yaml   # 4-stem; matches model_scnet_ep_54_sdr_9.8051 (MSST v1.0.13)
     checkpoint: data/weights/scnet_xl_musdb.ckpt                 # download from MSST releases
     ingest_dir: data/stems_out/scnet
-    domain: cnn
+    domain: cnn+bilstm             # dual-path BiLSTM separation network, no attention
     stems: [drums, bass, vocals, other]
     version: "SCNet-XL (2024)"
-    notes: "Current SOTA, non-attention CNN. MUSDB ~9.8 dB avg (drums 11.5 ≈ bs_roformer 11.6) — capability-matched pair to isolate attention."
-
-# --- Parked: proprietary GUI tool, optional hand-export + ingest later ---
-external:
-  spectralayers:
-    runner: external               # hand-exported stems ingested from ingest_dir
-    ingest_dir: data/stems_out/spectralayers
-    version: "11"
-    notes: "Steinberg GUI. Manual export only. Sister-study production tool."
+    notes: "Current SOTA without attention: CNN encoder/decoder plus 8 dual-path BiLSTM layers (full-chunk recurrent context along time), direct complex-spectrogram output. MUSDB ~9.8 dB avg (drums 11.51 vs bs_roformer 11.61, MUSDB test). Similar published quality to bs_roformer, but not an architecture-isolating pair (see header)."
 
 defaults:
   sample_rate: 44100
-  deterministic: true      # fixed params, no random re-init (thesis protocol)
+  deterministic: true      # fixed params, no random re-init -- holds for the
+                           # MSST models and Spleeter up to GPU fp16 non-determinism; NOT for
+                           # htdemucs at audio-separator defaults (see its entry)

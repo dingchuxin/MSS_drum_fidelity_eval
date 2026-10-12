@@ -1,0 +1,231 @@
+outcome,model_spec,term,coef,se_cluster,z,p,odds_ratio,n_onsets,n_events,n_tracks,n_tracks_dropped_no_variation,label
+failed (displaced or unmatched) | all,"P2 features, no FE",intercept,-1.1856,0.16645,-7.1232,1.0549e-12,0.30556,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P2 features, no FE",env_strength,-0.98082,0.098567,-9.9508,2.5018e-23,0.375,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P2 features, no FE",peak_rel_db,-0.1089,0.11327,-0.96146,0.33632,0.89682,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P2 features, no FE",log10_ioi_min_ms,-0.084924,0.058415,-1.4538,0.146,0.91858,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P2 features, no FE",drum_to_rest_db,-0.45821,0.11175,-4.1002,4.1279e-05,0.63241,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P2 features, no FE",share_low,0.33344,0.10936,3.049,0.0022961,1.3958,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P2 features, no FE",share_high,-0.13776,0.092817,-1.4842,0.13777,0.87131,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P2 features, no FE",sim_any,-0.011237,0.13485,-0.083327,0.93359,0.98883,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, no FE",intercept,-1.183,0.16774,-7.0527,1.7543e-12,0.30635,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, no FE",env_strength,-0.93212,0.0933,-9.9906,1.6764e-23,0.39372,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, no FE",peak_rel_db,-0.1425,0.1161,-1.2274,0.21969,0.86719,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, no FE",log10_ioi_min_ms,-0.079754,0.058198,-1.3704,0.17056,0.92334,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, no FE",drum_to_rest_db,-0.50392,0.11553,-4.3619,1.2892e-05,0.60416,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, no FE",share_low,0.2985,0.10115,2.951,0.0031679,1.3478,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, no FE",share_high,-0.21381,0.096805,-2.2087,0.027195,0.8075,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, no FE",sim_any,-0.011543,0.13888,-0.083119,0.93376,0.98852,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, track FE",env_strength,-0.96732,0.091278,-10.597,3.063e-26,0.3801,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, track FE",peak_rel_db,-0.0072724,0.11412,-0.063723,0.94919,0.99275,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, track FE",log10_ioi_min_ms,-0.10866,0.057724,-1.8823,0.059793,0.89704,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, track FE",drum_to_rest_db,-0.82479,0.13659,-6.0385,1.5556e-09,0.43833,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, track FE",share_low,0.21135,0.071657,2.9495,0.0031831,1.2353,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, track FE",share_high,-0.33525,0.084321,-3.9758,7.0137e-05,0.71516,48513,14104,50,0,v1_spleeter
+failed (displaced or unmatched) | all,"P3 features, track FE",sim_any,-0.22421,0.098245,-2.2821,0.022483,0.79915,48513,14104,50,0,v1_spleeter
+unmatched | all,"P2 features, no FE",intercept,-2.5509,0.29955,-8.5159,1.6528e-17,0.078008,48513,8312,50,0,v1_spleeter
+unmatched | all,"P2 features, no FE",env_strength,-2.0333,0.27619,-7.3619,1.8126e-13,0.1309,48513,8312,50,0,v1_spleeter
+unmatched | all,"P2 features, no FE",peak_rel_db,-0.45075,0.17221,-2.6174,0.0088604,0.63715,48513,8312,50,0,v1_spleeter
+unmatched | all,"P2 features, no FE",log10_ioi_min_ms,-0.48133,0.076922,-6.2574,3.9147e-10,0.61796,48513,8312,50,0,v1_spleeter
+unmatched | all,"P2 features, no FE",drum_to_rest_db,-0.3826,0.10312,-3.7104,0.00020696,0.68209,48513,8312,50,0,v1_spleeter
+unmatched | all,"P2 features, no FE",share_low,0.52789,0.11932,4.4243,9.6737e-06,1.6954,48513,8312,50,0,v1_spleeter
+unmatched | all,"P2 features, no FE",share_high,0.051285,0.12289,0.41731,0.67645,1.0526,48513,8312,50,0,v1_spleeter
+unmatched | all,"P2 features, no FE",sim_any,-0.73528,0.14994,-4.9038,9.401e-07,0.47937,48513,8312,50,0,v1_spleeter
+unmatched | all,"P3 features, no FE",intercept,-2.5182,0.30143,-8.354,6.5987e-17,0.080608,48513,8312,50,0,v1_spleeter
+unmatched | all,"P3 features, no FE",env_strength,-1.9332,0.27693,-6.9807,2.9376e-12,0.14469,48513,8312,50,0,v1_spleeter
+unmatched | all,"P3 features, no FE",peak_rel_db,-0.48244,0.13762,-3.5056,0.0004555,0.61728,48513,8312,50,0,v1_spleeter
+unmatched | all,"P3 features, no FE",log10_ioi_min_ms,-0.45439,0.077444,-5.8673,4.4285e-09,0.63484,48513,8312,50,0,v1_spleeter
+unmatched | all,"P3 features, no FE",drum_to_rest_db,-0.41351,0.10481,-3.9455,7.9642e-05,0.66133,48513,8312,50,0,v1_spleeter
+unmatched | all,"P3 features, no FE",share_low,0.52044,0.11592,4.4896,7.1369e-06,1.6828,48513,8312,50,0,v1_spleeter
+unmatched | all,"P3 features, no FE",share_high,-0.012567,0.12341,-0.10183,0.91889,0.98751,48513,8312,50,0,v1_spleeter
+unmatched | all,"P3 features, no FE",sim_any,-0.74573,0.14895,-5.0067,5.5378e-07,0.47439,48513,8312,50,0,v1_spleeter
+unmatched | all,"P3 features, track FE",env_strength,-2.1386,0.26809,-7.9771,1.4983e-15,0.11783,46968,8312,49,1,v1_spleeter
+unmatched | all,"P3 features, track FE",peak_rel_db,-0.52101,0.13219,-3.9413,8.1042e-05,0.59392,46968,8312,49,1,v1_spleeter
+unmatched | all,"P3 features, track FE",log10_ioi_min_ms,-0.54703,0.077679,-7.0422,1.8919e-12,0.57867,46968,8312,49,1,v1_spleeter
+unmatched | all,"P3 features, track FE",drum_to_rest_db,-0.77323,0.17368,-4.452,8.5092e-06,0.46152,46968,8312,49,1,v1_spleeter
+unmatched | all,"P3 features, track FE",share_low,0.40707,0.099704,4.0828,4.4501e-05,1.5024,46968,8312,49,1,v1_spleeter
+unmatched | all,"P3 features, track FE",share_high,-0.272,0.11821,-2.301,0.021393,0.76185,46968,8312,49,1,v1_spleeter
+unmatched | all,"P3 features, track FE",sim_any,-0.8282,0.10156,-8.1545,3.5049e-16,0.43684,46968,8312,49,1,v1_spleeter
+failed (displaced or unmatched) | all,"P2 features, no FE",intercept,-2.8665,0.24012,-11.938,7.5153e-33,0.056897,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P2 features, no FE",env_strength,-1.1083,0.19293,-5.7443,9.2299e-09,0.33013,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P2 features, no FE",peak_rel_db,-0.24864,0.14363,-1.7311,0.083436,0.77986,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P2 features, no FE",log10_ioi_min_ms,-0.24383,0.11667,-2.0899,0.036628,0.78362,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P2 features, no FE",drum_to_rest_db,-0.40554,0.14941,-2.7142,0.0066433,0.66662,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P2 features, no FE",share_low,0.23112,0.12029,1.9213,0.054691,1.26,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P2 features, no FE",share_high,-0.2637,0.11544,-2.2843,0.022351,0.7682,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P2 features, no FE",sim_any,0.39401,0.1391,2.8325,0.0046188,1.4829,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, no FE",intercept,-2.903,0.22961,-12.643,1.2229e-36,0.054859,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, no FE",env_strength,-1.0022,0.18997,-5.2754,1.3243e-07,0.36709,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, no FE",peak_rel_db,-0.34486,0.14784,-2.3326,0.019667,0.70832,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, no FE",log10_ioi_min_ms,-0.23507,0.1099,-2.1389,0.032442,0.79052,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, no FE",drum_to_rest_db,-0.50563,0.16001,-3.1599,0.001578,0.60312,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, no FE",share_low,0.21778,0.11497,1.8941,0.058208,1.2433,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, no FE",share_high,-0.42411,0.12608,-3.3638,0.0007687,0.65435,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, no FE",sim_any,0.40747,0.14316,2.8463,0.0044234,1.503,48513,5848,50,0,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, track FE",env_strength,-1.2544,0.17787,-7.0522,1.7613e-12,0.28526,46968,5848,49,1,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, track FE",peak_rel_db,-0.31814,0.16079,-1.9786,0.047859,0.7275,46968,5848,49,1,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, track FE",log10_ioi_min_ms,-0.26246,0.096808,-2.7111,0.0067063,0.76916,46968,5848,49,1,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, track FE",drum_to_rest_db,-0.4492,0.1337,-3.3598,0.00078005,0.63814,46968,5848,49,1,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, track FE",share_low,0.037177,0.10983,0.33848,0.735,1.0379,46968,5848,49,1,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, track FE",share_high,-0.54248,0.13824,-3.9242,8.7027e-05,0.5813,46968,5848,49,1,v1_htdemucs
+failed (displaced or unmatched) | all,"P3 features, track FE",sim_any,0.24315,0.09527,2.5523,0.010703,1.2753,46968,5848,49,1,v1_htdemucs
+unmatched | all,"P2 features, no FE",intercept,-4.7355,0.28482,-16.627,4.4657e-62,0.0087777,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P2 features, no FE",env_strength,-1.9426,0.25918,-7.495,6.6276e-14,0.14333,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P2 features, no FE",peak_rel_db,-0.69426,0.16151,-4.2985,1.7196e-05,0.49944,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P2 features, no FE",log10_ioi_min_ms,-0.83023,0.15969,-5.1989,2.0043e-07,0.43595,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P2 features, no FE",drum_to_rest_db,-0.51279,0.16772,-3.0574,0.0022328,0.59882,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P2 features, no FE",share_low,0.38605,0.16091,2.3992,0.01643,1.4712,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P2 features, no FE",share_high,-0.31728,0.13243,-2.3958,0.016584,0.72812,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P2 features, no FE",sim_any,0.19624,0.17456,1.1242,0.26092,1.2168,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P3 features, no FE",intercept,-4.7689,0.26718,-17.849,2.9335e-71,0.0084897,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P3 features, no FE",env_strength,-1.7886,0.2644,-6.7647,1.3359e-11,0.1672,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P3 features, no FE",peak_rel_db,-0.81008,0.15556,-5.2076,1.9132e-07,0.44482,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P3 features, no FE",log10_ioi_min_ms,-0.78986,0.14914,-5.2959,1.1841e-07,0.45391,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P3 features, no FE",drum_to_rest_db,-0.57557,0.19372,-2.9711,0.0029674,0.56239,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P3 features, no FE",share_low,0.39835,0.151,2.6381,0.0083369,1.4894,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P3 features, no FE",share_high,-0.4755,0.15418,-3.0839,0.0020427,0.62158,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P3 features, no FE",sim_any,0.19263,0.18099,1.0643,0.28719,1.2124,48513,3459,50,0,v1_htdemucs
+unmatched | all,"P3 features, track FE",env_strength,-2.3182,0.19273,-12.028,2.5214e-33,0.098449,45223,3459,47,3,v1_htdemucs
+unmatched | all,"P3 features, track FE",peak_rel_db,-1.2121,0.13789,-8.7903,1.4912e-18,0.29758,45223,3459,47,3,v1_htdemucs
+unmatched | all,"P3 features, track FE",log10_ioi_min_ms,-0.82248,0.12667,-6.4932,8.4056e-11,0.43934,45223,3459,47,3,v1_htdemucs
+unmatched | all,"P3 features, track FE",drum_to_rest_db,-0.31164,0.13897,-2.2425,0.024931,0.73225,45223,3459,47,3,v1_htdemucs
+unmatched | all,"P3 features, track FE",share_low,0.169,0.11079,1.5254,0.12717,1.1841,45223,3459,47,3,v1_htdemucs
+unmatched | all,"P3 features, track FE",share_high,-0.82751,0.13094,-6.32,2.6154e-10,0.43714,45223,3459,47,3,v1_htdemucs
+unmatched | all,"P3 features, track FE",sim_any,0.15397,0.10762,1.4307,0.15253,1.1665,45223,3459,47,3,v1_htdemucs
+failed (displaced or unmatched) | all,"P2 features, no FE",intercept,-3.8058,0.25415,-14.975,1.0742e-50,0.022242,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P2 features, no FE",env_strength,-1.2753,0.19075,-6.6857,2.2979e-11,0.27935,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P2 features, no FE",peak_rel_db,-0.45458,0.131,-3.4701,0.00052023,0.63471,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P2 features, no FE",log10_ioi_min_ms,-0.20857,0.15447,-1.3502,0.17694,0.81174,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P2 features, no FE",drum_to_rest_db,-0.18614,0.14015,-1.3282,0.18413,0.83016,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P2 features, no FE",share_low,0.30911,0.14704,2.1022,0.035535,1.3622,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P2 features, no FE",share_high,-0.20432,0.11757,-1.7379,0.082232,0.8152,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P2 features, no FE",sim_any,0.45973,0.14001,3.2835,0.0010251,1.5836,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, no FE",intercept,-3.8345,0.24749,-15.493,3.8381e-54,0.021612,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, no FE",env_strength,-1.1698,0.19153,-6.1076,1.0114e-09,0.31043,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, no FE",peak_rel_db,-0.54116,0.14746,-3.6698,0.00024271,0.58207,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, no FE",log10_ioi_min_ms,-0.18685,0.14287,-1.3078,0.19093,0.82956,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, no FE",drum_to_rest_db,-0.24672,0.15525,-1.5892,0.11202,0.78136,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, no FE",share_low,0.31132,0.13467,2.3118,0.020788,1.3652,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, no FE",share_high,-0.32074,0.12043,-2.6632,0.0077412,0.72561,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, no FE",sim_any,0.47358,0.13947,3.3955,0.00068497,1.6057,48513,3144,50,0,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, track FE",env_strength,-1.4819,0.23247,-6.3745,1.8352e-10,0.22721,45990,3144,48,2,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, track FE",peak_rel_db,-0.48647,0.18995,-2.561,0.010436,0.61479,45990,3144,48,2,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, track FE",log10_ioi_min_ms,-0.15937,0.11349,-1.4043,0.16024,0.85268,45990,3144,48,2,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, track FE",drum_to_rest_db,-0.17994,0.16728,-1.0757,0.28206,0.83532,45990,3144,48,2,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, track FE",share_low,0.07246,0.1474,0.49159,0.62301,1.0751,45990,3144,48,2,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, track FE",share_high,-0.43298,0.15034,-2.8799,0.0039775,0.64857,45990,3144,48,2,v1_bs_roformer
+failed (displaced or unmatched) | all,"P3 features, track FE",sim_any,0.47493,0.10707,4.4356,9.182e-06,1.6079,45990,3144,48,2,v1_bs_roformer
+unmatched | all,"P2 features, no FE",intercept,-5.3163,0.42182,-12.603,2.0244e-36,0.004911,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P2 features, no FE",env_strength,-1.9215,0.34721,-5.5342,3.1266e-08,0.14639,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P2 features, no FE",peak_rel_db,-0.83235,0.13092,-6.3575,2.0502e-10,0.43503,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P2 features, no FE",log10_ioi_min_ms,-0.63834,0.24099,-2.6489,0.0080763,0.52817,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P2 features, no FE",drum_to_rest_db,-0.13603,0.17374,-0.78296,0.43365,0.87281,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P2 features, no FE",share_low,0.3652,0.19996,1.8263,0.0678,1.4408,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P2 features, no FE",share_high,-0.26442,0.14917,-1.7727,0.076284,0.76765,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P2 features, no FE",sim_any,0.31441,0.22292,1.4104,0.15842,1.3694,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P3 features, no FE",intercept,-5.3863,0.42411,-12.7,5.8927e-37,0.0045789,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P3 features, no FE",env_strength,-1.794,0.36457,-4.921,8.612e-07,0.16629,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P3 features, no FE",peak_rel_db,-0.96105,0.13574,-7.0801,1.4406e-12,0.38249,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P3 features, no FE",log10_ioi_min_ms,-0.57957,0.22051,-2.6284,0.0085796,0.56014,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P3 features, no FE",drum_to_rest_db,-0.17409,0.20742,-0.83933,0.40128,0.84022,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P3 features, no FE",share_low,0.39572,0.18537,2.1348,0.032777,1.4855,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P3 features, no FE",share_high,-0.40684,0.1376,-2.9567,0.0031093,0.66575,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P3 features, no FE",sim_any,0.34044,0.21828,1.5596,0.11884,1.4056,48513,1960,50,0,v1_bs_roformer
+unmatched | all,"P3 features, track FE",env_strength,-2.5517,0.3531,-7.2264,4.9585e-13,0.077951,44770,1960,47,3,v1_bs_roformer
+unmatched | all,"P3 features, track FE",peak_rel_db,-1.2345,0.18035,-6.8452,7.6358e-12,0.29098,44770,1960,47,3,v1_bs_roformer
+unmatched | all,"P3 features, track FE",log10_ioi_min_ms,-0.57279,0.16432,-3.4859,0.00049054,0.56395,44770,1960,47,3,v1_bs_roformer
+unmatched | all,"P3 features, track FE",drum_to_rest_db,-0.053774,0.19954,-0.26949,0.78755,0.94765,44770,1960,47,3,v1_bs_roformer
+unmatched | all,"P3 features, track FE",share_low,0.16375,0.17213,0.9513,0.34145,1.1779,44770,1960,47,3,v1_bs_roformer
+unmatched | all,"P3 features, track FE",share_high,-0.70687,0.17172,-4.1164,3.8489e-05,0.49319,44770,1960,47,3,v1_bs_roformer
+unmatched | all,"P3 features, track FE",sim_any,0.52466,0.15528,3.3788,0.00072807,1.6899,44770,1960,47,3,v1_bs_roformer
+failed (displaced or unmatched) | all,"P2 features, no FE",intercept,-3.2525,0.23469,-13.859,1.1301e-43,0.038678,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P2 features, no FE",env_strength,-1.137,0.17718,-6.4173,1.3869e-10,0.32078,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P2 features, no FE",peak_rel_db,-0.24032,0.14617,-1.6441,0.10015,0.78638,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P2 features, no FE",log10_ioi_min_ms,-0.16367,0.15029,-1.089,0.27614,0.84902,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P2 features, no FE",drum_to_rest_db,-0.48867,0.14794,-3.3031,0.00095615,0.61344,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P2 features, no FE",share_low,0.37829,0.14192,2.6654,0.0076894,1.4598,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P2 features, no FE",share_high,-0.11154,0.1265,-0.8817,0.37794,0.89446,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P2 features, no FE",sim_any,0.37224,0.1437,2.5904,0.0095864,1.451,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, no FE",intercept,-3.2843,0.22464,-14.62,2.0823e-48,0.037467,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, no FE",env_strength,-1.007,0.17074,-5.8977,3.6871e-09,0.36533,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, no FE",peak_rel_db,-0.3579,0.15624,-2.2907,0.021979,0.69914,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, no FE",log10_ioi_min_ms,-0.1562,0.14005,-1.1154,0.2647,0.85539,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, no FE",drum_to_rest_db,-0.55112,0.15828,-3.4818,0.00049807,0.57631,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, no FE",share_low,0.37496,0.13187,2.8434,0.0044631,1.4549,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, no FE",share_high,-0.23853,0.1384,-1.7234,0.084816,0.78779,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, no FE",sim_any,0.38799,0.14814,2.6191,0.008815,1.474,48513,4442,50,0,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, track FE",env_strength,-1.3516,0.18675,-7.2375,4.5713e-13,0.25883,46968,4442,49,1,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, track FE",peak_rel_db,-0.34663,0.1807,-1.9182,0.055081,0.70707,46968,4442,49,1,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, track FE",log10_ioi_min_ms,-0.21915,0.11713,-1.871,0.06134,0.8032,46968,4442,49,1,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, track FE",drum_to_rest_db,-0.44337,0.14078,-3.1494,0.0016361,0.64187,46968,4442,49,1,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, track FE",share_low,0.17324,0.1272,1.3619,0.17322,1.1892,46968,4442,49,1,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, track FE",share_high,-0.34382,0.16205,-2.1217,0.033863,0.70906,46968,4442,49,1,v1_scnet
+failed (displaced or unmatched) | all,"P3 features, track FE",sim_any,0.28355,0.10271,2.7608,0.0057657,1.3278,46968,4442,49,1,v1_scnet
+unmatched | all,"P2 features, no FE",intercept,-5.0502,0.4472,-11.293,1.4223e-29,0.0064082,48513,2497,50,0,v1_scnet
+unmatched | all,"P2 features, no FE",env_strength,-2.0497,0.36849,-5.5625,2.6587e-08,0.12877,48513,2497,50,0,v1_scnet
+unmatched | all,"P2 features, no FE",peak_rel_db,-0.53375,0.18749,-2.8468,0.004416,0.5864,48513,2497,50,0,v1_scnet
+unmatched | all,"P2 features, no FE",log10_ioi_min_ms,-0.71358,0.23316,-3.0605,0.0022095,0.48989,48513,2497,50,0,v1_scnet
+unmatched | all,"P2 features, no FE",drum_to_rest_db,-0.54817,0.22324,-2.4555,0.014068,0.57801,48513,2497,50,0,v1_scnet
+unmatched | all,"P2 features, no FE",share_low,0.3909,0.19716,1.9827,0.047404,1.4783,48513,2497,50,0,v1_scnet
+unmatched | all,"P2 features, no FE",share_high,-0.19233,0.18895,-1.0179,0.30872,0.82503,48513,2497,50,0,v1_scnet
+unmatched | all,"P2 features, no FE",sim_any,0.03678,0.23128,0.15903,0.87365,1.0375,48513,2497,50,0,v1_scnet
+unmatched | all,"P3 features, no FE",intercept,-5.1018,0.45219,-11.282,1.6036e-29,0.006086,48513,2497,50,0,v1_scnet
+unmatched | all,"P3 features, no FE",env_strength,-1.8731,0.37563,-4.9865,6.1489e-07,0.15365,48513,2497,50,0,v1_scnet
+unmatched | all,"P3 features, no FE",peak_rel_db,-0.75719,0.16952,-4.4667,7.9425e-06,0.46898,48513,2497,50,0,v1_scnet
+unmatched | all,"P3 features, no FE",log10_ioi_min_ms,-0.68204,0.21559,-3.1636,0.0015583,0.50558,48513,2497,50,0,v1_scnet
+unmatched | all,"P3 features, no FE",drum_to_rest_db,-0.52237,0.25263,-2.0677,0.038667,0.59311,48513,2497,50,0,v1_scnet
+unmatched | all,"P3 features, no FE",share_low,0.41505,0.17871,2.3224,0.02021,1.5144,48513,2497,50,0,v1_scnet
+unmatched | all,"P3 features, no FE",share_high,-0.37423,0.19072,-1.9622,0.049741,0.68782,48513,2497,50,0,v1_scnet
+unmatched | all,"P3 features, no FE",sim_any,0.041119,0.22726,0.18093,0.85642,1.042,48513,2497,50,0,v1_scnet
+unmatched | all,"P3 features, track FE",env_strength,-2.8596,0.28072,-10.187,2.2772e-24,0.057293,46201,2497,48,2,v1_scnet
+unmatched | all,"P3 features, track FE",peak_rel_db,-1.3199,0.17341,-7.6116,2.7077e-14,0.26715,46201,2497,48,2,v1_scnet
+unmatched | all,"P3 features, track FE",log10_ioi_min_ms,-0.81609,0.15538,-5.2523,1.5024e-07,0.44216,46201,2497,48,2,v1_scnet
+unmatched | all,"P3 features, track FE",drum_to_rest_db,-0.32843,0.16449,-1.9966,0.045867,0.72005,46201,2497,48,2,v1_scnet
+unmatched | all,"P3 features, track FE",share_low,0.22482,0.15694,1.4325,0.15199,1.2521,46201,2497,48,2,v1_scnet
+unmatched | all,"P3 features, track FE",share_high,-0.76607,0.17007,-4.5045,6.6537e-06,0.46484,46201,2497,48,2,v1_scnet
+unmatched | all,"P3 features, track FE",sim_any,0.23581,0.12296,1.9178,0.055137,1.2659,46201,2497,48,2,v1_scnet
+failed (displaced or unmatched) | all,"P2 features, no FE",intercept,-2.8807,0.24066,-11.97,5.1196e-33,0.056097,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P2 features, no FE",env_strength,-1.1221,0.19475,-5.7614,8.3404e-09,0.32561,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P2 features, no FE",peak_rel_db,-0.25238,0.13816,-1.8267,0.067741,0.77695,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P2 features, no FE",log10_ioi_min_ms,-0.23392,0.11909,-1.9643,0.049495,0.79142,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P2 features, no FE",drum_to_rest_db,-0.39053,0.14218,-2.7467,0.0060189,0.6767,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P2 features, no FE",share_low,0.2385,0.12214,1.9527,0.050858,1.2693,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P2 features, no FE",share_high,-0.25498,0.11491,-2.2189,0.026493,0.77493,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P2 features, no FE",sim_any,0.38881,0.13688,2.8405,0.0045047,1.4752,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, no FE",intercept,-2.9174,0.2302,-12.674,8.2919e-37,0.054074,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, no FE",env_strength,-1.0147,0.19092,-5.3148,1.0676e-07,0.36251,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, no FE",peak_rel_db,-0.35938,0.14242,-2.5235,0.011621,0.69811,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, no FE",log10_ioi_min_ms,-0.22346,0.11165,-2.0014,0.045344,0.79974,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, no FE",drum_to_rest_db,-0.48116,0.15166,-3.1726,0.0015108,0.61807,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, no FE",share_low,0.22488,0.11634,1.933,0.053239,1.2522,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, no FE",share_high,-0.41874,0.1245,-3.3634,0.00076975,0.65787,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, no FE",sim_any,0.40395,0.14068,2.8714,0.004086,1.4977,48513,5782,50,0,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, track FE",env_strength,-1.2635,0.18076,-6.9896,2.7568e-12,0.28268,46968,5782,49,1,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, track FE",peak_rel_db,-0.33106,0.16215,-2.0417,0.041178,0.71816,46968,5782,49,1,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, track FE",log10_ioi_min_ms,-0.25904,0.098341,-2.6341,0.0084367,0.77179,46968,5782,49,1,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, track FE",drum_to_rest_db,-0.42636,0.13445,-3.1711,0.0015184,0.65288,46968,5782,49,1,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, track FE",share_low,0.048014,0.11217,0.42806,0.66861,1.0492,46968,5782,49,1,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, track FE",share_high,-0.53376,0.13861,-3.8509,0.0001177,0.58639,46968,5782,49,1,htdemucs_b1
+failed (displaced or unmatched) | all,"P3 features, track FE",sim_any,0.24965,0.092855,2.6886,0.0071748,1.2836,46968,5782,49,1,htdemucs_b1
+unmatched | all,"P2 features, no FE",intercept,-4.7724,0.28691,-16.634,3.9477e-62,0.0084599,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P2 features, no FE",env_strength,-1.9681,0.26161,-7.5232,5.3465e-14,0.13972,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P2 features, no FE",peak_rel_db,-0.69211,0.15707,-4.4064,1.0511e-05,0.50052,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P2 features, no FE",log10_ioi_min_ms,-0.8212,0.1628,-5.0441,4.5567e-07,0.4399,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P2 features, no FE",drum_to_rest_db,-0.50627,0.16013,-3.1616,0.0015693,0.60274,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P2 features, no FE",share_low,0.39222,0.16222,2.4178,0.015613,1.4803,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P2 features, no FE",share_high,-0.30783,0.13202,-2.3318,0.019712,0.73504,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P2 features, no FE",sim_any,0.19037,0.17222,1.1054,0.269,1.2097,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P3 features, no FE",intercept,-4.8111,0.27055,-17.783,9.6134e-71,0.0081391,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P3 features, no FE",env_strength,-1.8147,0.26668,-6.8047,1.0129e-11,0.16289,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P3 features, no FE",peak_rel_db,-0.81839,0.14799,-5.53,3.2016e-08,0.44114,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P3 features, no FE",log10_ioi_min_ms,-0.78049,0.15102,-5.1681,2.3646e-07,0.45818,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P3 features, no FE",drum_to_rest_db,-0.56129,0.18386,-3.0528,0.0022671,0.57047,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P3 features, no FE",share_low,0.40687,0.15153,2.6852,0.0072495,1.5021,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P3 features, no FE",share_high,-0.47113,0.15226,-3.0942,0.0019734,0.6243,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P3 features, no FE",sim_any,0.18834,0.17869,1.054,0.29188,1.2072,48513,3396,50,0,htdemucs_b1
+unmatched | all,"P3 features, track FE",env_strength,-2.3487,0.1879,-12.5,7.4943e-36,0.095495,46968,3396,49,1,htdemucs_b1
+unmatched | all,"P3 features, track FE",peak_rel_db,-1.2227,0.1377,-8.8794,6.724e-19,0.29443,46968,3396,49,1,htdemucs_b1
+unmatched | all,"P3 features, track FE",log10_ioi_min_ms,-0.84216,0.1291,-6.5236,6.8649e-11,0.43078,46968,3396,49,1,htdemucs_b1
+unmatched | all,"P3 features, track FE",drum_to_rest_db,-0.31316,0.13872,-2.2576,0.023973,0.73113,46968,3396,49,1,htdemucs_b1
+unmatched | all,"P3 features, track FE",share_low,0.21372,0.11391,1.8762,0.060625,1.2383,46968,3396,49,1,htdemucs_b1
+unmatched | all,"P3 features, track FE",share_high,-0.81961,0.13031,-6.2897,3.1805e-10,0.4406,46968,3396,49,1,htdemucs_b1
+unmatched | all,"P3 features, track FE",sim_any,0.16849,0.10376,1.6238,0.10442,1.1835,46968,3396,49,1,htdemucs_b1

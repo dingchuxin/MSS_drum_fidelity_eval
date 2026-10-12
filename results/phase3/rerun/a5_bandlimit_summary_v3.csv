@@ -1,0 +1,49 @@
+contrast,measure,median_paired_diff_band_limited,median_paired_diff_full_band,p_holm_band_limited,p_holm_full_band,rank_biserial_band_limited,rank_biserial_full_band,verdict
+spleeter - bs_roformer,d_accent_all,0.75232,1.0992,0.0011279,1.0145e-06,0.62824,0.81647,survives
+spleeter - bs_roformer,d_attack_slope,-2.651,-2.6768,1.2576e-09,9.7332e-10,-0.92941,-0.93098,survives
+spleeter - bs_roformer,d_crest,0.78721,0.42854,0.00035269,0.059422,0.66745,0.44157,appears under band limit
+spleeter - bs_roformer,d_env_flux,-0.1603,-0.16558,3.0581e-05,2.1418e-05,-0.73961,-0.74745,survives
+spleeter - bs_roformer,d_env_skew,0.15369,0.21939,3.0581e-05,3.9741e-07,0.73961,0.83529,survives
+spleeter - bs_roformer,d_floor_db_all,-0.45377,-0.69786,1,0.41581,-0.10118,-0.29569,n.s. in both
+spleeter - bs_roformer,d_impulsiveness,0.51981,0.57411,0.03522,0.014288,0.46196,0.51529,survives
+spleeter - bs_roformer,d_level_db,-0.68008,-0.73564,9.9245e-10,2.7129e-10,-0.93255,-0.94667,survives
+spleeter - bs_roformer,d_peak_db_all,-0.82036,-1.2723,3.7208e-09,4.691e-10,-0.91529,-0.94039,survives
+spleeter - bs_roformer,d_rise_ms_all,0.11685,0.13295,0.0031483,0.0052833,0.61735,0.59014,survives
+spleeter - bs_roformer,d_valley_db_all,-0.75167,-0.76389,0.0041721,0.0028939,-0.5702,-0.59059,survives
+spleeter - bs_roformer,d_variation,-0.46631,-0.019042,0.63997,1,-0.24863,0.019608,n.s. in both
+spleeter - bs_roformer,f_5ms,-0.20268,-0.22589,8.5265e-14,8.5265e-14,-1,-1,survives
+spleeter - bs_roformer,median_abs_dev_ms,1.2778,1.2855,4.4724e-09,4.691e-10,0.91216,0.94039,survives
+spleeter - bs_roformer,median_dev_ms,1.5511,1.465,4.0828e-09,2.2435e-08,0.91373,0.88549,survives
+spleeter - bs_roformer,share_gt_10ms,0.090406,0.10068,8.5265e-14,8.5265e-14,1,1,survives
+spleeter - htdemucs,d_accent_all,0.35038,0.78539,0.11646,0.00015468,0.38667,0.69255,vanishes under band limit
+spleeter - htdemucs,d_attack_slope,-2.0447,-2.0144,1.8615e-08,2.6566e-08,-0.8902,-0.88235,survives
+spleeter - htdemucs,d_crest,0.5641,0.60669,0.0019725,0.0033886,0.60784,0.58275,survives
+spleeter - htdemucs,d_env_flux,-0.15965,-0.1551,2.3066e-05,2.0853e-05,-0.74745,-0.74902,survives
+spleeter - htdemucs,d_env_skew,-0.10194,-0.04483,0.011845,0.16082,-0.52314,-0.36784,appears under band limit
+spleeter - htdemucs,d_floor_db_all,0.17705,0.023742,1,1,0.15765,-0.055686,n.s. in both
+spleeter - htdemucs,d_impulsiveness,0.53973,0.53516,0.075137,0.031859,0.41804,0.47608,vanishes under band limit
+spleeter - htdemucs,d_level_db,-0.48747,-0.53599,8.7153e-08,1.5332e-09,-0.8651,-0.92471,survives
+spleeter - htdemucs,d_peak_db_all,-0.66684,-1.115,8.8579e-07,2.8338e-11,-0.82118,-0.96863,survives
+spleeter - htdemucs,d_rise_ms_all,0.18304,0.23002,0.0008206,0.00062834,0.68197,0.68327,survives
+spleeter - htdemucs,d_valley_db_all,-1.1527,-1.1825,0.0033171,0.0052833,-0.58118,-0.56392,survives
+spleeter - htdemucs,d_variation,-1.6376,-1.0248,0.0025655,0.13781,-0.59686,-0.39137,appears under band limit
+spleeter - htdemucs,f_5ms,-0.14625,-0.17049,1.3509e-11,1.6179e-11,-0.9749,-0.97333,survives
+spleeter - htdemucs,median_abs_dev_ms,0.92291,1.0801,1.2228e-07,1.5815e-08,0.85882,0.89176,survives
+spleeter - htdemucs,median_dev_ms,0.77418,0.88525,0.00032822,0.00030087,0.67216,0.67216,survives
+spleeter - htdemucs,share_gt_10ms,0.057249,0.075237,2.6336e-07,1.8873e-08,0.84471,0.88863,survives
+spleeter - scnet,d_accent_all,0.75854,0.98737,0.00034977,3.8991e-09,0.66902,0.91216,survives
+spleeter - scnet,d_attack_slope,-1.2092,-1.378,3.0581e-05,2.196e-05,-0.73961,-0.74588,survives
+spleeter - scnet,d_crest,0.69411,0.63386,1.6159e-05,0.0011792,0.75686,0.6251,survives
+spleeter - scnet,d_env_flux,-0.010433,-0.016861,1,1,-0.14039,-0.14039,n.s. in both
+spleeter - scnet,d_env_skew,-0.10598,-0.086109,0.018204,0.13781,-0.50118,-0.39137,appears under band limit
+spleeter - scnet,d_floor_db_all,-0.83087,-1.1153,0.027994,0.001288,-0.47765,-0.62039,survives
+spleeter - scnet,d_impulsiveness,0.70026,0.71372,0.0026488,0.00030288,0.59373,0.67059,survives
+spleeter - scnet,d_level_db,-0.60415,-0.62045,5.4845e-09,1.078e-09,-0.90902,-0.92941,survives
+spleeter - scnet,d_peak_db_all,-0.70892,-1.1041,5.4845e-09,5.8706e-10,-0.90902,-0.93725,survives
+spleeter - scnet,d_rise_ms_all,0.1192,0.14444,0.0061057,0.0073909,0.57993,0.57143,survives
+spleeter - scnet,d_valley_db_all,-0.35531,-0.54144,0.51476,0.41581,-0.28,-0.28314,n.s. in both
+spleeter - scnet,d_variation,-0.28893,0.082686,1,1,-0.094902,0.11059,n.s. in both
+spleeter - scnet,f_5ms,-0.18286,-0.18707,4.4942e-12,1.144e-12,-0.98275,-0.99059,survives
+spleeter - scnet,median_abs_dev_ms,1.0204,1.0532,5.0022e-11,8.793e-12,0.96392,0.97804,survives
+spleeter - scnet,median_dev_ms,0.86537,0.7621,1.1976e-05,0.00011492,0.76471,0.70196,survives
+spleeter - scnet,share_gt_10ms,0.066145,0.080974,5.4845e-09,5.6851e-11,0.90902,0.96235,survives

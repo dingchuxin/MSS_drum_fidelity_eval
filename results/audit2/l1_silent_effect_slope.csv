@@ -1,0 +1,5 @@
+label,version,median_within_track_slope,pooled_fe_slope,n_tracks_positive,affected_tracks_slopes
+v1_spleeter,stored (all strokes),0.137769,0.124381,38,AM Contra - Heart Peripheral: +0.837; The Mountaineering Club - Ma: +0.633
+v1_spleeter,silent strokes excluded,0.137769,0.119456,38,AM Contra - Heart Peripheral: +0.759; The Mountaineering Club - Ma: +0.453
+v1_bs_roformer,stored (all strokes),0.0604307,0.0586754,42,The Mountaineering Club - Ma: +0.430
+v1_bs_roformer,silent strokes excluded,0.0604307,0.0568667,42,The Mountaineering Club - Ma: +0.350

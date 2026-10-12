@@ -1,0 +1,801 @@
+model,track,stem,n_full_scale,peak,at_0p9_peak
+spleeter,AM Contra - Heart Peripheral,drums,0,0.595947265625,False
+spleeter,AM Contra - Heart Peripheral,bass,0,0.337432861328125,False
+spleeter,AM Contra - Heart Peripheral,other,0,0.292236328125,False
+spleeter,AM Contra - Heart Peripheral,vocals,0,0.539093017578125,False
+spleeter,Al James - Schoolboy Facination,drums,0,0.4761962890625,False
+spleeter,Al James - Schoolboy Facination,bass,0,0.292572021484375,False
+spleeter,Al James - Schoolboy Facination,other,0,0.389312744140625,False
+spleeter,Al James - Schoolboy Facination,vocals,0,0.6551513671875,False
+spleeter,Angels In Amplifiers - I'm Alright,drums,0,0.562896728515625,False
+spleeter,Angels In Amplifiers - I'm Alright,bass,0,0.25537109375,False
+spleeter,Angels In Amplifiers - I'm Alright,other,0,0.6221923828125,False
+spleeter,Angels In Amplifiers - I'm Alright,vocals,0,0.579833984375,False
+spleeter,Arise - Run Run Run,drums,0,0.836029052734375,False
+spleeter,Arise - Run Run Run,bass,0,0.66986083984375,False
+spleeter,Arise - Run Run Run,other,0,0.627960205078125,False
+spleeter,Arise - Run Run Run,vocals,0,0.527984619140625,False
+spleeter,BKS - Bulldozer,drums,0,0.831268310546875,False
+spleeter,BKS - Bulldozer,bass,0,0.37152099609375,False
+spleeter,BKS - Bulldozer,other,0,0.45721435546875,False
+spleeter,BKS - Bulldozer,vocals,0,0.404693603515625,False
+spleeter,BKS - Too Much,drums,0,0.79913330078125,False
+spleeter,BKS - Too Much,bass,0,0.2923583984375,False
+spleeter,BKS - Too Much,other,0,0.321075439453125,False
+spleeter,BKS - Too Much,vocals,0,0.465545654296875,False
+spleeter,Ben Carrigan - We'll Talk About It All Tonight,drums,0,0.752166748046875,False
+spleeter,Ben Carrigan - We'll Talk About It All Tonight,bass,0,0.334869384765625,False
+spleeter,Ben Carrigan - We'll Talk About It All Tonight,other,0,0.398193359375,False
+spleeter,Ben Carrigan - We'll Talk About It All Tonight,vocals,0,0.366790771484375,False
+spleeter,Bobby Nobody - Stitch Up,drums,0,0.77947998046875,False
+spleeter,Bobby Nobody - Stitch Up,bass,0,0.412139892578125,False
+spleeter,Bobby Nobody - Stitch Up,other,0,0.311279296875,False
+spleeter,Bobby Nobody - Stitch Up,vocals,0,0.472930908203125,False
+spleeter,Buitraker - Revo X,drums,0,0.660736083984375,False
+spleeter,Buitraker - Revo X,bass,0,0.390960693359375,False
+spleeter,Buitraker - Revo X,other,0,0.46002197265625,False
+spleeter,Buitraker - Revo X,vocals,0,0.3701171875,False
+spleeter,Carlos Gonzalez - A Place For Us,drums,0,0.6195068359375,False
+spleeter,Carlos Gonzalez - A Place For Us,bass,0,0.203765869140625,False
+spleeter,Carlos Gonzalez - A Place For Us,other,0,0.4364013671875,False
+spleeter,Carlos Gonzalez - A Place For Us,vocals,0,0.643829345703125,False
+spleeter,Cristina Vane - So Easy,drums,0,0.669586181640625,False
+spleeter,Cristina Vane - So Easy,bass,0,0.207855224609375,False
+spleeter,Cristina Vane - So Easy,other,0,0.43548583984375,False
+spleeter,Cristina Vane - So Easy,vocals,0,0.513519287109375,False
+spleeter,Detsky Sad - Walkie Talkie,drums,0,0.76361083984375,False
+spleeter,Detsky Sad - Walkie Talkie,bass,0,0.33636474609375,False
+spleeter,Detsky Sad - Walkie Talkie,other,0,0.630859375,False
+spleeter,Detsky Sad - Walkie Talkie,vocals,0,0.631988525390625,False
+spleeter,Enda Reilly - Cur An Long Ag Seol,drums,0,0.666778564453125,False
+spleeter,Enda Reilly - Cur An Long Ag Seol,bass,0,0.558685302734375,False
+spleeter,Enda Reilly - Cur An Long Ag Seol,other,0,0.58892822265625,False
+spleeter,Enda Reilly - Cur An Long Ag Seol,vocals,0,0.53289794921875,False
+spleeter,Forkupines - Semantics,drums,0,0.686248779296875,False
+spleeter,Forkupines - Semantics,bass,0,0.223785400390625,False
+spleeter,Forkupines - Semantics,other,0,0.59295654296875,False
+spleeter,Forkupines - Semantics,vocals,0,0.45343017578125,False
+spleeter,Georgia Wonder - Siren,drums,0,0.71435546875,False
+spleeter,Georgia Wonder - Siren,bass,0,0.334564208984375,False
+spleeter,Georgia Wonder - Siren,other,0,0.48944091796875,False
+spleeter,Georgia Wonder - Siren,vocals,0,0.55010986328125,False
+spleeter,Girls Under Glass - We Feel Alright,drums,0,0.513092041015625,False
+spleeter,Girls Under Glass - We Feel Alright,bass,0,0.3238525390625,False
+spleeter,Girls Under Glass - We Feel Alright,other,0,0.38629150390625,False
+spleeter,Girls Under Glass - We Feel Alright,vocals,0,0.512420654296875,False
+spleeter,Hollow Ground - Ill Fate,drums,0,0.54241943359375,False
+spleeter,Hollow Ground - Ill Fate,bass,0,0.30950927734375,False
+spleeter,Hollow Ground - Ill Fate,other,0,0.50653076171875,False
+spleeter,Hollow Ground - Ill Fate,vocals,0,0.340576171875,False
+spleeter,James Elder & Mark M Thompson - The English Actor,drums,0,0.70355224609375,False
+spleeter,James Elder & Mark M Thompson - The English Actor,bass,0,0.2838134765625,False
+spleeter,James Elder & Mark M Thompson - The English Actor,other,0,0.476959228515625,False
+spleeter,James Elder & Mark M Thompson - The English Actor,vocals,0,0.81195068359375,False
+spleeter,Juliet's Rescue - Heartbeats,drums,0,0.668914794921875,False
+spleeter,Juliet's Rescue - Heartbeats,bass,0,0.3238525390625,False
+spleeter,Juliet's Rescue - Heartbeats,other,0,0.4532470703125,False
+spleeter,Juliet's Rescue - Heartbeats,vocals,0,0.394775390625,False
+spleeter,Little Chicago's Finest - My Own,drums,0,0.37969970703125,False
+spleeter,Little Chicago's Finest - My Own,bass,0,0.223052978515625,False
+spleeter,Little Chicago's Finest - My Own,other,0,0.142974853515625,False
+spleeter,Little Chicago's Finest - My Own,vocals,0,0.416595458984375,False
+spleeter,Louis Cressy Band - Good Time,drums,0,0.60638427734375,False
+spleeter,Louis Cressy Band - Good Time,bass,0,0.228912353515625,False
+spleeter,Louis Cressy Band - Good Time,other,0,0.411956787109375,False
+spleeter,Louis Cressy Band - Good Time,vocals,0,0.44927978515625,False
+spleeter,Lyndsey Ollard - Catching Up,drums,0,0.6134033203125,False
+spleeter,Lyndsey Ollard - Catching Up,bass,0,0.256591796875,False
+spleeter,Lyndsey Ollard - Catching Up,other,0,0.3546142578125,False
+spleeter,Lyndsey Ollard - Catching Up,vocals,0,0.668609619140625,False
+spleeter,M.E.R.C. Music - Knockout,drums,0,0.51947021484375,False
+spleeter,M.E.R.C. Music - Knockout,bass,0,0.234405517578125,False
+spleeter,M.E.R.C. Music - Knockout,other,0,0.404266357421875,False
+spleeter,M.E.R.C. Music - Knockout,vocals,0,0.67083740234375,False
+spleeter,Moosmusic - Big Dummy Shake,drums,0,0.6392822265625,False
+spleeter,Moosmusic - Big Dummy Shake,bass,0,0.28631591796875,False
+spleeter,Moosmusic - Big Dummy Shake,other,0,0.494140625,False
+spleeter,Moosmusic - Big Dummy Shake,vocals,0,0.627410888671875,False
+spleeter,Motor Tapes - Shore,drums,0,0.30560302734375,False
+spleeter,Motor Tapes - Shore,bass,0,0.24798583984375,False
+spleeter,Motor Tapes - Shore,other,0,0.61907958984375,False
+spleeter,Motor Tapes - Shore,vocals,0,0.88262939453125,False
+spleeter,Mu - Too Bright,drums,0,0.8770751953125,False
+spleeter,Mu - Too Bright,bass,0,0.23455810546875,False
+spleeter,Mu - Too Bright,other,0,0.344757080078125,False
+spleeter,Mu - Too Bright,vocals,0,0.4317626953125,False
+spleeter,Nerve 9 - Pray For The Rain,drums,0,0.67083740234375,False
+spleeter,Nerve 9 - Pray For The Rain,bass,0,0.231353759765625,False
+spleeter,Nerve 9 - Pray For The Rain,other,0,0.508331298828125,False
+spleeter,Nerve 9 - Pray For The Rain,vocals,0,0.61993408203125,False
+spleeter,PR - Happy Daze,drums,0,0.887786865234375,False
+spleeter,PR - Happy Daze,bass,0,0.402801513671875,False
+spleeter,PR - Happy Daze,other,0,0.395172119140625,False
+spleeter,PR - Happy Daze,vocals,0,0.2901611328125,False
+spleeter,PR - Oh No,drums,0,0.7581787109375,False
+spleeter,PR - Oh No,bass,0,0.488067626953125,False
+spleeter,PR - Oh No,other,0,0.64453125,False
+spleeter,PR - Oh No,vocals,0,0.384185791015625,False
+spleeter,Punkdisco - Oral Hygiene,drums,0,0.7618408203125,False
+spleeter,Punkdisco - Oral Hygiene,bass,0,0.69024658203125,False
+spleeter,Punkdisco - Oral Hygiene,other,0,0.2501220703125,False
+spleeter,Punkdisco - Oral Hygiene,vocals,0,0.595245361328125,False
+spleeter,Raft Monk - Tiring,drums,0,0.595855712890625,False
+spleeter,Raft Monk - Tiring,bass,0,0.3604736328125,False
+spleeter,Raft Monk - Tiring,other,0,0.53125,False
+spleeter,Raft Monk - Tiring,vocals,0,0.47845458984375,False
+spleeter,Sambasevam Shanmugam - Kaathaadi,drums,0,0.705352783203125,False
+spleeter,Sambasevam Shanmugam - Kaathaadi,bass,0,0.530029296875,False
+spleeter,Sambasevam Shanmugam - Kaathaadi,other,0,0.840545654296875,False
+spleeter,Sambasevam Shanmugam - Kaathaadi,vocals,0,0.615692138671875,False
+spleeter,Secretariat - Borderline,drums,0,0.607391357421875,False
+spleeter,Secretariat - Borderline,bass,0,0.2379150390625,False
+spleeter,Secretariat - Borderline,other,0,0.819793701171875,False
+spleeter,Secretariat - Borderline,vocals,0,0.7371826171875,False
+spleeter,Secretariat - Over The Top,drums,0,0.6416015625,False
+spleeter,Secretariat - Over The Top,bass,0,0.33355712890625,False
+spleeter,Secretariat - Over The Top,other,0,0.4510498046875,False
+spleeter,Secretariat - Over The Top,vocals,0,0.527801513671875,False
+spleeter,Side Effects Project - Sing With Me,drums,0,0.59228515625,False
+spleeter,Side Effects Project - Sing With Me,bass,0,0.263397216796875,False
+spleeter,Side Effects Project - Sing With Me,other,0,0.202972412109375,False
+spleeter,Side Effects Project - Sing With Me,vocals,0,0.5899658203125,False
+spleeter,Signe Jakobsen - What Have You Done To Me,drums,0,0.545379638671875,False
+spleeter,Signe Jakobsen - What Have You Done To Me,bass,0,0.369873046875,False
+spleeter,Signe Jakobsen - What Have You Done To Me,other,0,0.507232666015625,False
+spleeter,Signe Jakobsen - What Have You Done To Me,vocals,0,0.766754150390625,False
+spleeter,Skelpolu - Resurrection,drums,0,0.5467529296875,False
+spleeter,Skelpolu - Resurrection,bass,0,0.470703125,False
+spleeter,Skelpolu - Resurrection,other,0,0.574005126953125,False
+spleeter,Skelpolu - Resurrection,vocals,0,0.31549072265625,False
+spleeter,Speak Softly - Broken Man,drums,0,0.681671142578125,False
+spleeter,Speak Softly - Broken Man,bass,0,0.480224609375,False
+spleeter,Speak Softly - Broken Man,other,0,0.4561767578125,False
+spleeter,Speak Softly - Broken Man,vocals,0,0.302642822265625,False
+spleeter,Speak Softly - Like Horses,drums,0,0.479461669921875,False
+spleeter,Speak Softly - Like Horses,bass,0,0.419403076171875,False
+spleeter,Speak Softly - Like Horses,other,0,0.50048828125,False
+spleeter,Speak Softly - Like Horses,vocals,0,0.71087646484375,False
+spleeter,The Doppler Shift - Atrophy,drums,0,0.75909423828125,False
+spleeter,The Doppler Shift - Atrophy,bass,0,0.354766845703125,False
+spleeter,The Doppler Shift - Atrophy,other,0,0.416778564453125,False
+spleeter,The Doppler Shift - Atrophy,vocals,0,0.56494140625,False
+spleeter,The Easton Ellises (Baumi) - SDRNR,drums,0,0.654388427734375,False
+spleeter,The Easton Ellises (Baumi) - SDRNR,bass,0,0.353271484375,False
+spleeter,The Easton Ellises (Baumi) - SDRNR,other,0,0.458953857421875,False
+spleeter,The Easton Ellises (Baumi) - SDRNR,vocals,0,0.5621337890625,False
+spleeter,The Easton Ellises - Falcon 69,drums,0,0.731475830078125,False
+spleeter,The Easton Ellises - Falcon 69,bass,0,0.357391357421875,False
+spleeter,The Easton Ellises - Falcon 69,other,0,0.559814453125,False
+spleeter,The Easton Ellises - Falcon 69,vocals,0,0.465606689453125,False
+spleeter,The Long Wait - Dark Horses,drums,0,0.759979248046875,False
+spleeter,The Long Wait - Dark Horses,bass,0,0.273345947265625,False
+spleeter,The Long Wait - Dark Horses,other,0,0.3873291015625,False
+spleeter,The Long Wait - Dark Horses,vocals,0,0.3604736328125,False
+spleeter,The Mountaineering Club - Mallory,drums,0,0.62249755859375,False
+spleeter,The Mountaineering Club - Mallory,bass,0,0.5811767578125,False
+spleeter,The Mountaineering Club - Mallory,other,0,0.38909912109375,False
+spleeter,The Mountaineering Club - Mallory,vocals,0,0.571136474609375,False
+spleeter,The Sunshine Garcia Band - For I Am The Moon,drums,0,0.730712890625,False
+spleeter,The Sunshine Garcia Band - For I Am The Moon,bass,0,0.50201416015625,False
+spleeter,The Sunshine Garcia Band - For I Am The Moon,other,0,0.47259521484375,False
+spleeter,The Sunshine Garcia Band - For I Am The Moon,vocals,0,0.48797607421875,False
+spleeter,Timboz - Pony,drums,0,0.562713623046875,False
+spleeter,Timboz - Pony,bass,0,0.19219970703125,False
+spleeter,Timboz - Pony,other,0,0.53167724609375,False
+spleeter,Timboz - Pony,vocals,0,0.399169921875,False
+spleeter,Tom McKenzie - Directions,drums,0,0.781646728515625,False
+spleeter,Tom McKenzie - Directions,bass,0,0.3377685546875,False
+spleeter,Tom McKenzie - Directions,other,0,0.4033203125,False
+spleeter,Tom McKenzie - Directions,vocals,0,0.363189697265625,False
+spleeter,Triviul feat. The Fiend - Widow,drums,0,0.754669189453125,False
+spleeter,Triviul feat. The Fiend - Widow,bass,0,0.2197265625,False
+spleeter,Triviul feat. The Fiend - Widow,other,0,0.3516845703125,False
+spleeter,Triviul feat. The Fiend - Widow,vocals,0,0.573883056640625,False
+spleeter,We Fell From The Sky - Not You,drums,0,0.658447265625,False
+spleeter,We Fell From The Sky - Not You,bass,0,0.344024658203125,False
+spleeter,We Fell From The Sky - Not You,other,0,0.438201904296875,False
+spleeter,We Fell From The Sky - Not You,vocals,0,0.559722900390625,False
+spleeter,Zeno - Signs,drums,0,0.593780517578125,False
+spleeter,Zeno - Signs,bass,0,0.283905029296875,False
+spleeter,Zeno - Signs,other,0,0.578948974609375,False
+spleeter,Zeno - Signs,vocals,0,0.5487060546875,False
+htdemucs,AM Contra - Heart Peripheral,drums,0,0.61700439453125,False
+htdemucs,AM Contra - Heart Peripheral,bass,0,0.352630615234375,False
+htdemucs,AM Contra - Heart Peripheral,other,0,0.232635498046875,False
+htdemucs,AM Contra - Heart Peripheral,vocals,0,0.53118896484375,False
+htdemucs,Al James - Schoolboy Facination,drums,0,0.491180419921875,False
+htdemucs,Al James - Schoolboy Facination,bass,0,0.285736083984375,False
+htdemucs,Al James - Schoolboy Facination,other,0,0.436676025390625,False
+htdemucs,Al James - Schoolboy Facination,vocals,0,0.65997314453125,False
+htdemucs,Angels In Amplifiers - I'm Alright,drums,0,0.519744873046875,False
+htdemucs,Angels In Amplifiers - I'm Alright,bass,0,0.268798828125,False
+htdemucs,Angels In Amplifiers - I'm Alright,other,0,0.657684326171875,False
+htdemucs,Angels In Amplifiers - I'm Alright,vocals,0,0.551239013671875,False
+htdemucs,Arise - Run Run Run,drums,0,0.887420654296875,False
+htdemucs,Arise - Run Run Run,bass,0,0.614654541015625,False
+htdemucs,Arise - Run Run Run,other,0,0.758056640625,False
+htdemucs,Arise - Run Run Run,vocals,0,0.41754150390625,False
+htdemucs,BKS - Bulldozer,drums,0,0.801055908203125,False
+htdemucs,BKS - Bulldozer,bass,0,0.437530517578125,False
+htdemucs,BKS - Bulldozer,other,0,0.382476806640625,False
+htdemucs,BKS - Bulldozer,vocals,0,0.416839599609375,False
+htdemucs,BKS - Too Much,drums,0,0.77838134765625,False
+htdemucs,BKS - Too Much,bass,0,0.186492919921875,False
+htdemucs,BKS - Too Much,other,0,0.28131103515625,False
+htdemucs,BKS - Too Much,vocals,0,0.4552001953125,False
+htdemucs,Ben Carrigan - We'll Talk About It All Tonight,drums,0,0.7001953125,False
+htdemucs,Ben Carrigan - We'll Talk About It All Tonight,bass,0,0.29022216796875,False
+htdemucs,Ben Carrigan - We'll Talk About It All Tonight,other,0,0.42779541015625,False
+htdemucs,Ben Carrigan - We'll Talk About It All Tonight,vocals,0,0.358428955078125,False
+htdemucs,Bobby Nobody - Stitch Up,drums,0,0.790618896484375,False
+htdemucs,Bobby Nobody - Stitch Up,bass,0,0.305419921875,False
+htdemucs,Bobby Nobody - Stitch Up,other,0,0.316436767578125,False
+htdemucs,Bobby Nobody - Stitch Up,vocals,0,0.474212646484375,False
+htdemucs,Buitraker - Revo X,drums,0,0.73748779296875,False
+htdemucs,Buitraker - Revo X,bass,0,0.232177734375,False
+htdemucs,Buitraker - Revo X,other,0,0.4229736328125,False
+htdemucs,Buitraker - Revo X,vocals,0,0.331298828125,False
+htdemucs,Carlos Gonzalez - A Place For Us,drums,0,0.664642333984375,False
+htdemucs,Carlos Gonzalez - A Place For Us,bass,0,0.2362060546875,False
+htdemucs,Carlos Gonzalez - A Place For Us,other,0,0.41259765625,False
+htdemucs,Carlos Gonzalez - A Place For Us,vocals,0,0.62017822265625,False
+htdemucs,Cristina Vane - So Easy,drums,0,0.69561767578125,False
+htdemucs,Cristina Vane - So Easy,bass,0,0.255645751953125,False
+htdemucs,Cristina Vane - So Easy,other,0,0.44561767578125,False
+htdemucs,Cristina Vane - So Easy,vocals,0,0.55218505859375,False
+htdemucs,Detsky Sad - Walkie Talkie,drums,0,0.766937255859375,False
+htdemucs,Detsky Sad - Walkie Talkie,bass,0,0.19696044921875,False
+htdemucs,Detsky Sad - Walkie Talkie,other,0,0.59295654296875,False
+htdemucs,Detsky Sad - Walkie Talkie,vocals,0,0.63275146484375,False
+htdemucs,Enda Reilly - Cur An Long Ag Seol,drums,0,0.6923828125,False
+htdemucs,Enda Reilly - Cur An Long Ag Seol,bass,0,0.5224609375,False
+htdemucs,Enda Reilly - Cur An Long Ag Seol,other,0,0.7479248046875,False
+htdemucs,Enda Reilly - Cur An Long Ag Seol,vocals,0,0.427215576171875,False
+htdemucs,Forkupines - Semantics,drums,0,0.626190185546875,False
+htdemucs,Forkupines - Semantics,bass,0,0.138214111328125,False
+htdemucs,Forkupines - Semantics,other,0,0.40667724609375,False
+htdemucs,Forkupines - Semantics,vocals,0,0.452484130859375,False
+htdemucs,Georgia Wonder - Siren,drums,0,0.7802734375,False
+htdemucs,Georgia Wonder - Siren,bass,0,0.275726318359375,False
+htdemucs,Georgia Wonder - Siren,other,0,0.530426025390625,False
+htdemucs,Georgia Wonder - Siren,vocals,0,0.49908447265625,False
+htdemucs,Girls Under Glass - We Feel Alright,drums,0,0.588165283203125,False
+htdemucs,Girls Under Glass - We Feel Alright,bass,0,0.3533935546875,False
+htdemucs,Girls Under Glass - We Feel Alright,other,0,0.384246826171875,False
+htdemucs,Girls Under Glass - We Feel Alright,vocals,0,0.516021728515625,False
+htdemucs,Hollow Ground - Ill Fate,drums,0,0.808746337890625,False
+htdemucs,Hollow Ground - Ill Fate,bass,0,0.257232666015625,False
+htdemucs,Hollow Ground - Ill Fate,other,0,0.44873046875,False
+htdemucs,Hollow Ground - Ill Fate,vocals,0,0.339508056640625,False
+htdemucs,James Elder & Mark M Thompson - The English Actor,drums,0,0.753448486328125,False
+htdemucs,James Elder & Mark M Thompson - The English Actor,bass,0,0.31817626953125,False
+htdemucs,James Elder & Mark M Thompson - The English Actor,other,0,0.4700927734375,False
+htdemucs,James Elder & Mark M Thompson - The English Actor,vocals,0,0.80682373046875,False
+htdemucs,Juliet's Rescue - Heartbeats,drums,0,0.615447998046875,False
+htdemucs,Juliet's Rescue - Heartbeats,bass,0,0.4031982421875,False
+htdemucs,Juliet's Rescue - Heartbeats,other,0,0.627655029296875,False
+htdemucs,Juliet's Rescue - Heartbeats,vocals,0,0.389404296875,False
+htdemucs,Little Chicago's Finest - My Own,drums,0,0.89996337890625,True
+htdemucs,Little Chicago's Finest - My Own,bass,0,0.89996337890625,True
+htdemucs,Little Chicago's Finest - My Own,other,0,0.89996337890625,True
+htdemucs,Little Chicago's Finest - My Own,vocals,0,0.89996337890625,True
+htdemucs,Louis Cressy Band - Good Time,drums,0,0.638916015625,False
+htdemucs,Louis Cressy Band - Good Time,bass,0,0.267333984375,False
+htdemucs,Louis Cressy Band - Good Time,other,0,0.411651611328125,False
+htdemucs,Louis Cressy Band - Good Time,vocals,0,0.386260986328125,False
+htdemucs,Lyndsey Ollard - Catching Up,drums,0,0.62884521484375,False
+htdemucs,Lyndsey Ollard - Catching Up,bass,0,0.252105712890625,False
+htdemucs,Lyndsey Ollard - Catching Up,other,0,0.37078857421875,False
+htdemucs,Lyndsey Ollard - Catching Up,vocals,0,0.66943359375,False
+htdemucs,M.E.R.C. Music - Knockout,drums,0,0.55523681640625,False
+htdemucs,M.E.R.C. Music - Knockout,bass,0,0.17327880859375,False
+htdemucs,M.E.R.C. Music - Knockout,other,0,0.391448974609375,False
+htdemucs,M.E.R.C. Music - Knockout,vocals,0,0.710418701171875,False
+htdemucs,Moosmusic - Big Dummy Shake,drums,0,0.5384521484375,False
+htdemucs,Moosmusic - Big Dummy Shake,bass,0,0.226165771484375,False
+htdemucs,Moosmusic - Big Dummy Shake,other,0,0.4749755859375,False
+htdemucs,Moosmusic - Big Dummy Shake,vocals,0,0.590789794921875,False
+htdemucs,Motor Tapes - Shore,drums,0,0.307159423828125,False
+htdemucs,Motor Tapes - Shore,bass,0,0.19757080078125,False
+htdemucs,Motor Tapes - Shore,other,0,0.693756103515625,False
+htdemucs,Motor Tapes - Shore,vocals,0,0.824676513671875,False
+htdemucs,Mu - Too Bright,drums,0,0.89996337890625,True
+htdemucs,Mu - Too Bright,bass,0,0.26275634765625,False
+htdemucs,Mu - Too Bright,other,0,0.302398681640625,False
+htdemucs,Mu - Too Bright,vocals,0,0.430999755859375,False
+htdemucs,Nerve 9 - Pray For The Rain,drums,0,0.576446533203125,False
+htdemucs,Nerve 9 - Pray For The Rain,bass,0,0.410614013671875,False
+htdemucs,Nerve 9 - Pray For The Rain,other,0,0.4915771484375,False
+htdemucs,Nerve 9 - Pray For The Rain,vocals,0,0.70538330078125,False
+htdemucs,PR - Happy Daze,drums,0,0.89996337890625,True
+htdemucs,PR - Happy Daze,bass,0,0.31182861328125,False
+htdemucs,PR - Happy Daze,other,0,0.40374755859375,False
+htdemucs,PR - Happy Daze,vocals,0,0.26727294921875,False
+htdemucs,PR - Oh No,drums,0,0.686676025390625,False
+htdemucs,PR - Oh No,bass,0,0.49005126953125,False
+htdemucs,PR - Oh No,other,0,0.55645751953125,False
+htdemucs,PR - Oh No,vocals,0,0.275360107421875,False
+htdemucs,Punkdisco - Oral Hygiene,drums,0,0.756195068359375,False
+htdemucs,Punkdisco - Oral Hygiene,bass,0,0.423309326171875,False
+htdemucs,Punkdisco - Oral Hygiene,other,0,0.2469482421875,False
+htdemucs,Punkdisco - Oral Hygiene,vocals,0,0.569976806640625,False
+htdemucs,Raft Monk - Tiring,drums,0,0.601104736328125,False
+htdemucs,Raft Monk - Tiring,bass,0,0.3302001953125,False
+htdemucs,Raft Monk - Tiring,other,0,0.474884033203125,False
+htdemucs,Raft Monk - Tiring,vocals,0,0.460784912109375,False
+htdemucs,Sambasevam Shanmugam - Kaathaadi,drums,0,0.7425537109375,False
+htdemucs,Sambasevam Shanmugam - Kaathaadi,bass,0,0.519744873046875,False
+htdemucs,Sambasevam Shanmugam - Kaathaadi,other,0,0.839569091796875,False
+htdemucs,Sambasevam Shanmugam - Kaathaadi,vocals,0,0.6307373046875,False
+htdemucs,Secretariat - Borderline,drums,0,0.791229248046875,False
+htdemucs,Secretariat - Borderline,bass,0,0.164306640625,False
+htdemucs,Secretariat - Borderline,other,0,0.82537841796875,False
+htdemucs,Secretariat - Borderline,vocals,0,0.7139892578125,False
+htdemucs,Secretariat - Over The Top,drums,0,0.754150390625,False
+htdemucs,Secretariat - Over The Top,bass,0,0.401763916015625,False
+htdemucs,Secretariat - Over The Top,other,0,0.385498046875,False
+htdemucs,Secretariat - Over The Top,vocals,0,0.571624755859375,False
+htdemucs,Side Effects Project - Sing With Me,drums,0,0.485565185546875,False
+htdemucs,Side Effects Project - Sing With Me,bass,0,0.171875,False
+htdemucs,Side Effects Project - Sing With Me,other,0,0.176177978515625,False
+htdemucs,Side Effects Project - Sing With Me,vocals,0,0.606353759765625,False
+htdemucs,Signe Jakobsen - What Have You Done To Me,drums,0,0.494354248046875,False
+htdemucs,Signe Jakobsen - What Have You Done To Me,bass,0,0.29315185546875,False
+htdemucs,Signe Jakobsen - What Have You Done To Me,other,0,0.454833984375,False
+htdemucs,Signe Jakobsen - What Have You Done To Me,vocals,0,0.759490966796875,False
+htdemucs,Skelpolu - Resurrection,drums,0,0.553192138671875,False
+htdemucs,Skelpolu - Resurrection,bass,0,0.3543701171875,False
+htdemucs,Skelpolu - Resurrection,other,0,0.50201416015625,False
+htdemucs,Skelpolu - Resurrection,vocals,0,0.40765380859375,False
+htdemucs,Speak Softly - Broken Man,drums,0,0.696746826171875,False
+htdemucs,Speak Softly - Broken Man,bass,0,0.29107666015625,False
+htdemucs,Speak Softly - Broken Man,other,0,0.451904296875,False
+htdemucs,Speak Softly - Broken Man,vocals,0,0.25262451171875,False
+htdemucs,Speak Softly - Like Horses,drums,0,0.547943115234375,False
+htdemucs,Speak Softly - Like Horses,bass,0,0.227630615234375,False
+htdemucs,Speak Softly - Like Horses,other,0,0.615203857421875,False
+htdemucs,Speak Softly - Like Horses,vocals,0,0.624664306640625,False
+htdemucs,The Doppler Shift - Atrophy,drums,0,0.748626708984375,False
+htdemucs,The Doppler Shift - Atrophy,bass,0,0.273406982421875,False
+htdemucs,The Doppler Shift - Atrophy,other,0,0.520965576171875,False
+htdemucs,The Doppler Shift - Atrophy,vocals,0,0.55743408203125,False
+htdemucs,The Easton Ellises (Baumi) - SDRNR,drums,0,0.7435302734375,False
+htdemucs,The Easton Ellises (Baumi) - SDRNR,bass,0,0.39984130859375,False
+htdemucs,The Easton Ellises (Baumi) - SDRNR,other,0,0.587158203125,False
+htdemucs,The Easton Ellises (Baumi) - SDRNR,vocals,0,0.555328369140625,False
+htdemucs,The Easton Ellises - Falcon 69,drums,0,0.751434326171875,False
+htdemucs,The Easton Ellises - Falcon 69,bass,0,0.368560791015625,False
+htdemucs,The Easton Ellises - Falcon 69,other,0,0.494415283203125,False
+htdemucs,The Easton Ellises - Falcon 69,vocals,0,0.45306396484375,False
+htdemucs,The Long Wait - Dark Horses,drums,0,0.82562255859375,False
+htdemucs,The Long Wait - Dark Horses,bass,0,0.269317626953125,False
+htdemucs,The Long Wait - Dark Horses,other,0,0.4000244140625,False
+htdemucs,The Long Wait - Dark Horses,vocals,0,0.3482666015625,False
+htdemucs,The Mountaineering Club - Mallory,drums,0,0.642578125,False
+htdemucs,The Mountaineering Club - Mallory,bass,0,0.465545654296875,False
+htdemucs,The Mountaineering Club - Mallory,other,0,0.374603271484375,False
+htdemucs,The Mountaineering Club - Mallory,vocals,0,0.56488037109375,False
+htdemucs,The Sunshine Garcia Band - For I Am The Moon,drums,0,0.8651123046875,False
+htdemucs,The Sunshine Garcia Band - For I Am The Moon,bass,0,0.383026123046875,False
+htdemucs,The Sunshine Garcia Band - For I Am The Moon,other,0,0.38311767578125,False
+htdemucs,The Sunshine Garcia Band - For I Am The Moon,vocals,0,0.441650390625,False
+htdemucs,Timboz - Pony,drums,0,0.89996337890625,True
+htdemucs,Timboz - Pony,bass,0,0.15277099609375,False
+htdemucs,Timboz - Pony,other,0,0.503326416015625,False
+htdemucs,Timboz - Pony,vocals,0,0.39886474609375,False
+htdemucs,Tom McKenzie - Directions,drums,0,0.792694091796875,False
+htdemucs,Tom McKenzie - Directions,bass,0,0.337890625,False
+htdemucs,Tom McKenzie - Directions,other,0,0.44866943359375,False
+htdemucs,Tom McKenzie - Directions,vocals,0,0.32135009765625,False
+htdemucs,Triviul feat. The Fiend - Widow,drums,0,0.773529052734375,False
+htdemucs,Triviul feat. The Fiend - Widow,bass,0,0.171356201171875,False
+htdemucs,Triviul feat. The Fiend - Widow,other,0,0.377899169921875,False
+htdemucs,Triviul feat. The Fiend - Widow,vocals,0,0.57171630859375,False
+htdemucs,We Fell From The Sky - Not You,drums,0,0.71624755859375,False
+htdemucs,We Fell From The Sky - Not You,bass,0,0.16839599609375,False
+htdemucs,We Fell From The Sky - Not You,other,0,0.48223876953125,False
+htdemucs,We Fell From The Sky - Not You,vocals,0,0.567108154296875,False
+htdemucs,Zeno - Signs,drums,0,0.610321044921875,False
+htdemucs,Zeno - Signs,bass,0,0.153717041015625,False
+htdemucs,Zeno - Signs,other,0,0.510833740234375,False
+htdemucs,Zeno - Signs,vocals,0,0.68292236328125,False
+bs_roformer,AM Contra - Heart Peripheral,drums,0,0.627044677734375,False
+bs_roformer,AM Contra - Heart Peripheral,bass,0,0.372100830078125,False
+bs_roformer,AM Contra - Heart Peripheral,other,0,0.235198974609375,False
+bs_roformer,AM Contra - Heart Peripheral,vocals,0,0.544403076171875,False
+bs_roformer,Al James - Schoolboy Facination,drums,0,0.53509521484375,False
+bs_roformer,Al James - Schoolboy Facination,bass,0,0.33050537109375,False
+bs_roformer,Al James - Schoolboy Facination,other,0,0.40411376953125,False
+bs_roformer,Al James - Schoolboy Facination,vocals,0,0.703826904296875,False
+bs_roformer,Angels In Amplifiers - I'm Alright,drums,0,0.582550048828125,False
+bs_roformer,Angels In Amplifiers - I'm Alright,bass,0,0.2965087890625,False
+bs_roformer,Angels In Amplifiers - I'm Alright,other,0,0.608184814453125,False
+bs_roformer,Angels In Amplifiers - I'm Alright,vocals,0,0.55657958984375,False
+bs_roformer,Arise - Run Run Run,drums,0,0.891632080078125,False
+bs_roformer,Arise - Run Run Run,bass,0,0.655517578125,False
+bs_roformer,Arise - Run Run Run,other,0,0.66473388671875,False
+bs_roformer,Arise - Run Run Run,vocals,0,0.4202880859375,False
+bs_roformer,BKS - Bulldozer,drums,0,0.80169677734375,False
+bs_roformer,BKS - Bulldozer,bass,0,0.410888671875,False
+bs_roformer,BKS - Bulldozer,other,0,0.41473388671875,False
+bs_roformer,BKS - Bulldozer,vocals,0,0.431884765625,False
+bs_roformer,BKS - Too Much,drums,0,0.755279541015625,False
+bs_roformer,BKS - Too Much,bass,0,0.2330322265625,False
+bs_roformer,BKS - Too Much,other,0,0.31024169921875,False
+bs_roformer,BKS - Too Much,vocals,0,0.45880126953125,False
+bs_roformer,Ben Carrigan - We'll Talk About It All Tonight,drums,0,0.699127197265625,False
+bs_roformer,Ben Carrigan - We'll Talk About It All Tonight,bass,0,0.322113037109375,False
+bs_roformer,Ben Carrigan - We'll Talk About It All Tonight,other,0,0.427001953125,False
+bs_roformer,Ben Carrigan - We'll Talk About It All Tonight,vocals,0,0.397308349609375,False
+bs_roformer,Bobby Nobody - Stitch Up,drums,0,0.829925537109375,False
+bs_roformer,Bobby Nobody - Stitch Up,bass,0,0.374267578125,False
+bs_roformer,Bobby Nobody - Stitch Up,other,0,0.39324951171875,False
+bs_roformer,Bobby Nobody - Stitch Up,vocals,0,0.472259521484375,False
+bs_roformer,Buitraker - Revo X,drums,0,0.724945068359375,False
+bs_roformer,Buitraker - Revo X,bass,0,0.25457763671875,False
+bs_roformer,Buitraker - Revo X,other,0,0.465850830078125,False
+bs_roformer,Buitraker - Revo X,vocals,0,0.392608642578125,False
+bs_roformer,Carlos Gonzalez - A Place For Us,drums,0,0.719390869140625,False
+bs_roformer,Carlos Gonzalez - A Place For Us,bass,0,0.26251220703125,False
+bs_roformer,Carlos Gonzalez - A Place For Us,other,0,0.4267578125,False
+bs_roformer,Carlos Gonzalez - A Place For Us,vocals,0,0.6077880859375,False
+bs_roformer,Cristina Vane - So Easy,drums,0,0.746795654296875,False
+bs_roformer,Cristina Vane - So Easy,bass,0,0.25,False
+bs_roformer,Cristina Vane - So Easy,other,0,0.498199462890625,False
+bs_roformer,Cristina Vane - So Easy,vocals,0,0.508514404296875,False
+bs_roformer,Detsky Sad - Walkie Talkie,drums,0,0.812347412109375,False
+bs_roformer,Detsky Sad - Walkie Talkie,bass,0,0.174835205078125,False
+bs_roformer,Detsky Sad - Walkie Talkie,other,0,0.715850830078125,False
+bs_roformer,Detsky Sad - Walkie Talkie,vocals,0,0.583465576171875,False
+bs_roformer,Enda Reilly - Cur An Long Ag Seol,drums,0,0.72357177734375,False
+bs_roformer,Enda Reilly - Cur An Long Ag Seol,bass,0,0.535308837890625,False
+bs_roformer,Enda Reilly - Cur An Long Ag Seol,other,0,0.850341796875,False
+bs_roformer,Enda Reilly - Cur An Long Ag Seol,vocals,0,0.42010498046875,False
+bs_roformer,Forkupines - Semantics,drums,0,0.62457275390625,False
+bs_roformer,Forkupines - Semantics,bass,0,0.167633056640625,False
+bs_roformer,Forkupines - Semantics,other,0,0.45550537109375,False
+bs_roformer,Forkupines - Semantics,vocals,0,0.46221923828125,False
+bs_roformer,Georgia Wonder - Siren,drums,0,0.708160400390625,False
+bs_roformer,Georgia Wonder - Siren,bass,0,0.326263427734375,False
+bs_roformer,Georgia Wonder - Siren,other,0,0.53717041015625,False
+bs_roformer,Georgia Wonder - Siren,vocals,0,0.47833251953125,False
+bs_roformer,Girls Under Glass - We Feel Alright,drums,0,0.61358642578125,False
+bs_roformer,Girls Under Glass - We Feel Alright,bass,0,0.31756591796875,False
+bs_roformer,Girls Under Glass - We Feel Alright,other,0,0.446807861328125,False
+bs_roformer,Girls Under Glass - We Feel Alright,vocals,0,0.544891357421875,False
+bs_roformer,Hollow Ground - Ill Fate,drums,0,0.788177490234375,False
+bs_roformer,Hollow Ground - Ill Fate,bass,0,0.3885498046875,False
+bs_roformer,Hollow Ground - Ill Fate,other,0,0.48968505859375,False
+bs_roformer,Hollow Ground - Ill Fate,vocals,0,0.350250244140625,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,drums,0,0.767486572265625,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,bass,0,0.32537841796875,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,other,0,0.503997802734375,False
+bs_roformer,James Elder & Mark M Thompson - The English Actor,vocals,0,0.806488037109375,False
+bs_roformer,Juliet's Rescue - Heartbeats,drums,0,0.598876953125,False
+bs_roformer,Juliet's Rescue - Heartbeats,bass,0,0.39849853515625,False
+bs_roformer,Juliet's Rescue - Heartbeats,other,0,0.596649169921875,False
+bs_roformer,Juliet's Rescue - Heartbeats,vocals,0,0.403106689453125,False
+bs_roformer,Little Chicago's Finest - My Own,drums,0,0.79229736328125,False
+bs_roformer,Little Chicago's Finest - My Own,bass,0,0.107513427734375,False
+bs_roformer,Little Chicago's Finest - My Own,other,0,0.456207275390625,False
+bs_roformer,Little Chicago's Finest - My Own,vocals,0,0.43975830078125,False
+bs_roformer,Louis Cressy Band - Good Time,drums,0,0.614227294921875,False
+bs_roformer,Louis Cressy Band - Good Time,bass,0,0.30364990234375,False
+bs_roformer,Louis Cressy Band - Good Time,other,0,0.422119140625,False
+bs_roformer,Louis Cressy Band - Good Time,vocals,0,0.3704833984375,False
+bs_roformer,Lyndsey Ollard - Catching Up,drums,0,0.66162109375,False
+bs_roformer,Lyndsey Ollard - Catching Up,bass,0,0.246307373046875,False
+bs_roformer,Lyndsey Ollard - Catching Up,other,0,0.472747802734375,False
+bs_roformer,Lyndsey Ollard - Catching Up,vocals,0,0.675933837890625,False
+bs_roformer,M.E.R.C. Music - Knockout,drums,0,0.545928955078125,False
+bs_roformer,M.E.R.C. Music - Knockout,bass,0,0.120086669921875,False
+bs_roformer,M.E.R.C. Music - Knockout,other,0,0.436370849609375,False
+bs_roformer,M.E.R.C. Music - Knockout,vocals,0,0.74676513671875,False
+bs_roformer,Moosmusic - Big Dummy Shake,drums,0,0.551239013671875,False
+bs_roformer,Moosmusic - Big Dummy Shake,bass,0,0.255157470703125,False
+bs_roformer,Moosmusic - Big Dummy Shake,other,0,0.453094482421875,False
+bs_roformer,Moosmusic - Big Dummy Shake,vocals,0,0.5762939453125,False
+bs_roformer,Motor Tapes - Shore,drums,0,0.325714111328125,False
+bs_roformer,Motor Tapes - Shore,bass,0,0.220977783203125,False
+bs_roformer,Motor Tapes - Shore,other,0,0.624542236328125,False
+bs_roformer,Motor Tapes - Shore,vocals,0,0.817962646484375,False
+bs_roformer,Mu - Too Bright,drums,0,0.947296142578125,False
+bs_roformer,Mu - Too Bright,bass,0,0.24835205078125,False
+bs_roformer,Mu - Too Bright,other,0,0.36065673828125,False
+bs_roformer,Mu - Too Bright,vocals,0,0.423553466796875,False
+bs_roformer,Nerve 9 - Pray For The Rain,drums,0,0.648834228515625,False
+bs_roformer,Nerve 9 - Pray For The Rain,bass,0,0.36669921875,False
+bs_roformer,Nerve 9 - Pray For The Rain,other,0,0.47705078125,False
+bs_roformer,Nerve 9 - Pray For The Rain,vocals,0,0.718414306640625,False
+bs_roformer,PR - Happy Daze,drums,0,0.85162353515625,False
+bs_roformer,PR - Happy Daze,bass,0,0.21380615234375,False
+bs_roformer,PR - Happy Daze,other,0,0.388824462890625,False
+bs_roformer,PR - Happy Daze,vocals,0,0.109588623046875,False
+bs_roformer,PR - Oh No,drums,0,0.6868896484375,False
+bs_roformer,PR - Oh No,bass,0,0.528045654296875,False
+bs_roformer,PR - Oh No,other,0,0.85247802734375,False
+bs_roformer,PR - Oh No,vocals,0,0.277130126953125,False
+bs_roformer,Punkdisco - Oral Hygiene,drums,0,0.6986083984375,False
+bs_roformer,Punkdisco - Oral Hygiene,bass,0,0.44354248046875,False
+bs_roformer,Punkdisco - Oral Hygiene,other,0,0.23870849609375,False
+bs_roformer,Punkdisco - Oral Hygiene,vocals,0,0.576446533203125,False
+bs_roformer,Raft Monk - Tiring,drums,0,0.59613037109375,False
+bs_roformer,Raft Monk - Tiring,bass,0,0.302520751953125,False
+bs_roformer,Raft Monk - Tiring,other,0,0.519989013671875,False
+bs_roformer,Raft Monk - Tiring,vocals,0,0.471435546875,False
+bs_roformer,Sambasevam Shanmugam - Kaathaadi,drums,0,0.73614501953125,False
+bs_roformer,Sambasevam Shanmugam - Kaathaadi,bass,0,0.53302001953125,False
+bs_roformer,Sambasevam Shanmugam - Kaathaadi,other,0,0.83953857421875,False
+bs_roformer,Sambasevam Shanmugam - Kaathaadi,vocals,0,0.646331787109375,False
+bs_roformer,Secretariat - Borderline,drums,0,0.80706787109375,False
+bs_roformer,Secretariat - Borderline,bass,0,0.268646240234375,False
+bs_roformer,Secretariat - Borderline,other,0,0.796600341796875,False
+bs_roformer,Secretariat - Borderline,vocals,0,0.70147705078125,False
+bs_roformer,Secretariat - Over The Top,drums,0,0.8067626953125,False
+bs_roformer,Secretariat - Over The Top,bass,0,0.478179931640625,False
+bs_roformer,Secretariat - Over The Top,other,0,0.474365234375,False
+bs_roformer,Secretariat - Over The Top,vocals,0,0.575714111328125,False
+bs_roformer,Side Effects Project - Sing With Me,drums,0,0.5050048828125,False
+bs_roformer,Side Effects Project - Sing With Me,bass,0,0.1611328125,False
+bs_roformer,Side Effects Project - Sing With Me,other,0,0.21026611328125,False
+bs_roformer,Side Effects Project - Sing With Me,vocals,0,0.61639404296875,False
+bs_roformer,Signe Jakobsen - What Have You Done To Me,drums,0,0.51751708984375,False
+bs_roformer,Signe Jakobsen - What Have You Done To Me,bass,0,0.3568115234375,False
+bs_roformer,Signe Jakobsen - What Have You Done To Me,other,0,0.467987060546875,False
+bs_roformer,Signe Jakobsen - What Have You Done To Me,vocals,0,0.75506591796875,False
+bs_roformer,Skelpolu - Resurrection,drums,0,0.689788818359375,False
+bs_roformer,Skelpolu - Resurrection,bass,0,0.484344482421875,False
+bs_roformer,Skelpolu - Resurrection,other,0,0.527801513671875,False
+bs_roformer,Skelpolu - Resurrection,vocals,0,0.394317626953125,False
+bs_roformer,Speak Softly - Broken Man,drums,0,0.69097900390625,False
+bs_roformer,Speak Softly - Broken Man,bass,0,0.391693115234375,False
+bs_roformer,Speak Softly - Broken Man,other,0,0.437469482421875,False
+bs_roformer,Speak Softly - Broken Man,vocals,0,0.254058837890625,False
+bs_roformer,Speak Softly - Like Horses,drums,0,0.61163330078125,False
+bs_roformer,Speak Softly - Like Horses,bass,0,0.3250732421875,False
+bs_roformer,Speak Softly - Like Horses,other,0,0.62890625,False
+bs_roformer,Speak Softly - Like Horses,vocals,0,0.6494140625,False
+bs_roformer,The Doppler Shift - Atrophy,drums,0,0.7508544921875,False
+bs_roformer,The Doppler Shift - Atrophy,bass,0,0.231842041015625,False
+bs_roformer,The Doppler Shift - Atrophy,other,0,0.551361083984375,False
+bs_roformer,The Doppler Shift - Atrophy,vocals,0,0.5635986328125,False
+bs_roformer,The Easton Ellises (Baumi) - SDRNR,drums,0,0.75372314453125,False
+bs_roformer,The Easton Ellises (Baumi) - SDRNR,bass,0,0.393798828125,False
+bs_roformer,The Easton Ellises (Baumi) - SDRNR,other,0,0.471923828125,False
+bs_roformer,The Easton Ellises (Baumi) - SDRNR,vocals,0,0.555633544921875,False
+bs_roformer,The Easton Ellises - Falcon 69,drums,0,0.693145751953125,False
+bs_roformer,The Easton Ellises - Falcon 69,bass,0,0.388397216796875,False
+bs_roformer,The Easton Ellises - Falcon 69,other,0,0.474761962890625,False
+bs_roformer,The Easton Ellises - Falcon 69,vocals,0,0.493408203125,False
+bs_roformer,The Long Wait - Dark Horses,drums,0,0.81439208984375,False
+bs_roformer,The Long Wait - Dark Horses,bass,0,0.2803955078125,False
+bs_roformer,The Long Wait - Dark Horses,other,0,0.39569091796875,False
+bs_roformer,The Long Wait - Dark Horses,vocals,0,0.34765625,False
+bs_roformer,The Mountaineering Club - Mallory,drums,0,0.642425537109375,False
+bs_roformer,The Mountaineering Club - Mallory,bass,0,0.50146484375,False
+bs_roformer,The Mountaineering Club - Mallory,other,0,0.3740234375,False
+bs_roformer,The Mountaineering Club - Mallory,vocals,0,0.56298828125,False
+bs_roformer,The Sunshine Garcia Band - For I Am The Moon,drums,0,0.85467529296875,False
+bs_roformer,The Sunshine Garcia Band - For I Am The Moon,bass,0,0.594207763671875,False
+bs_roformer,The Sunshine Garcia Band - For I Am The Moon,other,0,0.38763427734375,False
+bs_roformer,The Sunshine Garcia Band - For I Am The Moon,vocals,0,0.509368896484375,False
+bs_roformer,Timboz - Pony,drums,0,0.999664306640625,False
+bs_roformer,Timboz - Pony,bass,0,0.151397705078125,False
+bs_roformer,Timboz - Pony,other,0,0.488311767578125,False
+bs_roformer,Timboz - Pony,vocals,0,0.445465087890625,False
+bs_roformer,Tom McKenzie - Directions,drums,0,0.8885498046875,False
+bs_roformer,Tom McKenzie - Directions,bass,0,0.445831298828125,False
+bs_roformer,Tom McKenzie - Directions,other,0,0.429229736328125,False
+bs_roformer,Tom McKenzie - Directions,vocals,0,0.33636474609375,False
+bs_roformer,Triviul feat. The Fiend - Widow,drums,0,0.64410400390625,False
+bs_roformer,Triviul feat. The Fiend - Widow,bass,0,0.183837890625,False
+bs_roformer,Triviul feat. The Fiend - Widow,other,0,0.46337890625,False
+bs_roformer,Triviul feat. The Fiend - Widow,vocals,0,0.59967041015625,False
+bs_roformer,We Fell From The Sky - Not You,drums,0,0.6669921875,False
+bs_roformer,We Fell From The Sky - Not You,bass,0,0.346435546875,False
+bs_roformer,We Fell From The Sky - Not You,other,0,0.496307373046875,False
+bs_roformer,We Fell From The Sky - Not You,vocals,0,0.57757568359375,False
+bs_roformer,Zeno - Signs,drums,0,0.576446533203125,False
+bs_roformer,Zeno - Signs,bass,0,0.179290771484375,False
+bs_roformer,Zeno - Signs,other,0,0.5078125,False
+bs_roformer,Zeno - Signs,vocals,0,0.73773193359375,False
+scnet,AM Contra - Heart Peripheral,drums,0,0.577392578125,False
+scnet,AM Contra - Heart Peripheral,bass,0,0.3486328125,False
+scnet,AM Contra - Heart Peripheral,other,0,0.237884521484375,False
+scnet,AM Contra - Heart Peripheral,vocals,0,0.552734375,False
+scnet,Al James - Schoolboy Facination,drums,0,0.546722412109375,False
+scnet,Al James - Schoolboy Facination,bass,0,0.32635498046875,False
+scnet,Al James - Schoolboy Facination,other,0,0.3428955078125,False
+scnet,Al James - Schoolboy Facination,vocals,0,0.700225830078125,False
+scnet,Angels In Amplifiers - I'm Alright,drums,0,0.578338623046875,False
+scnet,Angels In Amplifiers - I'm Alright,bass,0,0.279937744140625,False
+scnet,Angels In Amplifiers - I'm Alright,other,0,0.62164306640625,False
+scnet,Angels In Amplifiers - I'm Alright,vocals,0,0.545867919921875,False
+scnet,Arise - Run Run Run,drums,0,0.877044677734375,False
+scnet,Arise - Run Run Run,bass,0,0.667236328125,False
+scnet,Arise - Run Run Run,other,0,0.638336181640625,False
+scnet,Arise - Run Run Run,vocals,0,0.411895751953125,False
+scnet,BKS - Bulldozer,drums,0,0.8026123046875,False
+scnet,BKS - Bulldozer,bass,0,0.4049072265625,False
+scnet,BKS - Bulldozer,other,0,0.40582275390625,False
+scnet,BKS - Bulldozer,vocals,0,0.430938720703125,False
+scnet,BKS - Too Much,drums,0,0.7691650390625,False
+scnet,BKS - Too Much,bass,0,0.229705810546875,False
+scnet,BKS - Too Much,other,0,0.306365966796875,False
+scnet,BKS - Too Much,vocals,0,0.457672119140625,False
+scnet,Ben Carrigan - We'll Talk About It All Tonight,drums,0,0.633087158203125,False
+scnet,Ben Carrigan - We'll Talk About It All Tonight,bass,0,0.308868408203125,False
+scnet,Ben Carrigan - We'll Talk About It All Tonight,other,0,0.423553466796875,False
+scnet,Ben Carrigan - We'll Talk About It All Tonight,vocals,0,0.35272216796875,False
+scnet,Bobby Nobody - Stitch Up,drums,0,0.84637451171875,False
+scnet,Bobby Nobody - Stitch Up,bass,0,0.270416259765625,False
+scnet,Bobby Nobody - Stitch Up,other,0,0.357421875,False
+scnet,Bobby Nobody - Stitch Up,vocals,0,0.467742919921875,False
+scnet,Buitraker - Revo X,drums,0,0.68359375,False
+scnet,Buitraker - Revo X,bass,0,0.236175537109375,False
+scnet,Buitraker - Revo X,other,0,0.426055908203125,False
+scnet,Buitraker - Revo X,vocals,0,0.34820556640625,False
+scnet,Carlos Gonzalez - A Place For Us,drums,0,0.6890869140625,False
+scnet,Carlos Gonzalez - A Place For Us,bass,0,0.224334716796875,False
+scnet,Carlos Gonzalez - A Place For Us,other,0,0.427215576171875,False
+scnet,Carlos Gonzalez - A Place For Us,vocals,0,0.584197998046875,False
+scnet,Cristina Vane - So Easy,drums,0,0.63330078125,False
+scnet,Cristina Vane - So Easy,bass,0,0.262939453125,False
+scnet,Cristina Vane - So Easy,other,0,0.49066162109375,False
+scnet,Cristina Vane - So Easy,vocals,0,0.519561767578125,False
+scnet,Detsky Sad - Walkie Talkie,drums,0,0.765411376953125,False
+scnet,Detsky Sad - Walkie Talkie,bass,0,0.132354736328125,False
+scnet,Detsky Sad - Walkie Talkie,other,0,0.5047607421875,False
+scnet,Detsky Sad - Walkie Talkie,vocals,0,0.566070556640625,False
+scnet,Enda Reilly - Cur An Long Ag Seol,drums,0,0.692047119140625,False
+scnet,Enda Reilly - Cur An Long Ag Seol,bass,0,0.522308349609375,False
+scnet,Enda Reilly - Cur An Long Ag Seol,other,0,0.792572021484375,False
+scnet,Enda Reilly - Cur An Long Ag Seol,vocals,0,0.411102294921875,False
+scnet,Forkupines - Semantics,drums,0,0.604766845703125,False
+scnet,Forkupines - Semantics,bass,0,0.199920654296875,False
+scnet,Forkupines - Semantics,other,0,0.415435791015625,False
+scnet,Forkupines - Semantics,vocals,0,0.46630859375,False
+scnet,Georgia Wonder - Siren,drums,0,0.664947509765625,False
+scnet,Georgia Wonder - Siren,bass,0,0.3173828125,False
+scnet,Georgia Wonder - Siren,other,0,0.591583251953125,False
+scnet,Georgia Wonder - Siren,vocals,0,0.460601806640625,False
+scnet,Girls Under Glass - We Feel Alright,drums,0,0.60186767578125,False
+scnet,Girls Under Glass - We Feel Alright,bass,0,0.30633544921875,False
+scnet,Girls Under Glass - We Feel Alright,other,0,0.462860107421875,False
+scnet,Girls Under Glass - We Feel Alright,vocals,0,0.522613525390625,False
+scnet,Hollow Ground - Ill Fate,drums,0,0.773284912109375,False
+scnet,Hollow Ground - Ill Fate,bass,0,0.35986328125,False
+scnet,Hollow Ground - Ill Fate,other,0,0.453094482421875,False
+scnet,Hollow Ground - Ill Fate,vocals,0,0.338287353515625,False
+scnet,James Elder & Mark M Thompson - The English Actor,drums,0,0.774566650390625,False
+scnet,James Elder & Mark M Thompson - The English Actor,bass,0,0.31982421875,False
+scnet,James Elder & Mark M Thompson - The English Actor,other,0,0.497802734375,False
+scnet,James Elder & Mark M Thompson - The English Actor,vocals,0,0.8056640625,False
+scnet,Juliet's Rescue - Heartbeats,drums,0,0.58721923828125,False
+scnet,Juliet's Rescue - Heartbeats,bass,0,0.420013427734375,False
+scnet,Juliet's Rescue - Heartbeats,other,0,0.6192626953125,False
+scnet,Juliet's Rescue - Heartbeats,vocals,0,0.407135009765625,False
+scnet,Little Chicago's Finest - My Own,drums,0,0.370880126953125,False
+scnet,Little Chicago's Finest - My Own,bass,0,0.111572265625,False
+scnet,Little Chicago's Finest - My Own,other,0,0.468231201171875,False
+scnet,Little Chicago's Finest - My Own,vocals,0,0.434722900390625,False
+scnet,Louis Cressy Band - Good Time,drums,0,0.587158203125,False
+scnet,Louis Cressy Band - Good Time,bass,0,0.2779541015625,False
+scnet,Louis Cressy Band - Good Time,other,0,0.41436767578125,False
+scnet,Louis Cressy Band - Good Time,vocals,0,0.38671875,False
+scnet,Lyndsey Ollard - Catching Up,drums,0,0.612548828125,False
+scnet,Lyndsey Ollard - Catching Up,bass,0,0.267486572265625,False
+scnet,Lyndsey Ollard - Catching Up,other,0,0.47137451171875,False
+scnet,Lyndsey Ollard - Catching Up,vocals,0,0.6744384765625,False
+scnet,M.E.R.C. Music - Knockout,drums,0,0.5675048828125,False
+scnet,M.E.R.C. Music - Knockout,bass,0,0.10821533203125,False
+scnet,M.E.R.C. Music - Knockout,other,0,0.399322509765625,False
+scnet,M.E.R.C. Music - Knockout,vocals,0,0.73095703125,False
+scnet,Moosmusic - Big Dummy Shake,drums,0,0.5260009765625,False
+scnet,Moosmusic - Big Dummy Shake,bass,0,0.242401123046875,False
+scnet,Moosmusic - Big Dummy Shake,other,0,0.46002197265625,False
+scnet,Moosmusic - Big Dummy Shake,vocals,0,0.57763671875,False
+scnet,Motor Tapes - Shore,drums,0,0.341552734375,False
+scnet,Motor Tapes - Shore,bass,0,0.22607421875,False
+scnet,Motor Tapes - Shore,other,0,0.696014404296875,False
+scnet,Motor Tapes - Shore,vocals,0,0.81573486328125,False
+scnet,Mu - Too Bright,drums,0,0.9163818359375,False
+scnet,Mu - Too Bright,bass,0,0.26544189453125,False
+scnet,Mu - Too Bright,other,0,0.349609375,False
+scnet,Mu - Too Bright,vocals,0,0.413330078125,False
+scnet,Nerve 9 - Pray For The Rain,drums,0,0.6953125,False
+scnet,Nerve 9 - Pray For The Rain,bass,0,0.389862060546875,False
+scnet,Nerve 9 - Pray For The Rain,other,0,0.542083740234375,False
+scnet,Nerve 9 - Pray For The Rain,vocals,0,0.69775390625,False
+scnet,PR - Happy Daze,drums,0,0.87158203125,False
+scnet,PR - Happy Daze,bass,0,0.00579833984375,False
+scnet,PR - Happy Daze,other,0,0.387603759765625,False
+scnet,PR - Happy Daze,vocals,0,0.09881591796875,False
+scnet,PR - Oh No,drums,0,0.698577880859375,False
+scnet,PR - Oh No,bass,0,0.119140625,False
+scnet,PR - Oh No,other,0,0.855926513671875,False
+scnet,PR - Oh No,vocals,0,0.164276123046875,False
+scnet,Punkdisco - Oral Hygiene,drums,0,0.6417236328125,False
+scnet,Punkdisco - Oral Hygiene,bass,0,0.437408447265625,False
+scnet,Punkdisco - Oral Hygiene,other,0,0.236602783203125,False
+scnet,Punkdisco - Oral Hygiene,vocals,0,0.569580078125,False
+scnet,Raft Monk - Tiring,drums,0,0.604736328125,False
+scnet,Raft Monk - Tiring,bass,0,0.30120849609375,False
+scnet,Raft Monk - Tiring,other,0,0.53057861328125,False
+scnet,Raft Monk - Tiring,vocals,0,0.462371826171875,False
+scnet,Sambasevam Shanmugam - Kaathaadi,drums,0,0.735687255859375,False
+scnet,Sambasevam Shanmugam - Kaathaadi,bass,0,0.5037841796875,False
+scnet,Sambasevam Shanmugam - Kaathaadi,other,0,0.83642578125,False
+scnet,Sambasevam Shanmugam - Kaathaadi,vocals,0,0.62872314453125,False
+scnet,Secretariat - Borderline,drums,0,0.781158447265625,False
+scnet,Secretariat - Borderline,bass,0,0.1658935546875,False
+scnet,Secretariat - Borderline,other,0,0.80914306640625,False
+scnet,Secretariat - Borderline,vocals,0,0.6983642578125,False
+scnet,Secretariat - Over The Top,drums,0,0.770965576171875,False
+scnet,Secretariat - Over The Top,bass,0,0.3485107421875,False
+scnet,Secretariat - Over The Top,other,0,0.487335205078125,False
+scnet,Secretariat - Over The Top,vocals,0,0.56719970703125,False
+scnet,Side Effects Project - Sing With Me,drums,0,0.511962890625,False
+scnet,Side Effects Project - Sing With Me,bass,0,0.168914794921875,False
+scnet,Side Effects Project - Sing With Me,other,0,0.208221435546875,False
+scnet,Side Effects Project - Sing With Me,vocals,0,0.589447021484375,False
+scnet,Signe Jakobsen - What Have You Done To Me,drums,0,0.489288330078125,False
+scnet,Signe Jakobsen - What Have You Done To Me,bass,0,0.314910888671875,False
+scnet,Signe Jakobsen - What Have You Done To Me,other,0,0.4886474609375,False
+scnet,Signe Jakobsen - What Have You Done To Me,vocals,0,0.725982666015625,False
+scnet,Skelpolu - Resurrection,drums,0,0.563507080078125,False
+scnet,Skelpolu - Resurrection,bass,0,0.418060302734375,False
+scnet,Skelpolu - Resurrection,other,0,0.4742431640625,False
+scnet,Skelpolu - Resurrection,vocals,0,0.4127197265625,False
+scnet,Speak Softly - Broken Man,drums,0,0.7017822265625,False
+scnet,Speak Softly - Broken Man,bass,0,0.3433837890625,False
+scnet,Speak Softly - Broken Man,other,0,0.455902099609375,False
+scnet,Speak Softly - Broken Man,vocals,0,0.25146484375,False
+scnet,Speak Softly - Like Horses,drums,0,0.60888671875,False
+scnet,Speak Softly - Like Horses,bass,0,0.265411376953125,False
+scnet,Speak Softly - Like Horses,other,0,0.54571533203125,False
+scnet,Speak Softly - Like Horses,vocals,0,0.65679931640625,False
+scnet,The Doppler Shift - Atrophy,drums,0,0.6942138671875,False
+scnet,The Doppler Shift - Atrophy,bass,0,0.1910400390625,False
+scnet,The Doppler Shift - Atrophy,other,0,0.56085205078125,False
+scnet,The Doppler Shift - Atrophy,vocals,0,0.55804443359375,False
+scnet,The Easton Ellises (Baumi) - SDRNR,drums,0,0.6954345703125,False
+scnet,The Easton Ellises (Baumi) - SDRNR,bass,0,0.3116455078125,False
+scnet,The Easton Ellises (Baumi) - SDRNR,other,0,0.441986083984375,False
+scnet,The Easton Ellises (Baumi) - SDRNR,vocals,0,0.529510498046875,False
+scnet,The Easton Ellises - Falcon 69,drums,0,0.733642578125,False
+scnet,The Easton Ellises - Falcon 69,bass,0,0.30499267578125,False
+scnet,The Easton Ellises - Falcon 69,other,0,0.4813232421875,False
+scnet,The Easton Ellises - Falcon 69,vocals,0,0.455047607421875,False
+scnet,The Long Wait - Dark Horses,drums,0,0.8079833984375,False
+scnet,The Long Wait - Dark Horses,bass,0,0.269378662109375,False
+scnet,The Long Wait - Dark Horses,other,0,0.3951416015625,False
+scnet,The Long Wait - Dark Horses,vocals,0,0.34222412109375,False
+scnet,The Mountaineering Club - Mallory,drums,0,0.65325927734375,False
+scnet,The Mountaineering Club - Mallory,bass,0,0.472869873046875,False
+scnet,The Mountaineering Club - Mallory,other,0,0.370758056640625,False
+scnet,The Mountaineering Club - Mallory,vocals,0,0.53546142578125,False
+scnet,The Sunshine Garcia Band - For I Am The Moon,drums,0,0.83502197265625,False
+scnet,The Sunshine Garcia Band - For I Am The Moon,bass,0,0.51678466796875,False
+scnet,The Sunshine Garcia Band - For I Am The Moon,other,0,0.3797607421875,False
+scnet,The Sunshine Garcia Band - For I Am The Moon,vocals,0,0.46356201171875,False
+scnet,Timboz - Pony,drums,0,0.987335205078125,False
+scnet,Timboz - Pony,bass,0,0.126861572265625,False
+scnet,Timboz - Pony,other,0,0.490203857421875,False
+scnet,Timboz - Pony,vocals,0,0.414703369140625,False
+scnet,Tom McKenzie - Directions,drums,0,0.83734130859375,False
+scnet,Tom McKenzie - Directions,bass,0,0.418304443359375,False
+scnet,Tom McKenzie - Directions,other,0,0.42156982421875,False
+scnet,Tom McKenzie - Directions,vocals,0,0.32354736328125,False
+scnet,Triviul feat. The Fiend - Widow,drums,0,0.6953125,False
+scnet,Triviul feat. The Fiend - Widow,bass,0,0.17401123046875,False
+scnet,Triviul feat. The Fiend - Widow,other,0,0.450836181640625,False
+scnet,Triviul feat. The Fiend - Widow,vocals,0,0.566162109375,False
+scnet,We Fell From The Sky - Not You,drums,0,0.676605224609375,False
+scnet,We Fell From The Sky - Not You,bass,0,0.142608642578125,False
+scnet,We Fell From The Sky - Not You,other,0,0.506103515625,False
+scnet,We Fell From The Sky - Not You,vocals,0,0.567657470703125,False
+scnet,Zeno - Signs,drums,0,0.564361572265625,False
+scnet,Zeno - Signs,bass,0,0.14129638671875,False
+scnet,Zeno - Signs,other,0,0.51171875,False
+scnet,Zeno - Signs,vocals,0,0.694122314453125,False

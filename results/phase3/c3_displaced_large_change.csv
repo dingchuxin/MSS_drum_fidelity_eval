@@ -1,0 +1,6 @@
+label,n_displaced,threshold_d_rise_ms,share_displaced_large_d_rise_ms,share_nondisplaced_large_d_rise_ms,threshold_d_peak_db,share_displaced_large_d_peak_db,share_nondisplaced_large_d_peak_db,threshold_d_pre_db,share_displaced_large_d_pre_db,share_nondisplaced_large_d_pre_db,threshold_d_jump_db,share_displaced_large_d_jump_db,share_nondisplaced_large_d_jump_db,share_displaced_any_large,share_nondisplaced_any_large
+v1_spleeter,5792,9.6414,0.12638,0.1,6.465,0.13933,0.1,17.622,0.10946,0.1,18.072,0.12241,0.1,0.3365,0.27007
+v1_htdemucs,2389,7.8501,0.14692,0.1,2.696,0.20092,0.1,11.698,0.14357,0.1,11.273,0.16199,0.1,0.3918,0.25487
+v1_bs_roformer,1184,6.9769,0.15625,0.1,1.8198,0.18159,0.1,9.0515,0.11486,0.1,8.5107,0.11064,0.1,0.33108,0.25149
+v1_scnet,1945,7.1063,0.16247,0.1,2.1293,0.22725,0.1,9.0853,0.097172,0.1,9.0769,0.088432,0.1,0.35476,0.25264
+htdemucs_b1,2386,7.8774,0.14376,0.1,2.5694,0.2083,0.1,11.697,0.14208,0.1,11.233,0.15549,0.1,0.38935,0.25567

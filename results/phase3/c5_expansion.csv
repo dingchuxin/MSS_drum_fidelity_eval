@@ -1,0 +1,21 @@
+label,stroke_set,regression,n_tracks,median_within_track_slope,ci_lo,ci_hi,n_tracks_positive,p_wilcoxon_slopes,pooled_fe_slope,fe_ci_lo,fe_ci_hi
+v1_spleeter,all,d(peak) ~ ref peak rel. track level,50,0.13777,0.07781,0.19533,38,1.8673e-07,0.12438,0.066659,0.18664
+v1_spleeter,all,d(floor) ~ ref floor,50,-0.17063,-0.26157,-0.08934,14,0.0002857,-0.36148,-0.43678,-0.26219
+v1_spleeter,matched,d(peak) ~ ref peak rel. track level,50,0.11245,0.085497,0.15164,39,9.9798e-07,0.070098,0.015076,0.12806
+v1_spleeter,matched,d(floor) ~ ref floor,50,-0.19572,-0.26276,-0.071768,15,0.00018586,-0.34839,-0.428,-0.25439
+v1_htdemucs,all,d(peak) ~ ref peak rel. track level,50,0.11134,0.063524,0.13601,45,9.7458e-08,0.10029,0.060976,0.13383
+v1_htdemucs,all,d(floor) ~ ref floor,50,-0.023896,-0.10613,0.10409,22,0.46061,-0.24253,-0.32155,-0.14158
+v1_htdemucs,matched,d(peak) ~ ref peak rel. track level,50,0.061549,0.039951,0.082631,43,6.7835e-07,0.056282,0.023719,0.083147
+v1_htdemucs,matched,d(floor) ~ ref floor,50,-0.018019,-0.088859,0.10544,21,0.63217,-0.21613,-0.30808,-0.10875
+v1_bs_roformer,all,d(peak) ~ ref peak rel. track level,50,0.060431,0.031142,0.083136,42,1.5472e-06,0.058675,0.027755,0.090398
+v1_bs_roformer,all,d(floor) ~ ref floor,50,0.12556,0.045539,0.20287,37,0.0036633,-0.061658,-0.13338,0.034399
+v1_bs_roformer,matched,d(peak) ~ ref peak rel. track level,50,0.031932,0.0096159,0.049826,40,2.9747e-05,0.025911,-0.0020725,0.047526
+v1_bs_roformer,matched,d(floor) ~ ref floor,50,0.112,0.048024,0.1937,37,0.0013801,-0.045175,-0.11387,0.04102
+v1_scnet,all,d(peak) ~ ref peak rel. track level,50,0.073021,0.040948,0.099576,42,5.6805e-06,0.060813,0.033434,0.09242
+v1_scnet,all,d(floor) ~ ref floor,50,-0.043251,-0.12141,0.029051,21,0.031262,-0.29892,-0.37569,-0.19559
+v1_scnet,matched,d(peak) ~ ref peak rel. track level,50,0.04782,0.027281,0.069318,40,9.0406e-05,0.03599,0.012948,0.061525
+v1_scnet,matched,d(floor) ~ ref floor,50,-0.049502,-0.11579,0.016961,21,0.032862,-0.27225,-0.35128,-0.17536
+htdemucs_b1,all,d(peak) ~ ref peak rel. track level,50,0.10991,0.065029,0.1382,45,1.049e-07,0.099569,0.063081,0.13438
+htdemucs_b1,all,d(floor) ~ ref floor,50,-0.03033,-0.11002,0.10036,22,0.4097,-0.24586,-0.32673,-0.15223
+htdemucs_b1,matched,d(peak) ~ ref peak rel. track level,50,0.064612,0.039754,0.083104,43,4.5656e-07,0.056432,0.020649,0.084172
+htdemucs_b1,matched,d(floor) ~ ref floor,50,-0.017275,-0.11147,0.10163,21,0.5399,-0.21984,-0.30505,-0.11811

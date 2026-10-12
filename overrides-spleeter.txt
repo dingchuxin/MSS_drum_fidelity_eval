@@ -1,0 +1,1 @@
+tensorflow-io-gcs-filesystem==0.31.0

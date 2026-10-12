@@ -1,0 +1,76 @@
+definition,label,measure,n_tracks,median_d,n_negative,n_positive,p,rank_biserial,p_holm
+"Phase 2 (own onset, matched)",v1_spleeter,peak_db,50,-1.4104,49,1,3.4037e-11,-0.92784,7.4881e-10
+v3 matched,v1_spleeter,peak_db,50,-1.2971,49,1,3.8638e-11,-0.92627,8.1139e-10
+v3 all reference strokes,v1_spleeter,peak_db,50,-1.587,49,1,3.6149e-12,-0.95294,7.5913e-11
+"Phase 2 (own onset, matched)",v1_spleeter,floor_db,50,-2.5354,41,9,3.1282e-05,-0.64706,0.00021897
+v3 matched,v1_spleeter,floor_db,50,-2.3368,41,9,1.3668e-06,-0.7349,1.3668e-05
+v3 all reference strokes,v1_spleeter,floor_db,50,-2.5498,41,9,4.2698e-07,-0.76314,4.2698e-06
+"Phase 2 (own onset, matched)",v1_spleeter,valley_db,50,0.71905,15,35,0.04094,0.33176,0.12282
+v3 matched,v1_spleeter,valley_db,50,0.48657,15,35,0.047194,0.32235,0.14158
+v3 all reference strokes,v1_spleeter,valley_db,50,0.34398,19,31,0.18125,0.21882,0.54376
+"Phase 2 (own onset, matched)",v1_spleeter,rise_ms,50,0.14918,14,33,0.0022264,0.51241,0.0089055
+v3 matched,v1_spleeter,rise_ms,50,0.16894,8,40,7.2089e-05,0.65816,0.00050462
+v3 all reference strokes,v1_spleeter,rise_ms,50,0.177,9,39,0.00020492,0.61565,0.0014345
+"Phase 2 (own onset, matched)",v1_spleeter,accent,50,1.3929,5,45,4.8572e-09,0.85412,9.2286e-08
+v3 matched,v1_spleeter,accent,50,1.3183,4,46,8.8427e-12,0.94353,1.9454e-10
+v3 all reference strokes,v1_spleeter,accent,50,1.8402,2,48,5.862e-14,0.98588,1.4069e-12
+"Phase 2 (own onset, matched)",v1_htdemucs,peak_db,50,-0.38717,48,2,2.4336e-13,-0.97647,5.8407e-12
+v3 matched,v1_htdemucs,peak_db,50,-0.3342,48,2,4.9605e-11,-0.92314,9.921e-10
+v3 all reference strokes,v1_htdemucs,peak_db,50,-0.37893,48,2,3.8638e-11,-0.92627,7.7275e-10
+"Phase 2 (own onset, matched)",v1_htdemucs,floor_db,50,-2.1386,43,7,8.7841e-07,-0.74588,1.1419e-05
+v3 matched,v1_htdemucs,floor_db,50,-2.1557,44,6,2.2452e-08,-0.82588,3.1433e-07
+v3 all reference strokes,v1_htdemucs,floor_db,50,-2.1124,44,6,3.094e-08,-0.81961,4.0222e-07
+"Phase 2 (own onset, matched)",v1_htdemucs,valley_db,50,1.5878,10,40,1.4423e-05,0.67059,0.00015669
+v3 matched,v1_htdemucs,valley_db,50,1.6994,10,40,2.231e-06,0.72235,1.7848e-05
+v3 all reference strokes,v1_htdemucs,valley_db,50,1.5896,11,39,4.2684e-06,0.7051,3.6257e-05
+"Phase 2 (own onset, matched)",v1_htdemucs,rise_ms,50,0.001132,20,25,0.34593,0.16135,0.46781
+v3 matched,v1_htdemucs,rise_ms,50,0.0094484,21,26,0.43982,0.12943,0.77108
+v3 all reference strokes,v1_htdemucs,rise_ms,50,0.0057721,22,26,0.53155,0.10374,0.92046
+"Phase 2 (own onset, matched)",v1_htdemucs,accent,50,0.55437,7,43,7.5469e-09,0.84627,1.283e-07
+v3 matched,v1_htdemucs,accent,50,0.65183,3,47,1.9326e-09,0.8698,3.0922e-08
+v3 all reference strokes,v1_htdemucs,accent,50,1.0193,4,46,6.5357e-10,0.88706,1.0457e-08
+"Phase 2 (own onset, matched)",v1_bs_roformer,peak_db,50,-0.16064,43,7,1.1468e-10,-0.91216,2.4082e-09
+v3 matched,v1_bs_roformer,peak_db,50,-0.18178,48,2,5.862e-14,-0.98588,1.4069e-12
+v3 all reference strokes,v1_bs_roformer,peak_db,50,-0.2111,48,2,5.862e-14,-0.98588,1.4069e-12
+"Phase 2 (own onset, matched)",v1_bs_roformer,floor_db,50,-1.5117,46,4,4.0575e-09,-0.85725,8.115e-08
+v3 matched,v1_bs_roformer,floor_db,50,-1.522,47,3,9.5213e-13,-0.96549,2.1899e-11
+v3 all reference strokes,v1_bs_roformer,floor_db,50,-1.5613,47,3,1.6058e-12,-0.96078,3.5328e-11
+"Phase 2 (own onset, matched)",v1_bs_roformer,valley_db,50,1.1325,7,43,3.9186e-08,0.8149,6.2698e-07
+v3 matched,v1_bs_roformer,valley_db,50,1.1671,7,43,7.1514e-11,0.91843,1.2873e-09
+v3 all reference strokes,v1_bs_roformer,valley_db,50,1.0566,6,44,1.2872e-10,0.91059,2.3169e-09
+"Phase 2 (own onset, matched)",v1_bs_roformer,rise_ms,50,0.046085,7,38,1.4244e-05,0.743,0.00015669
+v3 matched,v1_bs_roformer,rise_ms,50,0.013276,12,32,0.00095771,0.57172,0.0038308
+v3 all reference strokes,v1_bs_roformer,rise_ms,50,0.011961,12,32,0.00113,0.56364,0.00452
+"Phase 2 (own onset, matched)",v1_bs_roformer,accent,50,0.44093,7,43,2.4721e-07,0.77569,3.7082e-06
+v3 matched,v1_bs_roformer,accent,50,0.31685,4,46,2.5633e-09,0.8651,3.845e-08
+v3 all reference strokes,v1_bs_roformer,accent,50,0.75358,4,46,4.3149e-10,0.89333,7.3353e-09
+"Phase 2 (own onset, matched)",v1_scnet,peak_db,50,-0.29275,49,1,8.8818e-15,-0.99529,2.2204e-13
+v3 matched,v1_scnet,peak_db,50,-0.28526,49,1,5.3291e-15,-0.99686,1.3323e-13
+v3 all reference strokes,v1_scnet,peak_db,50,-0.29658,49,1,3.5527e-15,-0.99843,8.8818e-14
+"Phase 2 (own onset, matched)",v1_scnet,floor_db,50,-1.0429,40,10,1.5207e-05,-0.66902,0.00015669
+v3 matched,v1_scnet,floor_db,50,-0.97901,42,8,3.992e-07,-0.76471,4.3912e-06
+v3 all reference strokes,v1_scnet,floor_db,50,-0.93465,42,8,3.7312e-07,-0.76627,4.1043e-06
+"Phase 2 (own onset, matched)",v1_scnet,valley_db,50,0.57747,13,37,0.0010251,0.52157,0.0051256
+v3 matched,v1_scnet,valley_db,50,0.74041,11,39,0.00014253,0.59686,0.00085518
+v3 all reference strokes,v1_scnet,valley_db,50,0.53243,14,36,0.00038259,0.56078,0.0022575
+"Phase 2 (own onset, matched)",v1_scnet,rise_ms,50,0.035379,9,38,6.622e-05,0.66844,0.00039732
+v3 matched,v1_scnet,rise_ms,50,0.033613,10,36,0.00034615,0.60592,0.0017308
+v3 all reference strokes,v1_scnet,rise_ms,50,0.034175,10,36,0.00037624,0.60222,0.0022575
+"Phase 2 (own onset, matched)",v1_scnet,accent,50,0.48952,6,44,5.5722e-07,0.75686,7.8011e-06
+v3 matched,v1_scnet,accent,50,0.45123,5,45,2.6378e-08,0.82275,3.4291e-07
+v3 all reference strokes,v1_scnet,accent,50,0.77269,3,47,8.0082e-10,0.88392,1.2012e-08
+"Phase 2 (own onset, matched)",htdemucs_b1,peak_db,50,-0.38419,47,3,1.6058e-12,-0.96078,3.6934e-11
+v3 matched,htdemucs_b1,peak_db,50,-0.31845,47,3,6.3379e-11,-0.92,1.2042e-09
+v3 all reference strokes,htdemucs_b1,peak_db,50,-0.34763,47,3,4.9605e-11,-0.92314,9.4249e-10
+"Phase 2 (own onset, matched)",htdemucs_b1,floor_db,50,-2.185,41,9,1.3668e-06,-0.7349,1.6401e-05
+v3 matched,htdemucs_b1,floor_db,50,-2.2061,42,8,9.0512e-08,-0.79765,1.0861e-06
+v3 all reference strokes,htdemucs_b1,floor_db,50,-2.1087,42,8,1.049e-07,-0.79451,1.2588e-06
+"Phase 2 (own onset, matched)",htdemucs_b1,valley_db,50,1.5854,10,40,1.5207e-05,0.66902,0.00015669
+v3 matched,htdemucs_b1,valley_db,50,1.616,10,40,1.9767e-06,0.72549,1.779e-05
+v3 all reference strokes,htdemucs_b1,valley_db,50,1.5716,10,40,4.0286e-06,0.70667,3.6257e-05
+"Phase 2 (own onset, matched)",htdemucs_b1,rise_ms,50,0.011612,17,27,0.23391,0.20606,0.46781
+v3 matched,htdemucs_b1,rise_ms,50,0.015124,21,26,0.38554,0.14539,0.77108
+v3 all reference strokes,htdemucs_b1,rise_ms,50,0.0099861,22,26,0.46023,0.12245,0.92046
+"Phase 2 (own onset, matched)",htdemucs_b1,accent,50,0.54661,7,43,5.8022e-09,0.85098,1.0444e-07
+v3 matched,htdemucs_b1,accent,50,0.64948,3,47,1.5962e-09,0.87294,2.7135e-08
+v3 all reference strokes,htdemucs_b1,accent,50,0.99511,4,46,9.7851e-10,0.88078,1.3699e-08

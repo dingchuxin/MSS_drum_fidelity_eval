@@ -1,4 +1,0 @@
-model,|d_variation| R-only,|d_variation| full,|d_variation| Δ,|d_attack_slope| R-only,|d_attack_slope| full,|d_attack_slope| Δ,onsetF R-only,onsetF full
-htdemucs,4.961,4.615,-0.345,3.725,3.492,-0.233,0.837,0.842
-bs_roformer,3.109,3.199,0.089,3.349,3.445,0.096,0.833,0.88
-scnet,3.572,3.19,-0.383,3.284,3.258,-0.026,0.808,0.824

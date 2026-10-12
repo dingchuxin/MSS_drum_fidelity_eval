@@ -1,5 +1,0 @@
-model,si_sdr,onset_f,abs_d_attack,abs_d_variation,rank_SDR,rank_onsetF,rank_transient,rank_dynamics
-bs_roformer,11.879,0.934,1.325,1.778,1,1,3,1
-htdemucs,10.068,0.908,1.271,4.092,3,2,2,4
-scnet,11.74,0.891,0.639,2.445,2,3,1,3
-spleeter,4.997,0.716,1.538,2.408,4,4,4,2

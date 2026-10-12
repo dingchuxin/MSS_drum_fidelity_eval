@@ -1,0 +1,6 @@
+label,n_matched,n_displaced_gt_10ms,share_displaced,n_likely_substitution,share_of_displaced_likely_substitution,share_displaced_excl_substitution
+v1_spleeter,40201,5792,0.14408,275,0.047479,0.13818
+v1_htdemucs,45054,2389,0.053025,52,0.021766,0.051931
+v1_bs_roformer,46553,1184,0.025433,17,0.014358,0.025077
+v1_scnet,46016,1945,0.042268,28,0.014396,0.041685
+htdemucs_b1,45117,2386,0.052885,61,0.025566,0.051602

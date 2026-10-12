@@ -1,16 +1,14 @@
 """Model runners: turn a mixture into a dict of stems, with provenance.
 
-Three runner kinds mirror config/models.yaml:
+Two runner kinds mirror config/models.yaml:
   builtin  -> runs in THIS venv, in-process (htdemucs via audio-separator).
   sidecar  -> runs in a separate venv via its CLI, because deps conflict with ours
               (spleeter in .venv-spleeter; bs_roformer/scnet in .venv-msst). We write
               the mixture to a temp file, invoke the sidecar's CLI, read the stems back.
-  external -> stems produced out-of-band by a GUI tool and *ingested* from a folder
-              (spectralayers). No automation.
 
 All stem dicts are keyed by canonical names {drums, bass, vocals, other}. Every result
-carries a provenance dict {model, version, params, input_range, sr} so the thesis can
-report exactly how each number was produced — the reproducibility requirement §4.7 lacked.
+carries a provenance dict {model, version, params, input_range, sr}, so that every number
+can be traced to how it was produced.
 """
 from __future__ import annotations
 
@@ -70,22 +68,14 @@ def separate(mixture: np.ndarray, sr: int, model_cfg: dict,
             return Separation(stems=cached, provenance=prov)
 
     engine = model_cfg.get("engine")
-    if runner == "external":
-        stems = _ingest_external(model_cfg, sr)
-    elif runner == "sidecar":
+    if runner == "sidecar":
         stems = _run_sidecar(mixture, sr, model_cfg)
     elif engine == "audio_separator":
         stems = _run_audio_separator(mixture, sr, model_cfg)
-    elif engine == "demucs":
-        stems = _run_demucs(mixture, sr, model_cfg)
-    elif engine == "spleeter":
-        stems = _run_spleeter(mixture, sr, model_cfg)
-    elif engine == "openunmix":
-        stems = _run_openunmix(mixture, sr, model_cfg)
     else:
         raise ValueError(
             f"model '{name}': runner='{runner}', engine='{engine}' — no matching runner. "
-            "Set runner: builtin|sidecar|external in config/models.yaml."
+            "Set runner: builtin (engine: audio_separator) or sidecar in config/models.yaml."
         )
     if cache_dir is not None:
         _write_cached_stems(Path(cache_dir), stems, sr)
@@ -111,9 +101,8 @@ def _run_sidecar(mixture: np.ndarray, sr: int, model_cfg: dict) -> dict[str, np.
     """Separate in another venv via its CLI (deps conflict with the main env).
 
     Spleeter (.venv-spleeter) and the MSST models (.venv-msst) both round-trip through
-    temp files. NOTE: first-run validation needed on the desktop — the two CLI shapes
-    below match spleeter's CLI and MSST's inference.py, but exact output-file naming is
-    confirmed only at runtime; `_canon_stem` maps whatever stem names appear.
+    temp files. The two CLI shapes below match spleeter's CLI and MSST's inference.py;
+    `_canon_stem` maps whatever stem names the sidecar writes.
     """
     import soundfile as sf
 
@@ -164,81 +153,9 @@ def _run_sidecar(mixture: np.ndarray, sr: int, model_cfg: dict) -> dict[str, np.
     return stems
 
 
-def _ingest_external(model_cfg: dict, sr: int) -> dict[str, np.ndarray]:
-    """Load hand-exported stems from model_cfg['ingest_dir'] (mvsep/vbsplit/etc.)."""
-    d = Path(model_cfg["ingest_dir"])
-    if not d.exists():
-        raise FileNotFoundError(
-            f"External model '{model_cfg['name']}' expects exported stems in {d}. "
-            "Run the tool out-of-band and drop <stem>.wav files there."
-        )
-    stems = {}
-    for wav in sorted(d.glob("*.wav")):
-        x, _ = load_audio(wav, target_sr=sr)
-        stems[wav.stem.lower()] = x
-    if not stems:
-        raise FileNotFoundError(f"No .wav stems found in {d}.")
-    return stems
-
-
-def _run_demucs(mixture: np.ndarray, sr: int, model_cfg: dict) -> dict[str, np.ndarray]:
-    try:
-        import torch
-        from demucs.apply import apply_model
-        from demucs.pretrained import get_model
-    except ImportError as e:  # pragma: no cover
-        raise ImportError("demucs not installed. `pip install demucs`.") from e
-
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    model = get_model(model_cfg.get("model", "htdemucs"))
-    model.eval()
-    wav = torch.as_tensor(np.atleast_2d(mixture.T), dtype=torch.float32)
-    if wav.shape[0] == 1:
-        wav = wav.repeat(2, 1)
-    ref = wav.mean(0)
-    wav = (wav - ref.mean()) / (ref.std() + 1e-8)
-    with torch.no_grad():
-        sources = apply_model(model, wav[None], device=device, progress=False)[0]
-    sources = sources.cpu() * ref.std() + ref.mean()
-    return {_canon_stem(name): sources[i].numpy().T for i, name in enumerate(model.sources)}
-
-
-def _run_spleeter(mixture: np.ndarray, sr: int, model_cfg: dict) -> dict[str, np.ndarray]:
-    try:
-        from spleeter.separator import Separator
-    except ImportError as e:  # pragma: no cover
-        raise ImportError("spleeter not installed. `pip install spleeter`.") from e
-    sep = Separator(model_cfg.get("config", "spleeter:4stems"))
-    wav = np.atleast_2d(mixture)
-    if wav.shape[0] < wav.shape[1]:
-        wav = wav.T  # spleeter wants (samples, channels)
-    pred = sep.separate(wav)
-    return {k.lower(): v for k, v in pred.items()}
-
-
-def _run_openunmix(mixture: np.ndarray, sr: int, model_cfg: dict) -> dict[str, np.ndarray]:
-    """Open-Unmix (umxl / umxhq) — the light MUSDB baseline, CPU by default."""
-    try:
-        import torch
-        from openunmix import predict
-    except ImportError as e:  # pragma: no cover
-        raise ImportError("openunmix not installed. `pip install openunmix`.") from e
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    wav = torch.as_tensor(np.atleast_2d(mixture.T), dtype=torch.float32)
-    if wav.shape[0] == 1:
-        wav = wav.repeat(2, 1)
-    estimates = predict.separate(
-        audio=wav, rate=sr, model_str_or_path=model_cfg.get("model", "umxl"), device=device)
-    # estimates: {name: tensor (1, chan, samples)}
-    return {_canon_stem(name): est[0].cpu().numpy().T for name, est in estimates.items()}
-
-
 def _run_audio_separator(mixture: np.ndarray, sr: int, model_cfg: dict) -> dict[str, np.ndarray]:
-    """MDX-Net / UVR models via audio-separator (ONNX, CPU-capable).
-
-    Scriptable stand-in for the MVSEP-MDX23 lineage. audio-separator is file-based,
-    so we round-trip through a temp wav and read back the exported stems.
-    """
+    """HT-Demucs via audio-separator. audio-separator is file-based, so the mixture
+    round-trips through a temp wav and the exported stems are read back."""
     try:
         from audio_separator.separator import Separator
     except ImportError as e:  # pragma: no cover

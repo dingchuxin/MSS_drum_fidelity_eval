@@ -1,0 +1,8 @@
+signal,n_missed,n_tracks,share_paired_elsewhere,share_above_delta,share_near_miss,share_weak_peak,share_no_peak,median_track_share_paired_elsewhere,median_track_share_above_delta,median_track_share_near_miss,median_track_share_weak_peak,median_track_share_no_peak,n_tracks_ge5_missed,median_est_margin_near_or_weak,median_abs_offset_ms_with_peak,median_ref_margin_missed
+v1_spleeter,8312,49,0.059071,0.017806,0.49687,0.4206,0.0056545,0.012346,0,0.51389,0.36735,0,49,0.037828,5.0706,0.12946
+v1_htdemucs,3459,47,0.12287,0.0069384,0.44146,0.42758,0.0011564,0.019586,0,0.53651,0.37054,0,46,0.03571,6.606,0.11783
+v1_bs_roformer,1960,47,0.13827,0.0035714,0.41378,0.42653,0.017857,0,0,0.5,0.33333,0,41,0.034294,5.0625,0.11067
+v1_scnet,2497,48,0.15378,0.0044053,0.4189,0.42291,0,0.048485,0,0.53846,0.3125,0,45,0.034859,5.4334,0.11045
+htdemucs_b1,3396,49,0.12633,0.0064782,0.43669,0.42992,0.00058893,0.025397,0,0.51524,0.34259,0,46,0.035189,6.4582,0.11744
+floor_leak_20dB,1231,47,0.17059,0.0016247,0.71487,0.11292,0,0,0,0.90385,0.04,0,37,0.057819,1.3095,0.080891
+floor_white_20dB,3359,48,0.092289,0.0017862,0.61596,0.28997,0,0,0,0.70213,0.17803,0,45,0.043315,4.3726,0.11408

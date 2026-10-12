@@ -1,0 +1,501 @@
+model,track,factor,n_onsets_R,n_matched_all,median_sd_ms,p90_sd_ms,median_range_ms,max_range_ms,share_range_gt_1ms,share_range_gt_5ms,median_mean_abs_dev_ms,repeat_median_abs_ms,repeat_max_abs_ms,repeat_matched_status_changes
+spleeter,AM Contra - Heart Peripheral,F1,40,27,0.48315,1.3494,1.684,40.192,0.74074,0.074074,1.261,0,0,0
+spleeter,AM Contra - Heart Peripheral,F2,40,28,0.15977,0.99628,0.31942,38.619,0.14286,0.035714,1.5564,,,
+htdemucs,AM Contra - Heart Peripheral,F1,40,37,0.23827,0.76075,0.86771,8.8738,0.45946,0.027027,2.156,0,0,0
+htdemucs,AM Contra - Heart Peripheral,F2,40,38,0.19409,0.67863,0.37938,2.8262,0.21053,0,2.1849,,,
+bs_roformer,AM Contra - Heart Peripheral,F1,40,40,0.18312,0.45972,0.56064,3.2473,0.175,0,1.4009,0,0,0
+bs_roformer,AM Contra - Heart Peripheral,F2,40,40,0.16265,0.26414,0.30053,2.7178,0.075,0,1.5375,,,
+bs_roformer,AM Contra - Heart Peripheral,swap,40,40,0.15473,0.30602,0.44653,2.7461,0.125,0,1.396,,,
+scnet,AM Contra - Heart Peripheral,F1,40,40,0.13417,0.83412,0.43228,10.015,0.15,0.025,1.0175,0,0,0
+scnet,AM Contra - Heart Peripheral,F2,40,40,0.10326,0.47394,0.20046,3.5465,0.075,0,0.94371,,,
+scnet,AM Contra - Heart Peripheral,swap,40,40,0.27536,1.3327,0.9221,11.789,0.425,0.075,1.0859,,,
+spleeter,Al James - Schoolboy Facination,F1,27,24,0.79068,10.86,2.2782,38.757,0.79167,0.20833,3.2296,0,0,0
+spleeter,Al James - Schoolboy Facination,F2,27,24,0.35795,2.0444,0.68059,34.601,0.375,0.083333,3.5764,,,
+htdemucs,Al James - Schoolboy Facination,F1,27,26,0.32724,1.1219,1.1114,15.158,0.65385,0.076923,2.3155,0,0,0
+htdemucs,Al James - Schoolboy Facination,F2,27,26,0.28166,1.3186,0.53944,14.488,0.26923,0.076923,2.3719,,,
+bs_roformer,Al James - Schoolboy Facination,F1,27,27,0.23679,0.62084,0.69997,6.8231,0.33333,0.037037,1.6609,0,0,0
+bs_roformer,Al James - Schoolboy Facination,F2,27,27,0.20721,0.80061,0.40802,5.1157,0.18519,0.037037,1.6944,,,
+bs_roformer,Al James - Schoolboy Facination,swap,27,27,0.20777,0.63291,0.64252,6.6433,0.25926,0.037037,1.6262,,,
+scnet,Al James - Schoolboy Facination,F1,27,27,0.21263,0.73444,0.70334,3.4239,0.40741,0,1.1811,0,0,0
+scnet,Al James - Schoolboy Facination,F2,27,27,0.15485,0.3903,0.30775,1.6343,0.074074,0,1.25,,,
+scnet,Al James - Schoolboy Facination,swap,27,26,0.45391,1.0198,1.4981,4.6379,0.65385,0,1.0923,,,
+spleeter,Angels In Amplifiers - I'm Alright,F1,37,31,0.69229,7.6994,2.3992,39.115,0.80645,0.25806,11.189,0,0,0
+spleeter,Angels In Amplifiers - I'm Alright,F2,37,32,0.39612,1.982,0.75563,32.875,0.4375,0.09375,7.3374,,,
+htdemucs,Angels In Amplifiers - I'm Alright,F1,37,28,0.84983,2.8841,2.9123,28.208,0.82143,0.21429,4.436,0,0,0
+htdemucs,Angels In Amplifiers - I'm Alright,F2,37,29,0.4688,1.5725,0.89291,32.234,0.48276,0.068966,3.9525,,,
+bs_roformer,Angels In Amplifiers - I'm Alright,F1,37,31,0.40075,3.0533,1.3129,23.645,0.6129,0.25806,1.9029,0,0,0
+bs_roformer,Angels In Amplifiers - I'm Alright,F2,37,31,0.35843,2.5672,0.71682,23.105,0.3871,0.096774,1.9149,,,
+bs_roformer,Angels In Amplifiers - I'm Alright,swap,37,31,0.42403,1.8681,1.2157,23.387,0.6129,0.19355,1.8135,,,
+scnet,Angels In Amplifiers - I'm Alright,F1,37,31,0.32508,0.9895,1.1646,6.2501,0.6129,0.032258,2.9562,0,0,0
+scnet,Angels In Amplifiers - I'm Alright,F2,37,32,0.27709,0.79662,0.52659,24.841,0.1875,0.0625,3.1705,,,
+scnet,Angels In Amplifiers - I'm Alright,swap,37,31,0.72628,1.9446,2.3083,26.816,0.83871,0.16129,3.0101,,,
+spleeter,Arise - Run Run Run,F1,28,23,0.43489,7.262,1.5734,25.234,0.65217,0.26087,4.1128,0,0,0
+spleeter,Arise - Run Run Run,F2,28,25,0.31791,1.1109,0.6237,21.865,0.28,0.08,3.8797,,,
+htdemucs,Arise - Run Run Run,F1,28,28,0.38702,2.3647,1.1608,21.599,0.53571,0.14286,2.0964,0,0,0
+htdemucs,Arise - Run Run Run,F2,28,28,0.38199,1.4304,0.71925,4.0887,0.32143,0,2.0934,,,
+bs_roformer,Arise - Run Run Run,F1,28,28,0.25568,0.47933,0.76231,2.6088,0.35714,0,0.85928,0,0,0
+bs_roformer,Arise - Run Run Run,F2,28,28,0.17872,0.65714,0.33157,1.9201,0.17857,0,1.0043,,,
+bs_roformer,Arise - Run Run Run,swap,28,28,0.18533,0.45484,0.55811,2.2324,0.25,0,0.8682,,,
+scnet,Arise - Run Run Run,F1,28,28,0.2712,2.1212,0.9203,18.906,0.46429,0.17857,2.4076,0,0,0
+scnet,Arise - Run Run Run,F2,28,28,0.1695,0.77873,0.32598,4.0875,0.17857,0,2.3004,,,
+scnet,Arise - Run Run Run,swap,28,28,0.73317,4.9331,2.1902,24.478,0.75,0.28571,2.5934,,,
+spleeter,BKS - Bulldozer,F1,29,26,0.31596,1.4007,1.1495,39.897,0.53846,0.11538,2.4003,0,0,0
+spleeter,BKS - Bulldozer,F2,29,26,0.13918,0.78055,0.25457,14.036,0.19231,0.076923,2.5793,,,
+htdemucs,BKS - Bulldozer,F1,29,29,0.40105,2.5446,1.3804,10.251,0.65517,0.17241,1.5336,0,0,0
+htdemucs,BKS - Bulldozer,F2,29,29,0.45162,1.4703,0.87297,8.8776,0.41379,0.034483,1.6333,,,
+bs_roformer,BKS - Bulldozer,F1,29,29,0.2908,0.67468,0.89744,4.1877,0.41379,0,1.1258,0,0,0
+bs_roformer,BKS - Bulldozer,F2,29,29,0.24938,0.56652,0.43648,2.9913,0.13793,0,1.1301,,,
+bs_roformer,BKS - Bulldozer,swap,29,29,0.2396,0.62006,0.78455,3.755,0.31034,0,1.1213,,,
+scnet,BKS - Bulldozer,F1,29,29,0.16023,0.71433,0.57509,10.105,0.2069,0.068966,2.0485,0,0,0
+scnet,BKS - Bulldozer,F2,29,29,0.13403,0.42282,0.24225,9.5592,0.068966,0.034483,1.9514,,,
+scnet,BKS - Bulldozer,swap,29,29,0.36735,1.2199,1.126,12.349,0.65517,0.068966,1.8558,,,
+spleeter,BKS - Too Much,F1,27,24,0.55806,10.116,1.8446,31.208,0.54167,0.29167,2.7491,0,0,0
+spleeter,BKS - Too Much,F2,27,24,0.13696,1.7628,0.27308,26.768,0.29167,0.083333,2.4956,,,
+htdemucs,BKS - Too Much,F1,27,27,0.40694,1.4442,1.2839,17.661,0.59259,0.14815,0.93075,0,0,0
+htdemucs,BKS - Too Much,F2,27,27,0.40801,1.6772,0.79281,4.9649,0.37037,0,1.0814,,,
+bs_roformer,BKS - Too Much,F1,27,25,0.19047,0.77887,0.53161,5.4617,0.4,0.04,1.591,0,0,0
+bs_roformer,BKS - Too Much,F2,27,26,0.22183,1.0282,0.4351,3.4871,0.23077,0,1.5465,,,
+bs_roformer,BKS - Too Much,swap,27,25,0.17965,0.76027,0.51144,4.3366,0.36,0,1.6008,,,
+scnet,BKS - Too Much,F1,27,27,0.15909,0.36006,0.51892,1.8443,0.22222,0,1.1537,0,0,0
+scnet,BKS - Too Much,F2,27,27,0.069405,0.3264,0.13403,0.88801,0,0,1.1167,,,
+scnet,BKS - Too Much,swap,27,26,0.28419,0.71347,0.87127,13.745,0.46154,0.038462,1.2175,,,
+spleeter,Ben Carrigan - We'll Talk About It All Tonight,F1,21,17,1.113,9.568,3.1309,32.273,0.76471,0.41176,8.287,0,0,0
+spleeter,Ben Carrigan - We'll Talk About It All Tonight,F2,21,18,0.42874,5.2644,0.83443,28.502,0.38889,0.16667,7.0891,,,
+htdemucs,Ben Carrigan - We'll Talk About It All Tonight,F1,21,18,0.24791,2.471,0.78427,13.103,0.38889,0.16667,0.72078,0,0,0
+htdemucs,Ben Carrigan - We'll Talk About It All Tonight,F2,21,19,0.25085,1.6648,0.4994,3.7503,0.26316,0,0.74988,,,
+bs_roformer,Ben Carrigan - We'll Talk About It All Tonight,F1,21,21,0.23716,0.68374,0.66484,3.0963,0.38095,0,1.0438,0,0,0
+bs_roformer,Ben Carrigan - We'll Talk About It All Tonight,F2,21,21,0.14756,0.49501,0.29425,1.4144,0.095238,0,1.0977,,,
+bs_roformer,Ben Carrigan - We'll Talk About It All Tonight,swap,21,21,0.20634,0.7434,0.63074,3.2063,0.33333,0,1.0567,,,
+scnet,Ben Carrigan - We'll Talk About It All Tonight,F1,21,21,0.19515,2.8589,0.65081,27.642,0.38095,0.14286,1.3354,0,0,0
+scnet,Ben Carrigan - We'll Talk About It All Tonight,F2,21,21,0.17407,0.52185,0.32642,26.017,0.095238,0.047619,0.9815,,,
+scnet,Ben Carrigan - We'll Talk About It All Tonight,swap,21,21,0.46583,8.9392,1.5002,32.136,0.61905,0.2381,1.2923,,,
+spleeter,Bobby Nobody - Stitch Up,F1,27,27,0.26461,5.0828,0.92168,42.986,0.48148,0.2963,4.0191,0,0,0
+spleeter,Bobby Nobody - Stitch Up,F2,27,27,0.24097,1.9546,0.4756,40.52,0.37037,0.074074,3.6626,,,
+htdemucs,Bobby Nobody - Stitch Up,F1,27,27,0.18523,0.92099,0.57019,4.5437,0.33333,0,1.266,0,0,0
+htdemucs,Bobby Nobody - Stitch Up,F2,27,27,0.17627,0.43158,0.33533,1.405,0.037037,0,1.2901,,,
+bs_roformer,Bobby Nobody - Stitch Up,F1,27,27,0.18543,0.53986,0.54361,2.3387,0.25926,0,1.544,0,0,0
+bs_roformer,Bobby Nobody - Stitch Up,F2,27,27,0.21141,0.53027,0.42186,2.041,0.11111,0,1.6586,,,
+bs_roformer,Bobby Nobody - Stitch Up,swap,27,27,0.18923,0.42131,0.5244,2.4769,0.22222,0,1.5326,,,
+scnet,Bobby Nobody - Stitch Up,F1,27,27,0.10939,0.42992,0.35674,24.485,0.25926,0.037037,1.913,0,0,0
+scnet,Bobby Nobody - Stitch Up,F2,27,27,0.088913,0.29608,0.16775,2.5384,0.037037,0,1.8124,,,
+scnet,Bobby Nobody - Stitch Up,swap,27,27,0.2819,3.3286,0.91258,27.29,0.40741,0.11111,1.7983,,,
+spleeter,Buitraker - Revo X,F1,39,21,0.26304,1.1979,0.95307,31.13,0.47619,0.047619,0.95576,0,0,0
+spleeter,Buitraker - Revo X,F2,39,24,0.2169,0.70008,0.39647,3.1035,0.16667,0,1.2088,,,
+htdemucs,Buitraker - Revo X,F1,39,26,0.28385,0.98928,1.0096,15.817,0.5,0.038462,1.4149,0,0,0
+htdemucs,Buitraker - Revo X,F2,39,29,0.25734,0.69163,0.49252,1.5842,0.2069,0,1.3058,,,
+bs_roformer,Buitraker - Revo X,F1,39,30,0.16416,0.46385,0.49422,51.704,0.2,0.033333,1.2176,0,0,0
+bs_roformer,Buitraker - Revo X,F2,39,30,0.14745,0.40248,0.28773,2.7677,0.1,0,1.2691,,,
+bs_roformer,Buitraker - Revo X,swap,39,31,0.13655,0.55761,0.38842,3.3078,0.19355,0,1.2408,,,
+scnet,Buitraker - Revo X,F1,39,35,0.21806,0.73042,0.76663,46.934,0.34286,0.057143,0.84334,0,0,0
+scnet,Buitraker - Revo X,F2,39,35,0.15625,0.69313,0.30695,3.2882,0.14286,0,1.0093,,,
+scnet,Buitraker - Revo X,swap,39,32,0.34491,1.0063,1.2298,35.407,0.5625,0.0625,0.83123,,,
+spleeter,Carlos Gonzalez - A Place For Us,F1,35,25,0.66836,7.7618,2.2119,28.627,0.84,0.32,5.0071,0,0,0
+spleeter,Carlos Gonzalez - A Place For Us,F2,35,29,0.36258,1.0114,0.72036,23.364,0.24138,0.068966,4.0275,,,
+htdemucs,Carlos Gonzalez - A Place For Us,F1,35,28,0.23822,0.5892,0.78467,2.1336,0.39286,0,1.6568,0,0,0
+htdemucs,Carlos Gonzalez - A Place For Us,F2,35,28,0.24736,0.68969,0.45805,2.0463,0.17857,0,1.7433,,,
+bs_roformer,Carlos Gonzalez - A Place For Us,F1,35,26,0.24333,0.4631,0.7308,6.0405,0.19231,0.038462,1.5707,0,0,0
+bs_roformer,Carlos Gonzalez - A Place For Us,F2,35,26,0.2359,0.49136,0.43919,1.5665,0.038462,0,1.5551,,,
+bs_roformer,Carlos Gonzalez - A Place For Us,swap,35,26,0.22218,0.40247,0.63851,4.7468,0.19231,0,1.6006,,,
+scnet,Carlos Gonzalez - A Place For Us,F1,35,28,0.14076,0.23155,0.45383,1.7981,0.035714,0,1.8126,0,0,0
+scnet,Carlos Gonzalez - A Place For Us,F2,35,29,0.14543,0.2972,0.28046,0.86769,0,0,1.8719,,,
+scnet,Carlos Gonzalez - A Place For Us,swap,35,28,0.30967,0.5058,0.94063,2.9149,0.39286,0,2.0233,,,
+spleeter,Cristina Vane - So Easy,F1,35,25,0.13674,0.47953,0.43129,2.3966,0.2,0,1.0949,0,0,0
+spleeter,Cristina Vane - So Easy,F2,35,27,0.055448,0.22128,0.10871,1.5787,0.037037,0,1.1946,,,
+htdemucs,Cristina Vane - So Easy,F1,35,33,0.12595,0.27069,0.46724,4.5355,0.090909,0,0.46567,0,0,0
+htdemucs,Cristina Vane - So Easy,F2,35,33,0.13055,0.38223,0.24186,4.1611,0.090909,0,0.49499,,,
+bs_roformer,Cristina Vane - So Easy,F1,35,35,0.052461,0.18868,0.16899,3.7339,0.057143,0,0.25624,0,0,0
+bs_roformer,Cristina Vane - So Easy,F2,35,35,0.062824,0.2254,0.12267,2.6805,0.028571,0,0.23882,,,
+bs_roformer,Cristina Vane - So Easy,swap,35,35,0.048756,0.18033,0.15732,3.7312,0.028571,0,0.25673,,,
+scnet,Cristina Vane - So Easy,F1,35,35,0.079864,0.30524,0.27233,2.7185,0.11429,0,0.46983,0,0,0
+scnet,Cristina Vane - So Easy,F2,35,35,0.056878,0.33603,0.10669,1.7792,0.057143,0,0.56714,,,
+scnet,Cristina Vane - So Easy,swap,35,35,0.13473,0.54795,0.43834,4.3099,0.2,0,0.49825,,,
+spleeter,Detsky Sad - Walkie Talkie,F1,27,23,0.5777,9.9283,2.0926,38.714,0.6087,0.26087,4.4049,0,0,0
+spleeter,Detsky Sad - Walkie Talkie,F2,27,23,0.16907,1.0053,0.31605,23.944,0.26087,0.043478,4.4016,,,
+htdemucs,Detsky Sad - Walkie Talkie,F1,27,24,0.3609,1.4265,1.1575,12.451,0.625,0.125,1.7601,0,0,0
+htdemucs,Detsky Sad - Walkie Talkie,F2,27,24,0.23783,0.69309,0.43415,10.363,0.16667,0.041667,1.9608,,,
+bs_roformer,Detsky Sad - Walkie Talkie,F1,27,26,0.17531,0.64611,0.53516,2.9623,0.30769,0,0.68272,0,0,0
+bs_roformer,Detsky Sad - Walkie Talkie,F2,27,26,0.15628,0.34576,0.30239,1.94,0.038462,0,0.67836,,,
+bs_roformer,Detsky Sad - Walkie Talkie,swap,27,26,0.16442,0.41756,0.45687,1.8653,0.19231,0,0.67792,,,
+scnet,Detsky Sad - Walkie Talkie,F1,27,26,0.25337,0.69492,0.76032,3.5777,0.42308,0,1.904,0,0,0
+scnet,Detsky Sad - Walkie Talkie,F2,27,26,0.13049,0.44706,0.24523,2.7749,0.076923,0,2.0136,,,
+scnet,Detsky Sad - Walkie Talkie,swap,27,26,0.4189,1.4612,1.3511,6.8771,0.80769,0.15385,2.1952,,,
+spleeter,Enda Reilly - Cur An Long Ag Seol,F1,22,18,0.27993,0.82297,0.94116,37.242,0.44444,0.055556,4.0854,0,0,0
+spleeter,Enda Reilly - Cur An Long Ag Seol,F2,22,19,0.18298,0.30863,0.36108,1.56,0.052632,0,3.5025,,,
+htdemucs,Enda Reilly - Cur An Long Ag Seol,F1,22,22,0.23877,1.2892,0.75882,34.885,0.40909,0.090909,1.7196,0,0,0
+htdemucs,Enda Reilly - Cur An Long Ag Seol,F2,22,22,0.24965,1.6351,0.48867,33.454,0.36364,0.090909,1.8025,,,
+bs_roformer,Enda Reilly - Cur An Long Ag Seol,F1,22,22,0.16007,0.60196,0.52933,24.837,0.40909,0.045455,1.1361,0,0,0
+bs_roformer,Enda Reilly - Cur An Long Ag Seol,F2,22,22,0.15865,0.48834,0.30152,1.2652,0.090909,0,1.4113,,,
+bs_roformer,Enda Reilly - Cur An Long Ag Seol,swap,22,22,0.20295,0.55442,0.6329,2.4314,0.31818,0,1.1371,,,
+scnet,Enda Reilly - Cur An Long Ag Seol,F1,22,22,0.15749,1.686,0.55485,35.783,0.36364,0.090909,1.7449,0,0,0
+scnet,Enda Reilly - Cur An Long Ag Seol,F2,22,22,0.14375,0.77126,0.27042,35.113,0.13636,0.045455,1.8031,,,
+scnet,Enda Reilly - Cur An Long Ag Seol,swap,22,22,0.34063,2.4412,1.1232,36.439,0.54545,0.18182,1.9779,,,
+spleeter,Forkupines - Semantics,F1,45,40,0.27986,0.58506,0.90886,53.715,0.425,0.025,1.6379,0,0,0
+spleeter,Forkupines - Semantics,F2,45,42,0.15227,0.34907,0.28332,1.9033,0.02381,0,1.7113,,,
+htdemucs,Forkupines - Semantics,F1,45,42,0.18656,0.33177,0.55852,2.5242,0.11905,0,0.43352,0,0,0
+htdemucs,Forkupines - Semantics,F2,45,43,0.19293,0.38277,0.38437,0.81366,0,0,0.44507,,,
+bs_roformer,Forkupines - Semantics,F1,45,44,0.09123,0.17492,0.28781,0.92387,0,0,0.57164,0,0,0
+bs_roformer,Forkupines - Semantics,F2,45,44,0.097043,0.20657,0.18162,0.64423,0,0,0.56507,,,
+bs_roformer,Forkupines - Semantics,swap,45,44,0.080921,0.16253,0.24867,0.80583,0,0,0.58293,,,
+scnet,Forkupines - Semantics,F1,45,45,0.077388,0.14623,0.2863,0.67286,0,0,0.56852,0,0,0
+scnet,Forkupines - Semantics,F2,45,45,0.061984,0.1464,0.11922,0.74152,0,0,0.56891,,,
+scnet,Forkupines - Semantics,swap,45,45,0.16029,0.33922,0.52009,2.1769,0.088889,0,0.55973,,,
+spleeter,Georgia Wonder - Siren,F1,34,31,0.39283,4.9815,1.165,73.378,0.58065,0.16129,4.1255,0,0,0
+spleeter,Georgia Wonder - Siren,F2,34,32,0.21216,0.55883,0.38755,30.307,0.125,0.0625,4.274,,,
+htdemucs,Georgia Wonder - Siren,F1,34,28,0.17938,0.53703,0.57373,2.6846,0.28571,0,0.66446,0,0,0
+htdemucs,Georgia Wonder - Siren,F2,34,27,0.13379,0.25674,0.26212,1.0862,0.037037,0,0.75971,,,
+bs_roformer,Georgia Wonder - Siren,F1,34,34,0.41956,1.6127,1.2555,9.8382,0.55882,0.088235,1.6615,0,0,0
+bs_roformer,Georgia Wonder - Siren,F2,34,34,0.19475,1.689,0.36284,7.8321,0.20588,0.029412,1.3991,,,
+bs_roformer,Georgia Wonder - Siren,swap,34,34,0.29262,1.1741,0.83669,7.4813,0.44118,0.029412,1.5922,,,
+scnet,Georgia Wonder - Siren,F1,34,34,0.17323,0.46552,0.56832,8.6753,0.23529,0.029412,1.5466,0,0,0
+scnet,Georgia Wonder - Siren,F2,34,34,0.15217,0.28442,0.29712,2.3974,0.058824,0,1.6413,,,
+scnet,Georgia Wonder - Siren,swap,34,33,0.32411,0.78879,1.1646,5.1715,0.57576,0.030303,1.6629,,,
+spleeter,Girls Under Glass - We Feel Alright,F1,39,28,0.34171,2.4023,1.1389,31.849,0.57143,0.10714,2.8014,0,0,0
+spleeter,Girls Under Glass - We Feel Alright,F2,39,29,0.16315,0.5162,0.3176,2.7099,0.10345,0,2.7938,,,
+htdemucs,Girls Under Glass - We Feel Alright,F1,39,36,0.26674,0.69882,0.8693,6.4624,0.38889,0.027778,1.2386,0,0,0
+htdemucs,Girls Under Glass - We Feel Alright,F2,39,37,0.2029,0.85656,0.37485,5.7187,0.16216,0.027027,1.2902,,,
+bs_roformer,Girls Under Glass - We Feel Alright,F1,39,39,0.18919,0.58553,0.55066,2.7293,0.23077,0,0.96846,0,0,0
+bs_roformer,Girls Under Glass - We Feel Alright,F2,39,39,0.23771,0.69259,0.4294,2.9058,0.15385,0,0.94216,,,
+bs_roformer,Girls Under Glass - We Feel Alright,swap,39,39,0.19171,0.52448,0.57297,3.3171,0.28205,0,0.9683,,,
+scnet,Girls Under Glass - We Feel Alright,F1,39,39,0.14944,0.40265,0.54465,2.6563,0.23077,0,1.6569,0,0,0
+scnet,Girls Under Glass - We Feel Alright,F2,39,39,0.1655,0.42805,0.31565,1.475,0.051282,0,1.702,,,
+scnet,Girls Under Glass - We Feel Alright,swap,39,39,0.31503,0.92724,1.0948,3.9839,0.53846,0,1.8026,,,
+spleeter,Hollow Ground - Ill Fate,F1,50,21,3.0833,11.131,8.3118,38.955,1,0.61905,9.5755,0,0,0
+spleeter,Hollow Ground - Ill Fate,F2,50,26,0.96404,10.327,1.8126,31.29,0.65385,0.26923,11.226,,,
+htdemucs,Hollow Ground - Ill Fate,F1,50,35,0.58562,1.9883,1.8087,14.038,0.85714,0.14286,3.7026,0,0,0
+htdemucs,Hollow Ground - Ill Fate,F2,50,37,0.44412,1.0857,0.80413,11.759,0.43243,0.054054,3.8072,,,
+bs_roformer,Hollow Ground - Ill Fate,F1,50,45,0.32017,0.65706,1.1318,3.5493,0.55556,0,3.8425,0,0,0
+bs_roformer,Hollow Ground - Ill Fate,F2,50,45,0.31682,0.63731,0.60888,2.1283,0.22222,0,3.7055,,,
+bs_roformer,Hollow Ground - Ill Fate,swap,50,45,0.3224,0.64899,1.0144,2.9724,0.51111,0,3.8081,,,
+scnet,Hollow Ground - Ill Fate,F1,50,39,0.25258,0.42899,0.81147,3.6312,0.4359,0,2.5216,0,0,0
+scnet,Hollow Ground - Ill Fate,F2,50,40,0.17908,0.44159,0.33828,1.4498,0.05,0,2.4171,,,
+scnet,Hollow Ground - Ill Fate,swap,50,39,0.60156,0.88757,1.7469,5.5622,0.92308,0.051282,2.4507,,,
+spleeter,James Elder & Mark M Thompson - The English Actor,F1,21,21,0.98445,9.3933,3.4515,64.822,0.57143,0.28571,3.4871,0,0,0
+spleeter,James Elder & Mark M Thompson - The English Actor,F2,21,21,0.53468,2.0461,0.96733,20.008,0.47619,0.095238,3.491,,,
+htdemucs,James Elder & Mark M Thompson - The English Actor,F1,21,18,0.37468,10.151,1.1827,32.292,0.5,0.22222,2.6026,0,0,0
+htdemucs,James Elder & Mark M Thompson - The English Actor,F2,21,19,0.20383,1.0377,0.37829,2.2078,0.36842,0,2.1645,,,
+bs_roformer,James Elder & Mark M Thompson - The English Actor,F1,21,21,0.41297,8.2433,1.3212,29.926,0.61905,0.14286,1.474,0,0,0
+bs_roformer,James Elder & Mark M Thompson - The English Actor,F2,21,21,0.26208,0.88459,0.52009,27.848,0.2381,0.047619,1.8248,,,
+bs_roformer,James Elder & Mark M Thompson - The English Actor,swap,21,21,0.28862,10.95,1.1393,29.609,0.52381,0.14286,1.4667,,,
+scnet,James Elder & Mark M Thompson - The English Actor,F1,21,20,0.28164,10.354,1.0072,35.521,0.5,0.2,1.8431,0,0,0
+scnet,James Elder & Mark M Thompson - The English Actor,F2,21,21,0.18603,17.007,0.32682,33.366,0.2381,0.14286,2.1821,,,
+scnet,James Elder & Mark M Thompson - The English Actor,swap,21,20,0.48858,15.839,1.5864,38.187,0.55,0.3,1.7944,,,
+spleeter,Juliet's Rescue - Heartbeats,F1,30,25,0.47392,7.228,1.7696,16.978,0.68,0.36,10.625,0,0,0
+spleeter,Juliet's Rescue - Heartbeats,F2,30,26,0.22482,7.4205,0.43948,14.117,0.34615,0.19231,6.3534,,,
+htdemucs,Juliet's Rescue - Heartbeats,F1,30,30,0.19702,0.68411,0.67911,16.2,0.33333,0.033333,0.83945,0,0,0
+htdemucs,Juliet's Rescue - Heartbeats,F2,30,30,0.1286,0.47702,0.24509,1.9831,0.1,0,0.82516,,,
+bs_roformer,Juliet's Rescue - Heartbeats,F1,30,30,0.095656,0.21634,0.30296,1.0052,0.033333,0,0.50986,0,0,0
+bs_roformer,Juliet's Rescue - Heartbeats,F2,30,30,0.098193,0.21623,0.18172,0.94476,0,0,0.51648,,,
+bs_roformer,Juliet's Rescue - Heartbeats,swap,30,30,0.093877,0.18109,0.29031,1.1527,0.033333,0,0.50198,,,
+scnet,Juliet's Rescue - Heartbeats,F1,30,30,0.12138,0.75532,0.43377,16.091,0.16667,0.1,1.5127,0,0,0
+scnet,Juliet's Rescue - Heartbeats,F2,30,30,0.12291,0.38035,0.24343,15.466,0.066667,0.066667,1.5205,,,
+scnet,Juliet's Rescue - Heartbeats,swap,30,30,0.2354,4.8108,0.7511,17.472,0.33333,0.16667,1.5641,,,
+spleeter,Little Chicago's Finest - My Own,F1,21,20,0.14496,0.80698,0.45114,6.045,0.25,0.1,1.9862,0,0,0
+spleeter,Little Chicago's Finest - My Own,F2,21,20,0.05697,0.50931,0.10913,4.1411,0.1,0,1.834,,,
+htdemucs,Little Chicago's Finest - My Own,F1,21,21,0.28257,0.76669,0.97348,19.402,0.47619,0.047619,1.1713,0,0,0
+htdemucs,Little Chicago's Finest - My Own,F2,21,21,0.17154,0.53897,0.30726,1.9021,0.095238,0,1.155,,,
+bs_roformer,Little Chicago's Finest - My Own,F1,21,21,0.079709,0.17043,0.22,1.0204,0.047619,0,0.29114,0,0,0
+bs_roformer,Little Chicago's Finest - My Own,F2,21,21,0.077265,0.19643,0.14698,0.9817,0,0,0.38063,,,
+bs_roformer,Little Chicago's Finest - My Own,swap,21,21,0.061021,0.14985,0.17143,0.86158,0,0,0.30039,,,
+scnet,Little Chicago's Finest - My Own,F1,21,21,0.076357,0.85585,0.23518,9.5966,0.2381,0.047619,1.1054,0,0,0
+scnet,Little Chicago's Finest - My Own,F2,21,21,0.073166,0.57225,0.14623,4.7172,0.14286,0,1.1149,,,
+scnet,Little Chicago's Finest - My Own,swap,21,21,0.12447,0.94201,0.39693,11.109,0.33333,0.095238,1.1867,,,
+spleeter,Louis Cressy Band - Good Time,F1,25,23,0.29585,5.4515,1.0305,27.75,0.56522,0.17391,2.8575,0,0,0
+spleeter,Louis Cressy Band - Good Time,F2,25,24,0.15557,1.2385,0.30773,18.052,0.16667,0.083333,2.4059,,,
+htdemucs,Louis Cressy Band - Good Time,F1,25,25,0.37529,1.0216,1.232,12.767,0.68,0.08,2.1637,0,0,0
+htdemucs,Louis Cressy Band - Good Time,F2,25,25,0.3574,0.62559,0.6898,5.5871,0.12,0.04,1.9761,,,
+bs_roformer,Louis Cressy Band - Good Time,F1,25,25,0.22702,0.82132,0.69684,6.5705,0.4,0.08,2.4002,0,0,0
+bs_roformer,Louis Cressy Band - Good Time,F2,25,25,0.15056,0.52024,0.30083,1.3923,0.12,0,2.3402,,,
+bs_roformer,Louis Cressy Band - Good Time,swap,25,25,0.19502,0.49419,0.63453,6.2661,0.28,0.04,2.4415,,,
+scnet,Louis Cressy Band - Good Time,F1,25,25,0.1326,0.35492,0.45849,1.9599,0.16,0,1.5364,0,0,0
+scnet,Louis Cressy Band - Good Time,F2,25,25,0.088718,0.37964,0.16996,1.284,0.04,0,1.5504,,,
+scnet,Louis Cressy Band - Good Time,swap,25,25,0.3115,0.91746,0.98269,3.6827,0.48,0,1.5432,,,
+spleeter,Lyndsey Ollard - Catching Up,F1,23,19,0.40139,3.8808,1.3315,22.78,0.52632,0.21053,3.2734,0,0,0
+spleeter,Lyndsey Ollard - Catching Up,F2,23,20,0.24989,1.3829,0.46653,17.672,0.2,0.1,2.9535,,,
+htdemucs,Lyndsey Ollard - Catching Up,F1,23,22,0.35228,1.7743,1.1918,10.748,0.68182,0.18182,1.6123,0,0,0
+htdemucs,Lyndsey Ollard - Catching Up,F2,23,22,0.43125,1.2436,0.81134,3.1858,0.40909,0,1.6397,,,
+bs_roformer,Lyndsey Ollard - Catching Up,F1,23,22,0.25643,0.59036,0.78683,16.281,0.36364,0.045455,1.2962,0,0,0
+bs_roformer,Lyndsey Ollard - Catching Up,F2,23,23,0.17835,0.54592,0.35089,2.2749,0.13043,0,1.1898,,,
+bs_roformer,Lyndsey Ollard - Catching Up,swap,23,22,0.19171,0.6439,0.5923,16.917,0.31818,0.045455,1.3094,,,
+scnet,Lyndsey Ollard - Catching Up,F1,23,23,0.25342,0.81791,0.84046,5.2949,0.34783,0.043478,2.0228,0,0,0
+scnet,Lyndsey Ollard - Catching Up,F2,23,23,0.19185,0.37524,0.3352,1.316,0.043478,0,2.0521,,,
+scnet,Lyndsey Ollard - Catching Up,swap,23,22,0.42051,2.3967,1.3379,18.308,0.63636,0.13636,2.013,,,
+spleeter,M.E.R.C. Music - Knockout,F1,29,17,0.69633,12.487,2.2865,41.544,0.94118,0.29412,4.3402,0,0,0
+spleeter,M.E.R.C. Music - Knockout,F2,29,22,0.27204,10.858,0.51457,32.847,0.31818,0.18182,4.5249,,,
+htdemucs,M.E.R.C. Music - Knockout,F1,29,25,0.29194,0.87037,0.93346,3.8733,0.48,0,1.4663,0,0,0
+htdemucs,M.E.R.C. Music - Knockout,F2,29,25,0.22417,0.61054,0.43917,2.8153,0.24,0,1.5273,,,
+bs_roformer,M.E.R.C. Music - Knockout,F1,29,26,0.29614,0.64601,0.88565,2.9172,0.46154,0,2.0353,0,0,0
+bs_roformer,M.E.R.C. Music - Knockout,F2,29,26,0.31033,0.79119,0.58247,2.2454,0.26923,0,2.0137,,,
+bs_roformer,M.E.R.C. Music - Knockout,swap,29,26,0.30139,0.62297,0.86055,2.7113,0.42308,0,2.0344,,,
+scnet,M.E.R.C. Music - Knockout,F1,29,26,0.21065,0.51304,0.65015,4.0763,0.30769,0,1.8671,0,0,0
+scnet,M.E.R.C. Music - Knockout,F2,29,26,0.18637,0.5804,0.34632,1.3841,0.15385,0,1.9294,,,
+scnet,M.E.R.C. Music - Knockout,swap,29,26,0.4225,0.99656,1.2482,7.0552,0.69231,0.038462,1.9312,,,
+spleeter,Moosmusic - Big Dummy Shake,F1,33,24,0.50018,4.5898,1.7953,27.488,0.75,0.20833,2.5748,0,0,0
+spleeter,Moosmusic - Big Dummy Shake,F2,33,24,0.28325,0.79173,0.55932,10.483,0.29167,0.083333,2.5599,,,
+htdemucs,Moosmusic - Big Dummy Shake,F1,33,25,0.25073,2.4994,0.79933,17.02,0.32,0.12,0.7701,0,0,0
+htdemucs,Moosmusic - Big Dummy Shake,F2,33,26,0.22567,0.53554,0.44776,16.916,0.11538,0.038462,0.83895,,,
+bs_roformer,Moosmusic - Big Dummy Shake,F1,33,30,0.26413,0.48843,0.7339,2.3364,0.23333,0,1.1905,0,0,0
+bs_roformer,Moosmusic - Big Dummy Shake,F2,33,31,0.15262,0.50842,0.28943,1.9252,0.096774,0,0.90357,,,
+bs_roformer,Moosmusic - Big Dummy Shake,swap,33,30,0.19677,0.38415,0.59557,2.0219,0.2,0,1.2076,,,
+scnet,Moosmusic - Big Dummy Shake,F1,33,30,0.16002,0.28012,0.54156,12.621,0.1,0.033333,0.98855,0,0,0
+scnet,Moosmusic - Big Dummy Shake,F2,33,30,0.12596,0.29156,0.23775,0.80001,0,0,1.0011,,,
+scnet,Moosmusic - Big Dummy Shake,swap,33,28,0.24894,0.6974,0.84854,25.996,0.35714,0.071429,1.0958,,,
+spleeter,Motor Tapes - Shore,F1,27,25,0.46569,5.6606,1.5861,36.098,0.72,0.16,2.0669,0,0,0
+spleeter,Motor Tapes - Shore,F2,27,26,0.24413,0.70675,0.47201,17.975,0.26923,0.076923,2.733,,,
+htdemucs,Motor Tapes - Shore,F1,27,27,0.4836,1.2878,1.6862,14.391,0.81481,0.074074,1.4139,0,0,0
+htdemucs,Motor Tapes - Shore,F2,27,27,0.52686,1.4067,0.91789,8.5648,0.48148,0.037037,1.3813,,,
+bs_roformer,Motor Tapes - Shore,F1,27,27,0.1908,0.54214,0.6325,3.0835,0.2963,0,0.66598,0,0,0
+bs_roformer,Motor Tapes - Shore,F2,27,27,0.12901,0.45645,0.24347,3.2728,0.074074,0,0.84742,,,
+bs_roformer,Motor Tapes - Shore,swap,27,27,0.18391,0.3797,0.55005,3.2912,0.18519,0,0.6777,,,
+scnet,Motor Tapes - Shore,F1,27,27,0.17426,0.53643,0.61613,3.9198,0.18519,0,0.9726,0,0,0
+scnet,Motor Tapes - Shore,F2,27,27,0.18647,0.49572,0.34587,1.867,0.11111,0,0.87994,,,
+scnet,Motor Tapes - Shore,swap,27,27,0.40743,0.90317,1.3111,12.39,0.81481,0.074074,0.9528,,,
+spleeter,Mu - Too Bright,F1,37,36,0.16272,0.4178,0.53388,36.877,0.19444,0.027778,2.441,0,0,0
+spleeter,Mu - Too Bright,F2,37,36,0.078854,0.20255,0.15669,32.675,0.055556,0.027778,2.5114,,,
+htdemucs,Mu - Too Bright,F1,37,37,0.089378,0.20902,0.31692,1.0111,0.027027,0,0.41131,0,0,0
+htdemucs,Mu - Too Bright,F2,37,37,0.080965,0.20005,0.15744,0.62013,0,0,0.41667,,,
+bs_roformer,Mu - Too Bright,F1,37,37,0.055896,0.098864,0.16373,0.56657,0,0,0.16356,0,0,0
+bs_roformer,Mu - Too Bright,F2,37,37,0.052147,0.1054,0.10019,0.48968,0,0,0.18991,,,
+bs_roformer,Mu - Too Bright,swap,37,37,0.054081,0.081259,0.16298,0.55307,0,0,0.17475,,,
+scnet,Mu - Too Bright,F1,37,37,0.0497,0.092164,0.17256,0.48593,0,0,0.393,0,0,0
+scnet,Mu - Too Bright,F2,37,37,0.044066,0.087704,0.08326,0.33709,0,0,0.38531,,,
+scnet,Mu - Too Bright,swap,37,37,0.099277,0.17258,0.34735,0.64328,0,0,0.40879,,,
+spleeter,Nerve 9 - Pray For The Rain,F1,17,17,0.3773,2.7275,1.1291,19.543,0.58824,0.17647,1.6205,0,0,0
+spleeter,Nerve 9 - Pray For The Rain,F2,17,17,0.23053,1.9955,0.45392,8.8391,0.35294,0.11765,1.9696,,,
+htdemucs,Nerve 9 - Pray For The Rain,F1,17,17,0.19194,0.51215,0.59272,37.118,0.17647,0.058824,1.2909,0,0,0
+htdemucs,Nerve 9 - Pray For The Rain,F2,17,17,0.14794,0.34534,0.28454,0.81467,0,0,1.2185,,,
+bs_roformer,Nerve 9 - Pray For The Rain,F1,17,17,0.22056,0.29695,0.59694,1.1657,0.058824,0,1.0647,0,0,0
+bs_roformer,Nerve 9 - Pray For The Rain,F2,17,17,0.18472,0.29284,0.36512,0.82975,0,0,1.0638,,,
+bs_roformer,Nerve 9 - Pray For The Rain,swap,17,17,0.1849,0.26947,0.49586,0.88528,0,0,1.0535,,,
+scnet,Nerve 9 - Pray For The Rain,F1,17,17,0.14503,0.30894,0.46788,1.8585,0.11765,0,1.3778,0,0,0
+scnet,Nerve 9 - Pray For The Rain,F2,17,17,0.12208,0.3038,0.22674,0.69316,0,0,1.5271,,,
+scnet,Nerve 9 - Pray For The Rain,swap,17,17,0.24044,0.46337,0.83156,3.4393,0.29412,0,1.169,,,
+spleeter,PR - Happy Daze,F1,32,30,0.2019,0.75244,0.68977,2.86,0.4,0,1.0358,0,0,0
+spleeter,PR - Happy Daze,F2,32,31,0.11485,0.4921,0.22891,2.1085,0.096774,0,1.153,,,
+htdemucs,PR - Happy Daze,F1,32,32,0.097306,0.35818,0.34329,1.8395,0.15625,0,0.59962,0,0,0
+htdemucs,PR - Happy Daze,F2,32,32,0.073263,0.23565,0.14446,0.69383,0,0,0.7773,,,
+bs_roformer,PR - Happy Daze,F1,32,32,0.080451,0.20498,0.2561,1.1423,0.03125,0,0.44392,0,0,0
+bs_roformer,PR - Happy Daze,F2,32,32,0.061898,0.26415,0.1201,0.78934,0,0,0.42471,,,
+bs_roformer,PR - Happy Daze,swap,32,32,0.062938,0.20273,0.192,1.0695,0.03125,0,0.4427,,,
+scnet,PR - Happy Daze,F1,32,32,0.041567,0.10216,0.13592,0.51202,0,0,0.82415,0,0,0
+scnet,PR - Happy Daze,F2,32,32,0.024049,0.095135,0.047613,0.33897,0,0,0.78353,,,
+scnet,PR - Happy Daze,swap,32,32,0.069844,0.23776,0.25302,1.2539,0.0625,0,0.83011,,,
+spleeter,PR - Oh No,F1,40,35,0.09857,0.49883,0.34631,3.9882,0.2,0,0.99612,0,0,0
+spleeter,PR - Oh No,F2,40,37,0.045508,0.25921,0.090736,1.8015,0.054054,0,1.0065,,,
+htdemucs,PR - Oh No,F1,40,39,0.13565,0.50614,0.41039,3.6287,0.23077,0,0.63966,0,0,0
+htdemucs,PR - Oh No,F2,40,39,0.11654,0.47683,0.22195,2.1144,0.10256,0,0.65453,,,
+bs_roformer,PR - Oh No,F1,40,40,0.10031,0.51885,0.30617,7.1953,0.175,0.025,0.55644,0,0,0
+bs_roformer,PR - Oh No,F2,40,40,0.099756,0.45362,0.18212,6.9471,0.1,0.025,0.53847,,,
+bs_roformer,PR - Oh No,swap,40,40,0.087016,0.277,0.26049,7.3787,0.075,0.025,0.54992,,,
+scnet,PR - Oh No,F1,40,39,0.066063,0.42187,0.20726,2.3672,0.15385,0,0.30583,0,0,0
+scnet,PR - Oh No,F2,40,39,0.04609,0.19528,0.088852,1.0324,0.025641,0,0.32207,,,
+scnet,PR - Oh No,swap,40,39,0.12045,0.51032,0.40327,3.5157,0.17949,0,0.38354,,,
+spleeter,Punkdisco - Oral Hygiene,F1,23,21,0.23029,0.78659,1.0009,3.802,0.52381,0,4.1329,0,0,0
+spleeter,Punkdisco - Oral Hygiene,F2,23,21,0.12016,0.39842,0.23649,1.7425,0.047619,0,4.0114,,,
+htdemucs,Punkdisco - Oral Hygiene,F1,23,21,0.18057,0.55786,0.6289,3.8139,0.2381,0,1.0072,0,0,0
+htdemucs,Punkdisco - Oral Hygiene,F2,23,21,0.15296,0.49621,0.29921,1.2821,0.095238,0,1.0529,,,
+bs_roformer,Punkdisco - Oral Hygiene,F1,23,21,0.17795,0.35899,0.50944,2.0611,0.14286,0,0.60738,0,0,0
+bs_roformer,Punkdisco - Oral Hygiene,F2,23,20,0.20814,0.38834,0.41099,1.734,0.05,0,0.60174,,,
+bs_roformer,Punkdisco - Oral Hygiene,swap,23,21,0.1561,0.27386,0.51322,2.0462,0.095238,0,0.63091,,,
+scnet,Punkdisco - Oral Hygiene,F1,23,21,0.16563,0.67419,0.51379,3.5178,0.28571,0,2.3849,0,0,0
+scnet,Punkdisco - Oral Hygiene,F2,23,21,0.12418,0.48926,0.22518,2.2677,0.095238,0,2.2801,,,
+scnet,Punkdisco - Oral Hygiene,swap,23,21,0.24611,1.1227,0.88605,11.551,0.42857,0.095238,2.3937,,,
+spleeter,Raft Monk - Tiring,F1,37,29,0.51413,1.8085,1.6722,30.015,0.7931,0.10345,2.555,0,0,0
+spleeter,Raft Monk - Tiring,F2,37,30,0.24509,0.78958,0.47298,23.607,0.2,0.066667,2.5434,,,
+htdemucs,Raft Monk - Tiring,F1,37,35,0.28947,1.9069,0.96489,30.745,0.45714,0.14286,1.323,0,0,0
+htdemucs,Raft Monk - Tiring,F2,37,36,0.21715,0.98805,0.38529,13.483,0.22222,0.055556,1.1529,,,
+bs_roformer,Raft Monk - Tiring,F1,37,34,0.35927,0.60647,1.0172,15.509,0.52941,0.029412,0.95437,0,0,0
+bs_roformer,Raft Monk - Tiring,F2,37,35,0.35513,0.69262,0.6931,6.2788,0.2,0.028571,0.90078,,,
+bs_roformer,Raft Monk - Tiring,swap,37,34,0.33206,0.54552,0.90621,13.923,0.44118,0.029412,0.97967,,,
+scnet,Raft Monk - Tiring,F1,37,37,0.27203,0.67136,0.88088,20.1,0.43243,0.054054,1.6851,0,0,0
+scnet,Raft Monk - Tiring,F2,37,37,0.14892,0.44405,0.28214,18.733,0.081081,0.054054,1.7003,,,
+scnet,Raft Monk - Tiring,swap,37,36,0.56431,2.7602,1.6571,22.141,0.80556,0.19444,1.6332,,,
+spleeter,Sambasevam Shanmugam - Kaathaadi,F1,34,26,0.41945,1.6331,1.4429,20.582,0.65385,0.15385,3.3618,0,0,0
+spleeter,Sambasevam Shanmugam - Kaathaadi,F2,34,28,0.24696,1.0408,0.46401,2.4413,0.21429,0,2.214,,,
+htdemucs,Sambasevam Shanmugam - Kaathaadi,F1,34,28,0.20625,0.99105,0.71637,8.2405,0.46429,0.071429,1.4297,0,0,0
+htdemucs,Sambasevam Shanmugam - Kaathaadi,F2,34,29,0.18446,0.67532,0.36084,7.6096,0.17241,0.034483,1.3758,,,
+bs_roformer,Sambasevam Shanmugam - Kaathaadi,F1,34,32,0.16361,0.54727,0.50466,3.6582,0.28125,0,0.79572,0,0,0
+bs_roformer,Sambasevam Shanmugam - Kaathaadi,F2,34,32,0.14816,0.42471,0.2871,3.6856,0.09375,0,0.82517,,,
+bs_roformer,Sambasevam Shanmugam - Kaathaadi,swap,34,32,0.1509,0.49169,0.43528,3.1543,0.21875,0,0.80412,,,
+scnet,Sambasevam Shanmugam - Kaathaadi,F1,34,31,0.2321,1.1103,0.66029,35.997,0.35484,0.096774,1.2548,0,0,0
+scnet,Sambasevam Shanmugam - Kaathaadi,F2,34,32,0.12121,0.74056,0.23987,4.9299,0.15625,0,1.1326,,,
+scnet,Sambasevam Shanmugam - Kaathaadi,swap,34,32,0.31309,1.3202,1.0574,36.353,0.53125,0.09375,1.2286,,,
+spleeter,Secretariat - Borderline,F1,24,20,0.90832,4.8478,3.0499,33.172,0.8,0.3,12.44,0,0,0
+spleeter,Secretariat - Borderline,F2,24,22,0.37381,2.3961,0.68249,10.656,0.40909,0.090909,9.4578,,,
+htdemucs,Secretariat - Borderline,F1,24,20,0.74125,2.076,2.4741,15.662,0.9,0.1,3.2977,0,0,0
+htdemucs,Secretariat - Borderline,F2,24,21,0.9334,1.7659,1.7563,11.775,0.66667,0.047619,3.0233,,,
+bs_roformer,Secretariat - Borderline,F1,24,22,0.29363,1.8237,0.9091,12.142,0.5,0.18182,1.6931,0,0,0
+bs_roformer,Secretariat - Borderline,F2,24,23,0.28995,1.9363,0.57901,12.4,0.3913,0.086957,1.4687,,,
+bs_roformer,Secretariat - Borderline,swap,24,22,0.29417,1.4863,0.89911,9.7519,0.45455,0.090909,1.6082,,,
+scnet,Secretariat - Borderline,F1,24,23,0.29655,1.5027,0.86687,8.8935,0.3913,0.086957,2.6447,0,0,0
+scnet,Secretariat - Borderline,F2,24,23,0.17062,0.9104,0.32677,8.3325,0.21739,0.043478,2.571,,,
+scnet,Secretariat - Borderline,swap,24,23,0.49556,3.5375,1.7034,26.968,0.78261,0.21739,2.6233,,,
+spleeter,Secretariat - Over The Top,F1,26,22,0.36021,8.8273,1.3261,49.216,0.63636,0.22727,7.1916,0,0,0
+spleeter,Secretariat - Over The Top,F2,26,21,0.11313,0.35048,0.21673,2.8749,0.047619,0,3.799,,,
+htdemucs,Secretariat - Over The Top,F1,26,24,0.24283,0.71565,0.84352,3.1417,0.33333,0,1.1869,0,0,0
+htdemucs,Secretariat - Over The Top,F2,26,24,0.18699,0.78836,0.35375,2.1441,0.20833,0,1.1991,,,
+bs_roformer,Secretariat - Over The Top,F1,26,26,0.21611,0.43537,0.64716,2.712,0.15385,0,1.6686,0,0,0
+bs_roformer,Secretariat - Over The Top,F2,26,26,0.20068,0.45651,0.37522,1.8935,0.076923,0,1.715,,,
+bs_roformer,Secretariat - Over The Top,swap,26,26,0.18621,0.43515,0.5515,3.3626,0.15385,0,1.6697,,,
+scnet,Secretariat - Over The Top,F1,26,26,0.15953,0.2687,0.51557,8.2438,0.076923,0.038462,1.2722,0,0,0
+scnet,Secretariat - Over The Top,F2,26,26,0.13649,0.27641,0.25641,7.8006,0.038462,0.038462,1.3581,,,
+scnet,Secretariat - Over The Top,swap,26,26,0.29377,0.57277,0.95388,10.697,0.46154,0.038462,1.1477,,,
+spleeter,Side Effects Project - Sing With Me,F1,30,21,0.37838,2.6935,1.4157,36.013,0.52381,0.19048,1.4438,0,0,0
+spleeter,Side Effects Project - Sing With Me,F2,30,21,0.19061,0.99672,0.37766,8.3727,0.33333,0.047619,1.285,,,
+htdemucs,Side Effects Project - Sing With Me,F1,30,26,0.23432,1.0315,0.71205,5.5802,0.38462,0.038462,1.2087,0,0,0
+htdemucs,Side Effects Project - Sing With Me,F2,30,26,0.2528,0.90806,0.49493,3.8672,0.26923,0,1.1397,,,
+bs_roformer,Side Effects Project - Sing With Me,F1,30,27,0.15401,0.60337,0.43697,7.5155,0.33333,0.037037,0.90845,0,0,0
+bs_roformer,Side Effects Project - Sing With Me,F2,30,27,0.15704,0.46027,0.29832,6.4497,0.11111,0.037037,0.92103,,,
+bs_roformer,Side Effects Project - Sing With Me,swap,30,27,0.13681,0.50626,0.41282,6.7201,0.25926,0.037037,0.92485,,,
+scnet,Side Effects Project - Sing With Me,F1,30,27,0.10881,0.6781,0.36289,4.7597,0.18519,0,1.5028,0,0,0
+scnet,Side Effects Project - Sing With Me,F2,30,27,0.061284,0.43927,0.12235,3.0835,0.11111,0,1.2485,,,
+scnet,Side Effects Project - Sing With Me,swap,30,27,0.17103,1.128,0.59173,12.636,0.25926,0.037037,1.5182,,,
+spleeter,Signe Jakobsen - What Have You Done To Me,F1,25,20,0.30333,3.8185,1.0307,33.382,0.55,0.2,1.569,0,0,0
+spleeter,Signe Jakobsen - What Have You Done To Me,F2,25,22,0.19368,0.36631,0.37838,33.161,0.090909,0.045455,1.4651,,,
+htdemucs,Signe Jakobsen - What Have You Done To Me,F1,25,24,0.1547,0.54319,0.52057,11.393,0.20833,0.083333,0.87494,0,0,0
+htdemucs,Signe Jakobsen - What Have You Done To Me,F2,25,24,0.094056,0.57223,0.1727,9.2131,0.16667,0.041667,0.83294,,,
+bs_roformer,Signe Jakobsen - What Have You Done To Me,F1,25,25,0.13178,0.29002,0.39751,1.7397,0.08,0,1.2443,0,0,0
+bs_roformer,Signe Jakobsen - What Have You Done To Me,F2,25,25,0.12721,0.39943,0.25107,1.629,0.04,0,1.2291,,,
+bs_roformer,Signe Jakobsen - What Have You Done To Me,swap,25,25,0.12381,0.30212,0.35968,1.6643,0.08,0,1.2627,,,
+scnet,Signe Jakobsen - What Have You Done To Me,F1,25,24,0.12229,0.4275,0.3818,7.0721,0.16667,0.041667,0.87369,0,0,0
+scnet,Signe Jakobsen - What Have You Done To Me,F2,25,25,0.099482,0.34775,0.18763,6.0185,0.08,0.04,0.86835,,,
+scnet,Signe Jakobsen - What Have You Done To Me,swap,25,24,0.17891,0.59687,0.579,10.414,0.29167,0.083333,0.91283,,,
+spleeter,Skelpolu - Resurrection,F1,54,28,0.34047,3.0073,1.2853,15.187,0.60714,0.14286,3.2228,0,0,0
+spleeter,Skelpolu - Resurrection,F2,54,32,0.19958,2.0712,0.3975,13.386,0.34375,0.09375,3.0929,,,
+htdemucs,Skelpolu - Resurrection,F1,54,36,0.38453,0.6221,1.3647,2.5767,0.66667,0,0.76013,0,0,0
+htdemucs,Skelpolu - Resurrection,F2,54,37,0.33998,0.69132,0.63865,2.0841,0.24324,0,0.71846,,,
+bs_roformer,Skelpolu - Resurrection,F1,54,53,0.18487,0.44257,0.56983,1.9725,0.20755,0,1.557,0,0,0
+bs_roformer,Skelpolu - Resurrection,F2,54,54,0.16184,0.33927,0.29588,1.8014,0.018519,0,1.6367,,,
+bs_roformer,Skelpolu - Resurrection,swap,54,52,0.16764,0.37005,0.50843,1.85,0.17308,0,1.5693,,,
+scnet,Skelpolu - Resurrection,F1,54,49,0.17528,0.29876,0.60148,1.5442,0.10204,0,1.3876,0,0,0
+scnet,Skelpolu - Resurrection,F2,54,49,0.1254,0.31446,0.22629,1.0462,0.020408,0,1.3574,,,
+scnet,Skelpolu - Resurrection,swap,54,48,0.43027,0.65117,1.3427,2.8718,0.64583,0,1.3701,,,
+spleeter,Speak Softly - Broken Man,F1,34,33,0.2108,0.51365,0.67785,5.5262,0.24242,0.030303,1.6704,0,0,0
+spleeter,Speak Softly - Broken Man,F2,34,33,0.14216,0.2975,0.2634,1.1681,0.030303,0,1.8006,,,
+htdemucs,Speak Softly - Broken Man,F1,34,34,0.15865,0.37681,0.51333,1.8764,0.14706,0,0.76329,0,0,0
+htdemucs,Speak Softly - Broken Man,F2,34,34,0.14624,0.22509,0.27848,0.78803,0,0,0.69369,,,
+bs_roformer,Speak Softly - Broken Man,F1,34,34,0.079281,0.2653,0.23659,1.2957,0.058824,0,0.30517,0,0,0
+bs_roformer,Speak Softly - Broken Man,F2,34,34,0.048277,0.13623,0.089251,0.41979,0,0,0.295,,,
+bs_roformer,Speak Softly - Broken Man,swap,34,34,0.07478,0.17434,0.2116,0.84225,0,0,0.32797,,,
+scnet,Speak Softly - Broken Man,F1,34,34,0.057588,0.11863,0.18862,0.78148,0,0,0.57232,0,0,0
+scnet,Speak Softly - Broken Man,F2,34,34,0.044478,0.097731,0.080468,0.46703,0,0,0.56331,,,
+scnet,Speak Softly - Broken Man,swap,34,34,0.10963,0.27618,0.36084,1.0475,0.029412,0,0.58743,,,
+spleeter,Speak Softly - Like Horses,F1,29,29,0.13179,0.2004,0.42283,0.84843,0,0,1.0139,0,0,0
+spleeter,Speak Softly - Like Horses,F2,29,29,0.061121,0.1415,0.11806,0.39857,0,0,1.1534,,,
+htdemucs,Speak Softly - Like Horses,F1,29,29,0.11605,0.20329,0.40826,0.93843,0,0,0.43915,0,0,0
+htdemucs,Speak Softly - Like Horses,F2,29,29,0.12232,0.22737,0.23349,0.63228,0,0,0.44915,,,
+bs_roformer,Speak Softly - Like Horses,F1,29,29,0.058751,0.094775,0.17089,0.40301,0,0,0.43952,0,0,0
+bs_roformer,Speak Softly - Like Horses,F2,29,29,0.054269,0.11313,0.10417,0.39549,0,0,0.4781,,,
+bs_roformer,Speak Softly - Like Horses,swap,29,29,0.058343,0.081554,0.17065,0.44556,0,0,0.43398,,,
+scnet,Speak Softly - Like Horses,F1,29,29,0.049884,0.073686,0.1583,0.36208,0,0,0.27794,0,0,0
+scnet,Speak Softly - Like Horses,F2,29,29,0.038819,0.087871,0.071555,0.19576,0,0,0.26165,,,
+scnet,Speak Softly - Like Horses,swap,29,29,0.08218,0.12004,0.27336,0.887,0,0,0.28265,,,
+spleeter,The Doppler Shift - Atrophy,F1,36,32,0.15831,0.58146,0.50535,31.456,0.1875,0.09375,0.73627,0,0,0
+spleeter,The Doppler Shift - Atrophy,F2,36,34,0.094138,0.23921,0.17125,17.742,0.058824,0.029412,0.71516,,,
+htdemucs,The Doppler Shift - Atrophy,F1,36,34,0.158,0.25692,0.55842,1.3123,0.058824,0,1.7251,0,0,0
+htdemucs,The Doppler Shift - Atrophy,F2,36,34,0.11235,0.27999,0.22144,0.97438,0,0,1.7454,,,
+bs_roformer,The Doppler Shift - Atrophy,F1,36,34,0.14386,0.44206,0.43074,1.8273,0.17647,0,2.5561,0,0,0
+bs_roformer,The Doppler Shift - Atrophy,F2,36,34,0.1378,0.48586,0.25678,1.4596,0.058824,0,2.5681,,,
+bs_roformer,The Doppler Shift - Atrophy,swap,36,34,0.1295,0.34777,0.36171,1.2132,0.14706,0,2.5464,,,
+scnet,The Doppler Shift - Atrophy,F1,36,34,0.08586,0.15896,0.28965,0.80305,0,0,1.527,0,0,0
+scnet,The Doppler Shift - Atrophy,F2,36,34,0.077661,0.1718,0.14287,0.54399,0,0,1.3939,,,
+scnet,The Doppler Shift - Atrophy,swap,36,34,0.15773,0.27825,0.55693,1.3731,0.058824,0,1.3817,,,
+spleeter,The Easton Ellises (Baumi) - SDRNR,F1,28,24,0.081962,0.29308,0.2601,1.7682,0.20833,0,0.70771,0,0,0
+spleeter,The Easton Ellises (Baumi) - SDRNR,F2,28,24,0.045013,0.12415,0.088427,0.58674,0,0,0.71749,,,
+htdemucs,The Easton Ellises (Baumi) - SDRNR,F1,28,27,0.26619,0.55323,0.82152,2.1641,0.33333,0,0.75026,0,0,0
+htdemucs,The Easton Ellises (Baumi) - SDRNR,F2,28,27,0.23986,0.61311,0.46678,1.2615,0.22222,0,0.72021,,,
+bs_roformer,The Easton Ellises (Baumi) - SDRNR,F1,28,27,0.15164,0.55986,0.44492,2.0912,0.33333,0,0.54693,0,0,0
+bs_roformer,The Easton Ellises (Baumi) - SDRNR,F2,28,27,0.12296,0.47379,0.24416,1.0708,0.11111,0,0.49601,,,
+bs_roformer,The Easton Ellises (Baumi) - SDRNR,swap,28,27,0.17293,0.39435,0.4152,1.5586,0.22222,0,0.49562,,,
+scnet,The Easton Ellises (Baumi) - SDRNR,F1,28,27,0.12408,0.26319,0.43314,1.595,0.074074,0,0.97282,0,0,0
+scnet,The Easton Ellises (Baumi) - SDRNR,F2,28,27,0.093327,0.25738,0.18279,0.88654,0,0,1.0734,,,
+scnet,The Easton Ellises (Baumi) - SDRNR,swap,28,27,0.15218,0.59676,0.57444,2.2243,0.37037,0,1.1037,,,
+spleeter,The Easton Ellises - Falcon 69,F1,25,25,0.2972,0.86553,1.0762,7.3836,0.56,0.04,1.0255,0,0,0
+spleeter,The Easton Ellises - Falcon 69,F2,25,25,0.18253,0.38192,0.34641,6.5086,0.08,0.04,1.0099,,,
+htdemucs,The Easton Ellises - Falcon 69,F1,25,25,0.20709,0.37372,0.65885,2.0867,0.28,0,1.1803,0,0,0
+htdemucs,The Easton Ellises - Falcon 69,F2,25,25,0.18391,0.37611,0.3671,1.4671,0.08,0,1.1351,,,
+bs_roformer,The Easton Ellises - Falcon 69,F1,25,25,0.14966,0.29174,0.49314,0.95806,0,0,2.0961,0,0,0
+bs_roformer,The Easton Ellises - Falcon 69,F2,25,25,0.15084,0.3213,0.27184,0.69512,0,0,1.9212,,,
+bs_roformer,The Easton Ellises - Falcon 69,swap,25,25,0.12865,0.23178,0.4256,1.1408,0.04,0,2.0957,,,
+scnet,The Easton Ellises - Falcon 69,F1,25,25,0.083464,0.17022,0.28542,1.1168,0.04,0,1.2384,0,0,0
+scnet,The Easton Ellises - Falcon 69,F2,25,25,0.070651,0.21857,0.13687,0.62783,0,0,1.2687,,,
+scnet,The Easton Ellises - Falcon 69,swap,25,25,0.18858,0.40342,0.61458,1.9123,0.24,0,1.2264,,,
+spleeter,The Long Wait - Dark Horses,F1,21,19,0.98373,15.648,2.8153,49.657,0.94737,0.31579,8.706,0,0,0
+spleeter,The Long Wait - Dark Horses,F2,21,19,0.38575,0.85743,0.73943,3.198,0.36842,0,4.3147,,,
+htdemucs,The Long Wait - Dark Horses,F1,21,21,0.31248,0.77142,1.0999,4.3004,0.61905,0,1.0083,0,0,0
+htdemucs,The Long Wait - Dark Horses,F2,21,21,0.29612,0.528,0.58579,1.8101,0.095238,0,1.1861,,,
+bs_roformer,The Long Wait - Dark Horses,F1,21,21,0.29021,0.85605,0.96068,3.6978,0.42857,0,2.0058,0,0,0
+bs_roformer,The Long Wait - Dark Horses,F2,21,21,0.26509,0.82527,0.52613,1.6287,0.19048,0,1.8997,,,
+bs_roformer,The Long Wait - Dark Horses,swap,21,21,0.26666,0.83398,0.80597,2.4863,0.42857,0,1.9592,,,
+scnet,The Long Wait - Dark Horses,F1,21,21,0.23804,0.47979,0.79035,37.589,0.38095,0.047619,1.532,0,0,0
+scnet,The Long Wait - Dark Horses,F2,21,21,0.17056,0.36926,0.31086,0.96718,0,0,1.2832,,,
+scnet,The Long Wait - Dark Horses,swap,21,21,0.45545,0.85935,1.4221,40.095,0.57143,0.047619,1.4111,,,
+spleeter,The Mountaineering Club - Mallory,F1,42,32,0.20719,0.84512,0.67277,4.084,0.375,0,1.0944,0,0,0
+spleeter,The Mountaineering Club - Mallory,F2,42,34,0.13253,0.42609,0.25739,1.1972,0.088235,0,1.2727,,,
+htdemucs,The Mountaineering Club - Mallory,F1,42,37,0.15805,0.60422,0.52623,6.0554,0.24324,0.054054,0.69853,0,0,0
+htdemucs,The Mountaineering Club - Mallory,F2,42,39,0.15742,0.60537,0.30138,3.1716,0.12821,0,0.68319,,,
+bs_roformer,The Mountaineering Club - Mallory,F1,42,40,0.16643,0.44253,0.46811,11.248,0.2,0.025,0.74747,0,0,0
+bs_roformer,The Mountaineering Club - Mallory,F2,42,41,0.13839,0.37157,0.24566,11.98,0.073171,0.02439,0.6037,,,
+bs_roformer,The Mountaineering Club - Mallory,swap,42,41,0.12203,0.36526,0.39254,12.122,0.14634,0.02439,0.68872,,,
+scnet,The Mountaineering Club - Mallory,F1,42,42,0.10531,0.32565,0.34055,2.7554,0.14286,0,0.72208,0,0,0
+scnet,The Mountaineering Club - Mallory,F2,42,42,0.084816,0.31333,0.16093,1.3984,0.047619,0,0.75958,,,
+scnet,The Mountaineering Club - Mallory,swap,42,40,0.2016,0.55459,0.68483,4.4831,0.25,0,0.71913,,,
+spleeter,The Sunshine Garcia Band - For I Am The Moon,F1,46,30,0.61226,1.5937,1.9699,27.691,0.83333,0.13333,1.8815,0,0,0
+spleeter,The Sunshine Garcia Band - For I Am The Moon,F2,46,33,0.31258,0.7404,0.58128,14.664,0.24242,0.030303,1.8553,,,
+htdemucs,The Sunshine Garcia Band - For I Am The Moon,F1,46,36,0.39358,1.4001,1.2869,27.084,0.72222,0.11111,1.0266,0,0,0
+htdemucs,The Sunshine Garcia Band - For I Am The Moon,F2,46,36,0.22005,0.59174,0.42133,7.6707,0.25,0.027778,1.1282,,,
+bs_roformer,The Sunshine Garcia Band - For I Am The Moon,F1,46,42,0.23323,0.68515,0.69348,4.9064,0.2619,0,1.6364,0,0,0
+bs_roformer,The Sunshine Garcia Band - For I Am The Moon,F2,46,43,0.16372,0.66588,0.31176,15.763,0.13953,0.023256,1.7629,,,
+bs_roformer,The Sunshine Garcia Band - For I Am The Moon,swap,46,42,0.2138,0.61841,0.64185,2.8102,0.2619,0,1.6103,,,
+scnet,The Sunshine Garcia Band - For I Am The Moon,F1,46,40,0.25814,0.59614,0.92596,3.6786,0.45,0,1.0664,0,0,0
+scnet,The Sunshine Garcia Band - For I Am The Moon,F2,46,40,0.21002,0.69121,0.41988,2.3277,0.125,0,1.218,,,
+scnet,The Sunshine Garcia Band - For I Am The Moon,swap,46,36,0.44397,0.89036,1.4873,38.546,0.66667,0.027778,0.95446,,,
+spleeter,Timboz - Pony,F1,49,37,0.39247,4.1059,1.3094,49.095,0.59459,0.13514,1.8548,0,0,0
+spleeter,Timboz - Pony,F2,49,39,0.15305,0.31525,0.29058,7.8663,0.025641,0.025641,1.9241,,,
+htdemucs,Timboz - Pony,F1,49,45,0.24694,0.43041,0.78802,7.4843,0.35556,0.022222,1.836,0,0,0
+htdemucs,Timboz - Pony,F2,49,46,0.24059,0.4766,0.46379,7.0439,0.086957,0.021739,1.8753,,,
+bs_roformer,Timboz - Pony,F1,49,46,0.17098,0.30471,0.53571,2.6375,0.086957,0,1.3507,0,0,0
+bs_roformer,Timboz - Pony,F2,49,48,0.16872,0.38087,0.32048,3.1746,0.0625,0,1.3446,,,
+bs_roformer,Timboz - Pony,swap,49,47,0.15665,0.27734,0.51776,3.0017,0.06383,0,1.3375,,,
+scnet,Timboz - Pony,F1,49,48,0.15715,0.3259,0.54275,29.2,0.10417,0.020833,1.7695,0,0,0
+scnet,Timboz - Pony,F2,49,48,0.098878,0.25734,0.19721,0.72522,0,0,1.8229,,,
+scnet,Timboz - Pony,swap,49,45,0.29061,0.58487,0.98371,30.064,0.48889,0.022222,1.8429,,,
+spleeter,Tom McKenzie - Directions,F1,31,21,0.64717,6.1733,2.0369,54.262,0.71429,0.14286,5.5597,0,0,0
+spleeter,Tom McKenzie - Directions,F2,31,24,0.58296,2.7016,1.1127,15.102,0.54167,0.125,4.3184,,,
+htdemucs,Tom McKenzie - Directions,F1,31,28,0.82711,5.8071,2.7586,22.079,0.89286,0.28571,5.0926,0,0,0
+htdemucs,Tom McKenzie - Directions,F2,31,30,0.3621,1.3295,0.68738,5.1591,0.33333,0.066667,4.4089,,,
+bs_roformer,Tom McKenzie - Directions,F1,31,31,0.20076,1.1022,0.65274,24.485,0.22581,0.064516,0.73526,0,0,0
+bs_roformer,Tom McKenzie - Directions,F2,31,31,0.25201,0.54412,0.49666,4.5976,0.16129,0,0.69269,,,
+bs_roformer,Tom McKenzie - Directions,swap,31,31,0.2002,1.0635,0.62524,24.512,0.22581,0.064516,0.73576,,,
+scnet,Tom McKenzie - Directions,F1,31,31,0.19634,0.88381,0.67037,33.489,0.35484,0.096774,2.4585,0,0,0
+scnet,Tom McKenzie - Directions,F2,31,31,0.17178,0.62459,0.31058,2.3383,0.12903,0,2.1857,,,
+scnet,Tom McKenzie - Directions,swap,31,31,0.41813,7.9946,1.3412,34.346,0.67742,0.19355,2.6585,,,
+spleeter,Triviul feat. The Fiend - Widow,F1,35,27,0.17896,0.90022,0.53822,14.106,0.33333,0.074074,2.2367,0,0,0
+spleeter,Triviul feat. The Fiend - Widow,F2,35,29,0.14001,0.31019,0.26119,10.216,0.10345,0.034483,2.4845,,,
+htdemucs,Triviul feat. The Fiend - Widow,F1,35,29,0.25037,1.4086,0.76028,10.229,0.37931,0.068966,1.0661,0,0,0
+htdemucs,Triviul feat. The Fiend - Widow,F2,35,33,0.30383,2.3719,0.54702,11.822,0.36364,0.090909,1.7463,,,
+bs_roformer,Triviul feat. The Fiend - Widow,F1,35,35,0.22436,0.5638,0.72295,2.6176,0.28571,0,1.6796,0,0,0
+bs_roformer,Triviul feat. The Fiend - Widow,F2,35,35,0.16815,0.51098,0.32385,1.2489,0.11429,0,1.7282,,,
+bs_roformer,Triviul feat. The Fiend - Widow,swap,35,35,0.18439,0.46911,0.47394,2.3861,0.17143,0,1.7015,,,
+scnet,Triviul feat. The Fiend - Widow,F1,35,34,0.11582,0.28687,0.38074,1.6323,0.11765,0,1.5996,0,0,0
+scnet,Triviul feat. The Fiend - Widow,F2,35,34,0.084709,0.25211,0.16652,0.65739,0,0,1.4787,,,
+scnet,Triviul feat. The Fiend - Widow,swap,35,34,0.19652,0.54088,0.73138,2.8984,0.38235,0,1.5906,,,
+spleeter,We Fell From The Sky - Not You,F1,36,26,0.49558,4.5855,1.6155,35.186,0.73077,0.15385,2.6524,0,0,0
+spleeter,We Fell From The Sky - Not You,F2,36,29,0.19121,0.83157,0.35061,34.568,0.24138,0.068966,2.6339,,,
+htdemucs,We Fell From The Sky - Not You,F1,36,34,0.29949,0.69044,0.94566,5.8543,0.44118,0.029412,2.517,0,0,0
+htdemucs,We Fell From The Sky - Not You,F2,36,35,0.24091,0.74383,0.46691,2.7354,0.2,0,2.8477,,,
+bs_roformer,We Fell From The Sky - Not You,F1,36,36,0.26584,0.82324,0.82998,36.179,0.44444,0.083333,2.0313,0,0,0
+bs_roformer,We Fell From The Sky - Not You,F2,36,36,0.25757,0.89214,0.51386,11.426,0.25,0.055556,1.9847,,,
+bs_roformer,We Fell From The Sky - Not You,swap,36,36,0.31873,0.72703,0.94474,36.429,0.5,0.083333,2.0318,,,
+scnet,We Fell From The Sky - Not You,F1,36,36,0.19375,0.79199,0.65599,6.0444,0.38889,0.055556,1.989,0,0,0
+scnet,We Fell From The Sky - Not You,F2,36,36,0.11507,0.39863,0.21496,1.8898,0.083333,0,2.0876,,,
+scnet,We Fell From The Sky - Not You,swap,36,36,0.43584,2.0521,1.5485,15.797,0.69444,0.13889,1.9196,,,
+spleeter,Zeno - Signs,F1,44,30,0.71804,6.0248,2.3754,31.797,0.83333,0.36667,3.4928,0,0,0
+spleeter,Zeno - Signs,F2,44,32,0.27071,3.4092,0.52757,33.037,0.3125,0.1875,4.744,,,
+htdemucs,Zeno - Signs,F1,44,27,0.59086,1.1253,1.8677,13.733,0.77778,0.074074,1.0957,0,0,0
+htdemucs,Zeno - Signs,F2,44,33,0.62289,1.7212,1.2144,22.726,0.57576,0.060606,1.1698,,,
+bs_roformer,Zeno - Signs,F1,44,39,0.25125,0.88527,0.76318,7.8729,0.33333,0.025641,0.57992,0,0,0
+bs_roformer,Zeno - Signs,F2,44,39,0.18961,1.1315,0.36395,4.5667,0.20513,0,0.49638,,,
+bs_roformer,Zeno - Signs,swap,44,39,0.20513,0.767,0.64488,4.353,0.30769,0,0.61645,,,
+scnet,Zeno - Signs,F1,44,39,0.29574,0.89628,0.94838,35.228,0.48718,0.076923,1.3953,0,0,0
+scnet,Zeno - Signs,F2,44,40,0.22997,0.56697,0.43107,22.6,0.15,0.025,1.4399,,,
+scnet,Zeno - Signs,swap,44,36,0.51029,2.8464,1.7265,34.797,0.75,0.16667,1.3391,,,
